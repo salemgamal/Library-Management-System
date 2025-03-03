@@ -17,8 +17,12 @@ namespace Library.DataAccess.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string con = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-            //optionsBuilder.UseLazyLoadingProxies().UseSqlServer(con);
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server=LAPTOP-D5LRBLH1\\DEV;Database=LibraryDB;Trusted_Connection=True; TrustServerCertificate=True;");
+            if (string.IsNullOrEmpty(con))
+            {
+                throw new Exception("Connection String is missing");
+            }
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer(con);
+            //optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server=LAPTOP-D5LRBLH1\\DEV;Database=LibraryDB;Trusted_Connection=True; TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -12,3 +12,4 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.pdb
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.genruntimeconfig.cache
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\ref\Library.DataAccess.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.sourcelink.json

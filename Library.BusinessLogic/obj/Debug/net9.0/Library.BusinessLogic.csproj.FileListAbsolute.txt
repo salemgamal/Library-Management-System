@@ -1,0 +1,15 @@
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.deps.json
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.pdb
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.AssemblyReference.cache
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfoInputs.cache
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfo.cs
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\refint\Library.BusinessLogic.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll

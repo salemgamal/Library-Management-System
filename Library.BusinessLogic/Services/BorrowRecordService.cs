@@ -30,26 +30,26 @@ namespace Library.BusinessLogic.Services
             {
                 throw new Exception("Book is not available");
             }
-            var borrowBook = new BorrowRecord
+            var borrowRecord = new BorrowRecord
             {
                 BookId = BookId,
                 MemberId = MemberId,
-                BorrowDate = DateTime.Now ,
-                DueDate = DateTime.Now.AddDays(7)
+                BorrowDate = DateTime.UtcNow,
+                DueDate = DateTime.UtcNow.AddDays(7)
             };
             _borrowRecordRepo.Borrowbook(borrowBook);
         }
 
         //return
-        public void ReturnBook(int BookId, int UserId)
+        public void ReturnBook(int BorrowId)
         {
             var record = _borrowRecordRepo.GetAllBorrowedBooks()
-            .FirstOrDefault(b => b.BookId == BookId && b.MemberId == UserId && b.ReturnDate == null);
+            .FirstOrDefault(b => b.BorrowId == BorrowId && b.ReturnDate == null);
             if (record == null)
             {
                 throw new Exception("Borrowed book not found");
             }
-            _borrowRecordRepo.ReturnBook(BookId, UserId);
+            _borrowRecordRepo.ReturnBook(BorrowId);
         }
 
         //get all borrowed books

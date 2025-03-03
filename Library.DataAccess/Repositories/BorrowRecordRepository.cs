@@ -29,17 +29,20 @@ namespace Library.DataAccess.Repositry
         }
 
         //handle returning book and increment book quantity
-        public void ReturnBook(int BookId , int UserId)
+        public void ReturnBook(int borrowId)
         {
-            var book = _context.BorrowRecords.FirstOrDefault( b=> b.BookId == BookId && b.MemberId == UserId && b.ReturnDate == null);
-            if (book != null)
+            var returnedBook = _context.BorrowRecords.FirstOrDefault( b=> b.BorrowId == borrowId && b.ReturnDate == null);
+            if (returnedBook != null)
             {
-                book.ReturnDate = DateTime.Now;
-                var originalbook = _context.Books.Find(BookId);
+                returnedBook.ReturnDate = DateTime.UtcNow;
+                var originalbook = _context.Books.Find(returnedBook.BookId);
                 if (originalbook != null) {
                     originalbook.Quantity++;
                 }
                 _context.SaveChanges();
+            }
+            else{
+                throw new Exception("Borrowed book not found or already returned.");
             }
         }
 
@@ -69,7 +72,7 @@ namespace Library.DataAccess.Repositry
         //get overdue books
         public List<BorrowRecord> GetOverdueBooks()
         {
-            return _context.BorrowRecords.Where(b => b.DueDate < DateTime.Now && b.ReturnDate == null).ToList();
+            return _context.BorrowRecords.Where(b => b.DueDate < DateTime.UtcNow.Date && b.ReturnDate == null).ToList();
         }
     }
 }

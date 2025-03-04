@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Library.DataAccess.Models;
+using Library.DataAccess.Repositories;
 using Library.DataAccess.Repositry;
 
 namespace Library.BusinessLogic.Services
@@ -12,10 +13,12 @@ namespace Library.BusinessLogic.Services
     {
         public BorrowRecordRepository _borrowRecordRepo;
         public BookRepository _bookRepo;
-        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo)
+        public LogActionRepositry _logActionRepo;
+        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo , LogActionRepositry _logActionRepo)
         {
             _borrowRecordRepo = borrowRecordRepo;
             _bookRepo = bookRepo;
+            _logActionRepo = _logActionRepo;
         }
 
         //borrow
@@ -37,6 +40,14 @@ namespace Library.BusinessLogic.Services
                 BorrowDate = DateTime.Now ,
                 DueDate = DateTime.Now.AddDays(7)
             };
+            var borrowLog = new LogAction
+            {
+                Action = LogActionType.Borrow,
+                BookId = BookId,
+                MemberId = MemberId,
+                Date = DateTime.Now
+            };
+            _logActionRepo.AddUserAction(borrowLog);
             _borrowRecordRepo.Borrowbook(borrowBook);
         }
 
@@ -49,6 +60,14 @@ namespace Library.BusinessLogic.Services
             {
                 throw new Exception("Borrowed book not found");
             }
+            var returnLog = new LogAction
+            {
+                Action = LogActionType.Return,
+                BookId = BookId,
+                MemberId = UserId,
+                Date = DateTime.Now
+            };
+            _logActionRepo.AddUserAction(returnLog);
             _borrowRecordRepo.ReturnBook(BookId, UserId);
         }
 

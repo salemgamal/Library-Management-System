@@ -10,9 +10,12 @@ namespace Library.DataAccess.Models
 {
     public class LibraryDbContext:DbContext
     {
-        public DbSet<Book> Books { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<BorrowRecord> BorrowRecords { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<BorrowRecord> BorrowRecords { get; set; }
+        public virtual DbSet<LogAction> LogActions { get; set; }
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -35,9 +38,10 @@ namespace Library.DataAccess.Models
                 .WithOne(br => br.Book)
                 .HasForeignKey(br => br.BookId);
 
-            modelBuilder.Entity<User>()
-                .Property(u => u.Role)
-                .HasConversion<string>();
+            modelBuilder.Entity<Book>()
+                .HasMany(b => b.LogActions)
+                .WithOne(br => br.Book)
+                .HasForeignKey(br => br.BookId);
 
             modelBuilder.Entity<User>()
                 .HasMany(u => u.BorrowRecords)
@@ -45,6 +49,30 @@ namespace Library.DataAccess.Models
                 .HasForeignKey(br => br.MemberId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.LogActions)
+                .WithOne(br => br.Member)
+                .HasForeignKey(br => br.MemberId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            //User name unique
+            modelBuilder.Entity<User>()
+            .HasIndex(u => u.UserName)
+            .IsUnique();
+
+            //User email unique
+            modelBuilder.Entity<User>().HasIndex(u => u.Email).IsUnique();
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Role)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<LogAction>()
+                .Property(l => l.Action)
+                .HasConversion<string>();
+
+            
+            //Admin
             modelBuilder.Entity<User>().HasData(
                     new User
                     {
@@ -55,6 +83,32 @@ namespace Library.DataAccess.Models
                         Name = "Salem",
                         Email = "salem.g.salem.m@gmail.com",
                         Phone = "01026299485"
+                    }
+             );
+            //Member
+            modelBuilder.Entity<User>().HasData(
+                    new User
+                    {
+                        UserId = 2,
+                        UserName = "ahmedMohamed",
+                        Password = "member",
+                        Role = UserRole.Member,
+                        Name = "Ahmed",
+                        Email = "ahmed@gmail.com",
+                        Phone = "01026299485"
+                    }
+             );
+            //Librarian
+            modelBuilder.Entity<User>().HasData(
+                    new User
+                    {
+                        UserId = 3,
+                        UserName = "malak",
+                        Password = "librarian",
+                        Role = UserRole.Librarian,
+                        Name = "Malak",
+                        Email = "malak@gmail.com",
+                        Phone = "01553462979"
                     }
              );
         }

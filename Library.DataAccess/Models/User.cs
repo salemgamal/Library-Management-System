@@ -36,10 +36,11 @@ namespace Library.DataAccess.Models
         [StringLength(100)]
         public string Email { get; set; }
 
-        [StringLength(50)]
+        [StringLength(11)]
         public string Phone { get; set; }
 
         //Navigation Properties
         public virtual List<BorrowRecord> BorrowRecords { get; set; }
+        public virtual List<LogAction> LogActions { get; set; }
     }
 }

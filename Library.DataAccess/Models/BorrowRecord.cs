@@ -10,12 +10,11 @@ namespace Library.DataAccess.Models
 {
     public class BorrowRecord
     {
-        //[Key]
-        //public int BorrowId { get; set; }
-
-        [Key , Column(Order =0)]
+        [Key]
+        public int BorrowId { get; set; }
+        //[Key , Column(Order =0)]
         public int BookId { get; set; } //References BookId
-        [Key, Column(Order = 1)]
+        //[Key, Column(Order = 1)]
         public int MemberId { get; set; } // References UserId
         [Required]
         public DateTime BorrowDate { get; set; }

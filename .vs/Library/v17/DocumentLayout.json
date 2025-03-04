@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\library\\library.presentation\\forms\\adminforms\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\adminforms\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\library\\library.businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|solutionrelative:library.businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AdminMainForm.cs [Design]",
+              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\AdminForms\\AdminMainForm.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\AdminForms\\AdminMainForm.cs",
+              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\AdminForms\\AdminMainForm.cs [Design]",
+              "RelativeToolTip": "Library.Presentation\\Forms\\AdminForms\\AdminMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:10:30.582Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BorrowRecordService.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Services\\BorrowRecordService.cs",
               "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\BorrowRecordService.cs",
@@ -66,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Models\\User.cs",
               "RelativeDocumentMoniker": "Library.DataAccess\\Models\\User.cs",
@@ -78,20 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\UserService.cs",
               "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Services\\UserService.cs",
               "RelativeToolTip": "Library.BusinessLogic\\Services\\UserService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T20:55:07.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Library.DataAccess\\Repositories\\UserRepository.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BorrowRecord.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Models\\BorrowRecord.cs",
               "RelativeDocumentMoniker": "Library.DataAccess\\Models\\BorrowRecord.cs",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Library.DataAccess\\Models\\Book.cs",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LibraryDbContext.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Models\\LibraryDbContext.cs",
               "RelativeDocumentMoniker": "Library.DataAccess\\Models\\LibraryDbContext.cs",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.config",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\App.config",
               "RelativeDocumentMoniker": "Library.Presentation\\App.config",
@@ -151,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Library.Presentation\\Program.cs",

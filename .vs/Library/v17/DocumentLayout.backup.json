@@ -62,8 +62,7 @@
               "RelativeToolTip": "Library.BusinessLogic\\Services\\BorrowRecordService.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:15:34.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T00:15:34.403Z"
             },
             {
               "$type": "Document",
@@ -85,9 +84,10 @@
               "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\UserService.cs",
               "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Services\\UserService.cs",
               "RelativeToolTip": "Library.BusinessLogic\\Services\\UserService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T20:55:07.893Z"
+              "WhenOpened": "2025-03-03T20:55:07.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

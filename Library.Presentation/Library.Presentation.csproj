@@ -24,9 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Forms\AdminForms\" />
     <Folder Include="Forms\LibrarianForms\" />
     <Folder Include="Forms\MemberForms\" />
-    <Folder Include="TestFolder\" />
   </ItemGroup>
 
 </Project>

@@ -67,15 +67,16 @@ namespace Library.DataAccess.Migrations
             modelBuilder.Entity("Library.DataAccess.Models.BorrowRecord", b =>
                 {
                     b.Property<int>("BookId")
-                        .HasColumnType("int")
-                        .HasColumnOrder(0);
+                        .HasColumnType("int");
 
                     b.Property<int>("MemberId")
-                        .HasColumnType("int")
-                        .HasColumnOrder(1);
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("BorrowDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("BorrowId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
@@ -88,6 +89,36 @@ namespace Library.DataAccess.Migrations
                     b.HasIndex("MemberId");
 
                     b.ToTable("BorrowRecords");
+                });
+
+            modelBuilder.Entity("Library.DataAccess.Models.LogAction", b =>
+                {
+                    b.Property<int>("ActionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ActionId"));
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MemberId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ActionId");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("MemberId");
+
+                    b.ToTable("LogActions");
                 });
 
             modelBuilder.Entity("Library.DataAccess.Models.User", b =>
@@ -115,8 +146,8 @@ namespace Library.DataAccess.Migrations
 
                     b.Property<string>("Phone")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
 
                     b.Property<string>("Role")
                         .IsRequired()
@@ -130,6 +161,12 @@ namespace Library.DataAccess.Migrations
 
                     b.HasKey("UserId");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.HasIndex("UserName")
+                        .IsUnique();
+
                     b.ToTable("Users");
 
                     b.HasData(
@@ -142,6 +179,26 @@ namespace Library.DataAccess.Migrations
                             Phone = "01026299485",
                             Role = "Admin",
                             UserName = "salemgamall"
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            Email = "ahmed@gmail.com",
+                            Name = "Ahmed",
+                            Password = "member",
+                            Phone = "01026299485",
+                            Role = "Member",
+                            UserName = "ahmedMohamed"
+                        },
+                        new
+                        {
+                            UserId = 3,
+                            Email = "malak@gmail.com",
+                            Name = "Malak",
+                            Password = "librarian",
+                            Phone = "01553462979",
+                            Role = "Librarian",
+                            UserName = "malak"
                         });
                 });
 
@@ -164,14 +221,37 @@ namespace Library.DataAccess.Migrations
                     b.Navigation("Member");
                 });
 
+            modelBuilder.Entity("Library.DataAccess.Models.LogAction", b =>
+                {
+                    b.HasOne("Library.DataAccess.Models.Book", "Book")
+                        .WithMany("LogActions")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Library.DataAccess.Models.User", "Member")
+                        .WithMany("LogActions")
+                        .HasForeignKey("MemberId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("Member");
+                });
+
             modelBuilder.Entity("Library.DataAccess.Models.Book", b =>
                 {
                     b.Navigation("BorrowRecords");
+
+                    b.Navigation("LogActions");
                 });
 
             modelBuilder.Entity("Library.DataAccess.Models.User", b =>
                 {
                     b.Navigation("BorrowRecords");
+
+                    b.Navigation("LogActions");
                 });
 #pragma warning restore 612, 618
         }

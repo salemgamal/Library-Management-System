@@ -27,6 +27,7 @@
     <Folder Include="Forms\AdminForms\" />
     <Folder Include="Forms\LibrarianForms\" />
     <Folder Include="Forms\MemberForms\" />
+    <Folder Include="Forms\Registeration\" />
   </ItemGroup>
 
 </Project>

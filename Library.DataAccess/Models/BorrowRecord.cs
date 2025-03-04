@@ -12,9 +12,9 @@ namespace Library.DataAccess.Models
     {
         [Key]
         public int BorrowId { get; set; }
-
+        //[Key , Column(Order =0)]
         public int BookId { get; set; } //References BookId
-
+        //[Key, Column(Order = 1)]
         public int MemberId { get; set; } // References UserId
         
         [Required]

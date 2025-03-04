@@ -13,3 +13,4 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\refint\Library.BusinessLogic.dll
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.sourcelink.json

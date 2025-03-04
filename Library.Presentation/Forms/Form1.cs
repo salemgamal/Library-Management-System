@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
 
@@ -14,17 +15,17 @@ namespace Library.Presentation.Forms
 {
     public partial class Form1 : Form
     {
-        public UserRepository userRepository;
+        public UserService userService;
         public Form1()
         {
             InitializeComponent();
             var context = new LibraryDbContext();
-            userRepository = new UserRepository(context);
+            userService = new UserService(new UserRepository(context));
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            var users = userRepository.GetAllUsers();
+            var users = userService.GetAllUsers();
             dataGridView1.DataSource = users;
 
         }

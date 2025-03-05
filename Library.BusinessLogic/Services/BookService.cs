@@ -31,6 +31,7 @@ namespace Library.BusinessLogic.Services
                 _bookRepo.AddBook(book);
             }
         }
+
         //get All books
         public List<Book> GetAllBooks()
         {
@@ -42,7 +43,8 @@ namespace Library.BusinessLogic.Services
         }
         public void UpdateBook(Book book)
         {
-            if (string.IsNullOrEmpty(book.Title))
+
+            if (string.IsNullOrEmpty(book.Title)) // what about other props?
             {
                 throw new Exception("Title is required");
             }

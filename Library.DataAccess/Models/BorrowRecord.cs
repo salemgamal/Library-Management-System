@@ -16,6 +16,7 @@ namespace Library.DataAccess.Models
         public int BookId { get; set; } //References BookId
         //[Key, Column(Order = 1)]
         public int MemberId { get; set; } // References UserId
+        
         [Required]
         public DateTime BorrowDate { get; set; }
         [Required]

@@ -7,14 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Library.BusinessLogic.Services;
+using Library.DataAccess.Models;
+using Library.DataAccess.Repositry;
 
 namespace Library.Presentation
 {
     public partial class Form1 : Form
     {
+        UserService userServise;
+        LibraryDbContext context;
         public Form1()
         {
             InitializeComponent();
+            userServise = new UserService(new UserRepository(context));
+
+
         }
     }
 }

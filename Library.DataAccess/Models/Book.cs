@@ -28,7 +28,7 @@ namespace Library.DataAccess.Models
         [Range(0, 1000)]
         public int Quantity { get; set; }   
         [Required]
-        [Range(1700, 2026)]
+        [Range(1450, 2100)]
         public int PublishedYear { get; set; }
 
         //Navigation Properties

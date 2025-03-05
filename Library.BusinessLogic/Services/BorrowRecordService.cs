@@ -33,11 +33,11 @@ namespace Library.BusinessLogic.Services
             {
                 throw new Exception("Book is not available");
             }
-            var borrowBook = new BorrowRecord
+            var borrowRecord = new BorrowRecord
             {
                 BookId = BookId,
                 MemberId = MemberId,
-                BorrowDate = DateTime.Now ,
+                BorrowDate = DateTime.Now,
                 DueDate = DateTime.Now.AddDays(7)
             };
             var borrowLog = new LogAction
@@ -48,14 +48,14 @@ namespace Library.BusinessLogic.Services
                 Date = DateTime.Now
             };
             _logActionRepo.AddUserAction(borrowLog);
-            _borrowRecordRepo.Borrowbook(borrowBook);
+            _borrowRecordRepo.Borrowbook(borrowRecord);
         }
 
         //return
-        public void ReturnBook(int BookId, int UserId)
+        public void ReturnBook(int MemberId, int BookId)
         {
             var record = _borrowRecordRepo.GetAllBorrowedBooks()
-            .FirstOrDefault(b => b.BookId == BookId && b.MemberId == UserId && b.ReturnDate == null);
+            .FirstOrDefault(b => b.MemberId == MemberId && b.BookId == BookId && b.ReturnDate == null);
             if (record == null)
             {
                 throw new Exception("Borrowed book not found");
@@ -63,12 +63,12 @@ namespace Library.BusinessLogic.Services
             var returnLog = new LogAction
             {
                 Action = LogActionType.Return,
-                BookId = BookId,
-                MemberId = UserId,
+                BookId = record.BookId,
+                MemberId = record.MemberId,
                 Date = DateTime.Now
             };
             _logActionRepo.AddUserAction(returnLog);
-            _borrowRecordRepo.ReturnBook(BookId, UserId);
+            _borrowRecordRepo.ReturnBook(MemberId , BookId);
         }
 
         //get all borrowed books

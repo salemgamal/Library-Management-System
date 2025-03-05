@@ -1,7 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\",
-  "Documents": [],
+  "WorkspaceRootPath": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|solutionrelative:library.businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.dataaccess\\models\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\models\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Welcome.cs",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:02:52.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Welcome.cs [Design]",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs [Design]",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:02:45.554Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Library.DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Library.DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:35:05.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Services\\UserService.cs*",
+              "RelativeToolTip": "Library.BusinessLogic\\Services\\UserService.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:33:29.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs [Design]",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:46:07.136Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIAywEsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:26:32.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:22:13.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs [Design]",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:26:28.899Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Models\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "Library.DataAccess\\Models\\LibraryDbContext.cs",
+              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Models\\LibraryDbContext.cs",
+              "RelativeToolTip": "Library.DataAccess\\Models\\LibraryDbContext.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:16:31.243Z",
+              "EditorCaption": ""
             }
           ]
         }

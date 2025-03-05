@@ -2633,23 +2633,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Salem\\.nuget\\packages\\": {},
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+      "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
       "projectName": "Library.BusinessLogic",
-      "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
-      "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\obj\\",
+      "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+      "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2664,8 +2664,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj": {
-              "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj"
+            "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+              "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
             }
           }
         }

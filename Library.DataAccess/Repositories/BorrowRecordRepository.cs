@@ -29,12 +29,12 @@ namespace Library.DataAccess.Repositry
         }
 
         //handle returning book and increment book quantity
-        public void ReturnBook(int borrowId)
+        public void ReturnBook(int MemberId, int BookId)
         {
-            var returnedBook = _context.BorrowRecords.FirstOrDefault( b=> b.BorrowId == borrowId && b.ReturnDate == null);
+            var returnedBook = _context.BorrowRecords.FirstOrDefault(b => b.MemberId == MemberId && b.BookId == BookId && b.ReturnDate == null);
             if (returnedBook != null)
             {
-                returnedBook.ReturnDate = DateTime.UtcNow;
+                returnedBook.ReturnDate = DateTime.Now;
                 var originalbook = _context.Books.Find(returnedBook.BookId);
                 if (originalbook != null) {
                     originalbook.Quantity++;

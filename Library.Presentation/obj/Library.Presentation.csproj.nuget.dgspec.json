@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Library.Presentation.csproj": {}
+    "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
+    "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
         "projectName": "Library.BusinessLogic",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\obj\\",
+        "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj": {
-                "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj"
+              "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+                "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
               }
             }
           }
@@ -79,20 +79,20 @@
         }
       }
     },
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj": {
+    "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj",
+        "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
         "projectName": "Library.DataAccess",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\obj\\",
+        "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -164,20 +164,20 @@
         }
       }
     },
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Library.Presentation.csproj": {
+    "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Library.Presentation.csproj",
+        "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj",
         "projectName": "Library.Presentation",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Library.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\obj\\",
+        "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -192,8 +192,8 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
-                "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj"
+              "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
+                "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj"
               }
             }
           }

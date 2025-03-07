@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {}
+    "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {}
   },
   "projects": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
+    "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "projectUniqueName": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
         "projectName": "Library.BusinessLogic",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\obj\\",
+        "projectPath": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
+        "outputPath": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj": {
-                "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj"
+              "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+                "projectPath": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
               }
             }
           }
@@ -75,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj": {
+    "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj",
+        "projectUniqueName": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
         "projectName": "Library.DataAccess",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\Library.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.DataAccess\\obj\\",
+        "projectPath": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
+        "outputPath": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -17,9 +17,20 @@
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.2\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.2\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.2\build\net8.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.2\build\net8.0\Microsoft.EntityFrameworkCore.Design.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.data.desktop\24.2.5\build\net8.0-windows\DevExpress.Data.Desktop.props" Condition="Exists('$(NuGetPackageRoot)devexpress.data.desktop\24.2.5\build\net8.0-windows\DevExpress.Data.Desktop.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_SqlServer_Types Condition=" '$(PkgMicrosoft_SqlServer_Types)' == '' ">C:\Users\Al-Ahram\.nuget\packages\microsoft.sqlserver.types\14.0.314.76</PkgMicrosoft_SqlServer_Types>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Al-Ahram\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.4</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Al-Ahram\.nuget\packages\microsoft.entityframeworkcore.tools\9.0.2</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.data\24.2.5</PkgDevExpress_Data>
+    <PkgDevExpress_Utils Condition=" '$(PkgDevExpress_Utils)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.utils\24.2.5</PkgDevExpress_Utils>
+    <PkgDevExpress_Win_Navigation Condition=" '$(PkgDevExpress_Win_Navigation)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win.navigation\24.2.5</PkgDevExpress_Win_Navigation>
+    <PkgDevExpress_Win_TreeList Condition=" '$(PkgDevExpress_Win_TreeList)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win.treelist\24.2.5</PkgDevExpress_Win_TreeList>
+    <PkgDevExpress_Win_Printing Condition=" '$(PkgDevExpress_Win_Printing)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win.printing\24.2.5</PkgDevExpress_Win_Printing>
+    <PkgDevExpress_Win_VerticalGrid Condition=" '$(PkgDevExpress_Win_VerticalGrid)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win.verticalgrid\24.2.5</PkgDevExpress_Win_VerticalGrid>
+    <PkgDevExpress_Win_PivotGrid Condition=" '$(PkgDevExpress_Win_PivotGrid)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win.pivotgrid\24.2.5</PkgDevExpress_Win_PivotGrid>
+    <PkgDevExpress_Win_Grid Condition=" '$(PkgDevExpress_Win_Grid)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win.grid\24.2.5</PkgDevExpress_Win_Grid>
+    <PkgDevExpress_Win Condition=" '$(PkgDevExpress_Win)' == '' ">C:\Users\Al-Ahram\.nuget\packages\devexpress.win\24.2.5</PkgDevExpress_Win>
   </PropertyGroup>
 </Project>

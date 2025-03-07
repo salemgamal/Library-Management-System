@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0": {
@@ -54,6 +55,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "DevExpress.Win": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -101,7 +106,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0": {
@@ -125,6 +131,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "DevExpress.Win": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -186,7 +196,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
@@ -214,6 +225,10 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
+            "DevExpress.Win": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -232,7 +247,19 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
+            "Microsoft.ReportViewer.WinForms.v12": {
+              "target": "Package",
+              "version": "[12.0.0.1, )"
+            },
+            "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
+              "target": "Package",
+              "version": "[150.1652.0, )"
+            },
             "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "System.Drawing.Common": {
               "target": "Package",
               "version": "[9.0.2, )"
             }

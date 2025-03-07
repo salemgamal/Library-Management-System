@@ -29,5 +29,6 @@ namespace Library.DataAccess.Models
         [ForeignKey("MemberId")]
         public virtual User Member { get; set; }
 
+        
     }
 }

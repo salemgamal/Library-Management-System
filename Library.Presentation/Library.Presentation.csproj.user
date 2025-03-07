@@ -10,5 +10,20 @@
     <Compile Update="Forms\Authentication Forms\Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Librarian Forms\AddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\EditBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\HomeLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\ManageBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\Reports\GenerateReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

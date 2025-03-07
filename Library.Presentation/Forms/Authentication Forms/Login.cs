@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
+using Library.Presentation.Forms.Librarian_Forms;
 
 namespace Library.Presentation.Forms.Authentication_Forms
 {
@@ -53,8 +54,11 @@ namespace Library.Presentation.Forms.Authentication_Forms
             }
             else if (user.Role == UserRole.Librarian)
             {
-                //this.Hide();
-                MessageBox.Show("libr");
+                this.Hide();
+                HomeLibrarian homeLib = new HomeLibrarian();
+                homeLib.ShowDialog();
+                this.Show();
+
 
             }
             else if (user.Role == UserRole.Member)

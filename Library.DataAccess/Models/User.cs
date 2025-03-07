@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using DevExpress.XtraLayout.Customization;
 
 namespace Library.DataAccess.Models
 {
@@ -42,5 +44,12 @@ namespace Library.DataAccess.Models
         //Navigation Properties
         public virtual List<BorrowRecord> BorrowRecords { get; set; }
         public virtual List<LogAction> LogActions { get; set; }
+
+        public override string ToString()
+        {
+            return $"User: {Name}, Role: {Role}, Email: {Email}, Phone: {Phone ?? "N/A"}, " +
+                   $"BorrowRecords: {BorrowRecords?.Count ?? 0}, LogActions: {LogActions?.Count ?? 0}";
+        }
+
     }
 }

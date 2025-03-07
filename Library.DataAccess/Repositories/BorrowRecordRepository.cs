@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Library.DataAccess.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Library.DataAccess.Repositry
 {
@@ -73,6 +74,19 @@ namespace Library.DataAccess.Repositry
         public List<BorrowRecord> GetOverdueBooks()
         {
             return _context.BorrowRecords.Where(b => b.DueDate < DateTime.UtcNow.Date && b.ReturnDate == null).ToList();
+        }
+        //search borrowed books
+        public List<BorrowRecord> SearchBorrowedBooks(string searchKey)
+        {
+           return _context.BorrowRecords.Include(r => r.Book).Where(r => r.ReturnDate == null && r.Book != null && (r.Book.Title.Contains(searchKey)
+            || r.Book.Author.Contains(searchKey) || r.Book.Category.Contains(searchKey))).ToList();
+        }
+
+        //serach overdue books
+        public List<BorrowRecord> SearchOverDueBooks(string searchKey)
+        {
+            return _context.BorrowRecords.Include(r => r.Book).Where(r => r.DueDate < DateTime.Now && r.ReturnDate == null && r.Book != null && (r.Book.Title.Contains(searchKey)
+             || r.Book.Author.Contains(searchKey) || r.Book.Category.Contains(searchKey))).ToList();
         }
     }
 }

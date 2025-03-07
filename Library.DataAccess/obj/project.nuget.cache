@@ -1,12 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "NnyLGL+oGDM=",
+  "dgSpecHash": "fFimQVUVNJ0=",
   "success": true,
   "projectFilePath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.data\\24.2.5\\devexpress.data.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.data.desktop\\24.2.5\\devexpress.data.desktop.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.drawing\\24.2.5\\devexpress.drawing.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.office.core\\24.2.5\\devexpress.office.core.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.pdf.core\\24.2.5\\devexpress.pdf.core.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.pdf.drawing\\24.2.5\\devexpress.pdf.drawing.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.pivotgrid.core\\24.2.5\\devexpress.pivotgrid.core.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.printing.core\\24.2.5\\devexpress.printing.core.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.richedit.core\\24.2.5\\devexpress.richedit.core.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.richedit.export\\24.2.5\\devexpress.richedit.export.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.sparkline.core\\24.2.5\\devexpress.sparkline.core.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.utils\\24.2.5\\devexpress.utils.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win\\24.2.5\\devexpress.win.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win.grid\\24.2.5\\devexpress.win.grid.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win.navigation\\24.2.5\\devexpress.win.navigation.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win.pivotgrid\\24.2.5\\devexpress.win.pivotgrid.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win.printing\\24.2.5\\devexpress.win.printing.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win.treelist\\24.2.5\\devexpress.win.treelist.24.2.5.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\devexpress.win.verticalgrid\\24.2.5\\devexpress.win.verticalgrid.24.2.5.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
@@ -36,6 +55,7 @@
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.2\\microsoft.extensions.dependencymodel.9.0.2.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.extensions.logging\\9.0.2\\microsoft.extensions.logging.9.0.2.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.2\\microsoft.extensions.logging.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.16\\microsoft.extensions.objectpool.6.0.16.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.extensions.options\\9.0.2\\microsoft.extensions.options.9.0.2.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.2\\microsoft.extensions.primitives.9.0.2.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.identity.client\\4.61.3\\microsoft.identity.client.4.61.3.nupkg.sha512",
@@ -46,9 +66,10 @@
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
-    "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
@@ -60,8 +81,11 @@
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.composition.runtime\\7.0.0\\system.composition.runtime.7.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.composition.typedparts\\7.0.0\\system.composition.typedparts.7.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.2\\system.configuration.configurationmanager.9.0.2.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.data.oledb\\8.0.1\\system.data.oledb.8.0.1.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.2\\system.diagnostics.eventlog.9.0.2.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.1\\system.diagnostics.performancecounter.8.0.1.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.formats.asn1\\9.0.2\\system.formats.asn1.9.0.2.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
@@ -72,9 +96,14 @@
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.runtime.caching\\6.0.0\\system.runtime.caching.6.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.2\\system.security.cryptography.protecteddata.9.0.2.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.security.cryptography.xml\\6.0.1\\system.security.cryptography.xml.6.0.1.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.servicemodel.http\\6.2.0\\system.servicemodel.http.6.2.0.nupkg.sha512",
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.servicemodel.primitives\\6.2.0\\system.servicemodel.primitives.6.2.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
@@ -82,5 +111,96 @@
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Data.Desktop 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Data.Desktop",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Utils 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Utils",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win.Grid 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win.Grid",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win.Navigation 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win.Navigation",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win.PivotGrid 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win.PivotGrid",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win.Printing 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win.Printing",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win.TreeList 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win.TreeList",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DevExpress.Win.VerticalGrid 24.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DevExpress.Win.VerticalGrid",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

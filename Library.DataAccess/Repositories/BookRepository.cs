@@ -47,7 +47,7 @@ namespace Library.DataAccess.Repositry
             _context.Books.Remove(book);
             _context.SaveChanges();
         }
-        //search
+        //search all books
         public List<Book> SearchBook(string searchKey) { 
             return _context.Books.Where(b => b.Title.Contains(searchKey) 
             || b.Author.Contains(searchKey) || b.Category.Contains(searchKey)).ToList();
@@ -57,6 +57,13 @@ namespace Library.DataAccess.Repositry
         public List<Book> GetAvailableBooks()
         {
             return _context.Books.Where(b => b.Quantity > 0).ToList();
+        }
+
+        //search available books
+        public List<Book> SearchAvailableBook(string searchKey)
+        {
+            return _context.Books.Where(b =>b.Quantity>0 &&( b.Title.Contains(searchKey)
+            || b.Author.Contains(searchKey) || b.Category.Contains(searchKey))).ToList();
         }
     }
 }

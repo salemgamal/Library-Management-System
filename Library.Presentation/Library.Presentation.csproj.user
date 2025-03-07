@@ -10,5 +10,14 @@
     <Compile Update="Forms\Authentication Forms\Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\MemberForms\MemberBorrowedBooksF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MemberForms\MemberMainF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MemberForms\NotificationF.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

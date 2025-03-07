@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Library.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class initailcreate : Migration
+    public partial class SV1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -53,16 +53,17 @@ namespace Library.DataAccess.Migrations
                 name: "BorrowRecords",
                 columns: table => new
                 {
+                    BorrowId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     BookId = table.Column<int>(type: "int", nullable: false),
                     MemberId = table.Column<int>(type: "int", nullable: false),
-                    BorrowId = table.Column<int>(type: "int", nullable: false),
                     BorrowDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ReturnDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BorrowRecords", x => new { x.BookId, x.MemberId });
+                    table.PrimaryKey("PK_BorrowRecords", x => x.BorrowId);
                     table.ForeignKey(
                         name: "FK_BorrowRecords_Books_BookId",
                         column: x => x.BookId,
@@ -114,6 +115,11 @@ namespace Library.DataAccess.Migrations
                     { 2, "ahmed@gmail.com", "Ahmed", "member", "01026299485", "Member", "ahmedMohamed" },
                     { 3, "malak@gmail.com", "Malak", "librarian", "01553462979", "Librarian", "malak" }
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_BorrowRecords_BookId",
+                table: "BorrowRecords",
+                column: "BookId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_BorrowRecords_MemberId",

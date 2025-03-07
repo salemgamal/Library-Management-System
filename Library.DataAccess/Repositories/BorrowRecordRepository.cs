@@ -34,7 +34,7 @@ namespace Library.DataAccess.Repositry
             var returnedBook = _context.BorrowRecords.FirstOrDefault(b => b.MemberId == MemberId && b.BookId == BookId && b.ReturnDate == null);
             if (returnedBook != null)
             {
-                returnedBook.ReturnDate = DateTime.Now;
+                returnedBook.ReturnDate = DateTime.Now.Date;
                 var originalbook = _context.Books.Find(returnedBook.BookId);
                 if (originalbook != null) {
                     originalbook.Quantity++;

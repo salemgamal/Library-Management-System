@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
+using Library.Presentation.Forms.MemberForms;
 
 namespace Library.Presentation.Forms.Authentication_Forms
 {
@@ -63,8 +64,8 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 }
                 else if (user.Role == UserRole.Member)
                 {
-                    //this.Hide();
-                    MessageBox.Show("user");
+                    this.Hide();
+                    new MemberMainF(user.UserId , this).ShowDialog();
 
                 }
             }

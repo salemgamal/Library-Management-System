@@ -14,41 +14,59 @@ namespace Library.BusinessLogic.Services
         public BorrowRecordRepository _borrowRecordRepo;
         public BookRepository _bookRepo;
         public LogActionRepositry _logActionRepo;
-        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo , LogActionRepositry _logActionRepo)
+        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo , LogActionRepositry logActionRepo)
         {
             _borrowRecordRepo = borrowRecordRepo;
             _bookRepo = bookRepo;
-            _logActionRepo = _logActionRepo;
+            _logActionRepo = logActionRepo;
         }
 
         //borrow
         public void AddBorrowRecord( int BookId , int MemberId)
         {
-            var book = _bookRepo.GetBookById(BookId);
+            //check if Memner alraedy borrowed this book and did not returned yet
+            var notReturnedBooks = GetNotReturnedBooks(MemberId);
+            if (notReturnedBooks.Any(b => b.BookId == BookId))
+            {
+                throw new Exception("You already borrowed this book and did not return it yet");
+            }
+            else
+            {
+                //check if member borrowed more than 3 books
+                if (notReturnedBooks.Count >= 5)
+                {
+                    throw new Exception("You can't borrow more than 3 books");
+                }
+                else
+                {
+                    var book = _bookRepo.GetBookById(BookId);
 
-            if (book == null) {
-                throw new Exception("Book not found");
+                    if (book == null)
+                    {
+                        throw new Exception("Book not found");
+                    }
+                    if (book.Quantity <= 0)
+                    {
+                        throw new Exception("Book is not available");
+                    }
+                    var borrowRecord = new BorrowRecord
+                    {
+                        BookId = BookId,
+                        MemberId = MemberId,
+                        BorrowDate = DateTime.Now.Date,
+                        DueDate = DateTime.Now.Date.AddDays(5)
+                    };
+                    var borrowLog = new LogAction
+                    {
+                        Action = LogActionType.Borrow,
+                        BookId = BookId,
+                        MemberId = MemberId,
+                        Date = DateTime.Now
+                    };
+                    _logActionRepo.AddUserAction(borrowLog);
+                    _borrowRecordRepo.Borrowbook(borrowRecord);
+                }
             }
-            if (book.Quantity <= 0)
-            {
-                throw new Exception("Book is not available");
-            }
-            var borrowRecord = new BorrowRecord
-            {
-                BookId = BookId,
-                MemberId = MemberId,
-                BorrowDate = DateTime.Now,
-                DueDate = DateTime.Now.AddDays(7)
-            };
-            var borrowLog = new LogAction
-            {
-                Action = LogActionType.Borrow,
-                BookId = BookId,
-                MemberId = MemberId,
-                Date = DateTime.Now
-            };
-            _logActionRepo.AddUserAction(borrowLog);
-            _borrowRecordRepo.Borrowbook(borrowRecord);
         }
 
         //return
@@ -65,7 +83,7 @@ namespace Library.BusinessLogic.Services
                 Action = LogActionType.Return,
                 BookId = record.BookId,
                 MemberId = record.MemberId,
-                Date = DateTime.Now
+                Date = DateTime.Now.Date
             };
             _logActionRepo.AddUserAction(returnLog);
             _borrowRecordRepo.ReturnBook(MemberId , BookId);
@@ -77,10 +95,16 @@ namespace Library.BusinessLogic.Services
             return _borrowRecordRepo.GetAllBorrowedBooks();
         }
 
-        //get member borrowed books
+        //get all member borrowed books
         public List<BorrowRecord> GetMemberBorrowedBooks(int UserId)
         {
             return _borrowRecordRepo.GetMemberBorrowedBooks(UserId);
+        }
+
+        //get member borrowed books which he didn't return yet
+        public List<BorrowRecord> GetNotReturnedBooks(int MemberID)
+        {
+            return _borrowRecordRepo.GetNotReturnedBooks().Where( b => b.MemberId == MemberID ).ToList();
         }
 
         //get returned books

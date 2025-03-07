@@ -11,30 +11,6 @@
       "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|f:\\pd\\linq\\project\\try\\library-management-system\\library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|f:\\pd\\linq\\project\\try\\library-management-system\\library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|f:\\pd\\linq\\project\\try\\library-management-system\\library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|f:\\pd\\linq\\project\\try\\library-management-system\\library.businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|solutionrelative:library.businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -56,7 +32,7 @@
               "RelativeDocumentMoniker": "Library.DataAccess\\Models\\LibraryDbContext.cs",
               "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.DataAccess\\Models\\LibraryDbContext.cs",
               "RelativeToolTip": "Library.DataAccess\\Models\\LibraryDbContext.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T16:14:32.842Z",
               "EditorCaption": ""
@@ -64,19 +40,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Welcome.cs",
-              "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
-              "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:08:07.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.BusinessLogic\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\UserService.cs",
@@ -88,44 +51,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T10:51:58.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T10:51:55.693Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cs",
-              "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
-              "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAYwF4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:00:37.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Program.cs",
@@ -134,32 +59,7 @@
               "RelativeToolTip": "Library.Presentation\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T10:48:48.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs",
-              "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Register.cs [Design]",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:00:13.574Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Welcome.cs [Design]",
-              "DocumentMoniker": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
-              "ToolTip": "F:\\PD\\LinQ\\Project\\try\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs [Design]",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T10:48:39.951Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-05T10:48:48.698Z"
             }
           ]
         }

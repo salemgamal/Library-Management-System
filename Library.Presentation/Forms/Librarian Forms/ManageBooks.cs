@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Castle.Components.DictionaryAdapter;
+using DevExpress.Pdf;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
@@ -20,12 +21,14 @@ namespace Library.Presentation.Forms.Librarian_Forms
         BookRepository bookRepo;
         BookService bookService;
         int bookId;
-        public ManageBooks(HomeLibrarian home)
+        Form preForm;
+        public ManageBooks(Form preF)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             bookRepo = new BookRepository(context);
             bookService = new BookService(bookRepo);
+            preForm = preF;
 
             btn_edit_LF.Hide();
             btn_delete.Hide();
@@ -54,16 +57,11 @@ namespace Library.Presentation.Forms.Librarian_Forms
 
             if (tabControl.SelectedIndex == 0)
             {
-                var searchedBooks = bookService.SearchBook(searchKey);
-                //Avoid Unnecessary Assignments if No Change in the search(ex: if search box is empty) 
-                if (dgv_all_MB.DataSource != searchedBooks)
-                    dgv_all_MB.DataSource = searchedBooks;
+                dgv_all_MB.DataSource = bookService.SearchBook(searchKey);
             }
             else if (tabControl.SelectedIndex == 1)
             {
-                var searchedAvailBooks = bookService.SearchAvailBook(searchKey);
-                if (dgv_Available_MB.DataSource != searchedAvailBooks)
-                    dgv_Available_MB.DataSource = searchedAvailBooks;
+                dgv_Available_MB.DataSource = bookService.SearchAvailBook(searchKey);
             }
         }
 
@@ -80,7 +78,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
             EditBook edit = new EditBook(this, bookId);
             edit.ShowDialog();
 
-            
+
             btn_edit_LF.Hide();
             btn_delete.Hide();
 
@@ -145,5 +143,21 @@ namespace Library.Presentation.Forms.Librarian_Forms
             }
         }
 
+
+      
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            if (preForm != null && !preForm.IsDisposed)
+            {
+                preForm.Show();
+            }
+            else
+            {
+                // Optional: Handle the case where preForm is disposed
+                MessageBox.Show("The previous page is no longer available.");
+            }
+        }
     }
 }

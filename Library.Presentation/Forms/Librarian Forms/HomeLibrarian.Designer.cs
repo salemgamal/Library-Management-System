@@ -30,6 +30,7 @@
         {
             btn_managment_HL = new Button();
             btn_reports_HL = new Button();
+            btn_back = new Button();
             SuspendLayout();
             // 
             // btn_managment_HL
@@ -52,11 +53,22 @@
             btn_reports_HL.UseVisualStyleBackColor = true;
             btn_reports_HL.Click += btn_reports_HL_Click;
             // 
+            // btn_back
+            // 
+            btn_back.Location = new Point(35, 393);
+            btn_back.Name = "btn_back";
+            btn_back.Size = new Size(94, 29);
+            btn_back.TabIndex = 2;
+            btn_back.Text = "Back";
+            btn_back.UseVisualStyleBackColor = true;
+            btn_back.Click += btn_back_Click;
+            // 
             // HomeLibrarian
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_back);
             Controls.Add(btn_reports_HL);
             Controls.Add(btn_managment_HL);
             Name = "HomeLibrarian";
@@ -68,5 +80,6 @@
 
         private Button btn_managment_HL;
         private Button btn_reports_HL;
+        private Button btn_back;
     }
 }

@@ -14,11 +14,11 @@ namespace Library.BusinessLogic.Services
         public BorrowRecordRepository _borrowRecordRepo;
         public BookRepository _bookRepo;
         public LogActionRepositry _logActionRepo;
-        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo , LogActionRepositry _logActionRepo)
+        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo , LogActionRepositry logActionRepo)
         {
             _borrowRecordRepo = borrowRecordRepo;
             _bookRepo = bookRepo;
-            _logActionRepo = _logActionRepo;
+            _logActionRepo = logActionRepo;
         }
 
         //borrow
@@ -95,28 +95,28 @@ namespace Library.BusinessLogic.Services
             return _borrowRecordRepo.GetOverdueBooks();
         }
 
-        public List<BorrowRecord> SearchBorrowedBook(string searchKey)
+        public List<BorrowRecord> SearchBorrowedBook(string searchKey ,DateTime? date)
         {
-            if (string.IsNullOrEmpty(searchKey))
-            {
-                throw new Exception("Search key is required");
-            }
-            else
-            {
-                return _borrowRecordRepo.SearchBorrowedBooks(searchKey);
-            }
+            
+                return _borrowRecordRepo.SearchBorrowedBooks(searchKey ,date);
+            
         }
 
-        public List<BorrowRecord> SearchOverDueBook(string searchKey)
+        public List<BorrowRecord> SearchOverDueBook(string searchKey ,DateTime? date)
         {
-            if (string.IsNullOrEmpty(searchKey))
-            {
-                throw new Exception("Search key is required");
-            }
-            else
-            {
-                return _borrowRecordRepo.SearchOverDueBooks(searchKey);
-            }
+                return _borrowRecordRepo.SearchOverDueBooks(searchKey, date);
+            
         }
+
+        public List<LogAction> GetLogActions() { 
+        
+            return _logActionRepo.GetLogActions();
+        }
+
+        public List<LogAction> searchLogActions(string searchKey, DateTime? date) { 
+            return _logActionRepo.SearchLogActions(searchKey ,date);
+        }
+
+        
     }
 }

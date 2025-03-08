@@ -3,52 +3,8 @@
   "WorkspaceRootPath": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.dataaccess\\repositories\\borrowrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\repositories\\borrowrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.businesslogic\\services\\borrowrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|solutionrelative:library.businesslogic\\services\\borrowrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\librarian forms\\managebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\managebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\librarian forms\\managebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\managebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\librarian forms\\homelibrarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\homelibrarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.dataaccess\\models\\logaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\models\\logaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.dataaccess\\repositories\\logactionrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\repositories\\logactionrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,153 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\App.config",
-              "RelativeDocumentMoniker": "Library.Presentation\\App.config",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\App.config",
-              "RelativeToolTip": "Library.Presentation\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-08T02:03:18.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Library.Presentation\\Program.cs",
               "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Program.cs",
               "RelativeToolTip": "Library.Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T02:02:11.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BorrowRecordService.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Services\\BorrowRecordService.cs",
-              "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\BorrowRecordService.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Services\\BorrowRecordService.cs",
-              "RelativeToolTip": "Library.BusinessLogic\\Services\\BorrowRecordService.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:58:32.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManageBooks.cs [Design]",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs [Design]",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:53:51.184Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeLibrarian.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\HomeLibrarian.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\HomeLibrarian.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\HomeLibrarian.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\HomeLibrarian.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:46:11.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BorrowReturn.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwD8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T00:29:17.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BorrowRecordRepository.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "RelativeDocumentMoniker": "Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "RelativeToolTip": "Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowE4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:17:37.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BorrowReturn.cs [Design]",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs [Design]",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:47:16.44Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageBooks.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\ManageBooks.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAA1wIwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:07:36.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwGsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:43:07.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LogAction.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Models\\LogAction.cs",
-              "RelativeDocumentMoniker": "Library.DataAccess\\Models\\LogAction.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Models\\LogAction.cs",
-              "RelativeToolTip": "Library.DataAccess\\Models\\LogAction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:18:37.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LogActionRepositry.cs",
-              "DocumentMoniker": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Repositories\\LogActionRepositry.cs",
-              "RelativeDocumentMoniker": "Library.DataAccess\\Repositories\\LogActionRepositry.cs",
-              "ToolTip": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.DataAccess\\Repositories\\LogActionRepositry.cs",
-              "RelativeToolTip": "Library.DataAccess\\Repositories\\LogActionRepositry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:17:14.264Z"
+              "WhenOpened": "2025-03-08T23:38:44.288Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -96,7 +96,7 @@
             // 
             // btn_back_L
             // 
-            btn_back_L.Location = new Point(669, 404);
+            btn_back_L.Location = new Point(12, 404);
             btn_back_L.Name = "btn_back_L";
             btn_back_L.Size = new Size(119, 34);
             btn_back_L.TabIndex = 6;

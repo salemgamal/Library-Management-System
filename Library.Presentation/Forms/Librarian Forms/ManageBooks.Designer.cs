@@ -41,6 +41,7 @@
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
             dgv_Available_MB = new DataGridView();
+            btn_back = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_all_MB).BeginInit();
             tabControl.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -86,7 +87,7 @@
             // 
             // btn_add_LF
             // 
-            btn_add_LF.Location = new Point(31, 550);
+            btn_add_LF.Location = new Point(329, 554);
             btn_add_LF.Name = "btn_add_LF";
             btn_add_LF.Size = new Size(115, 35);
             btn_add_LF.TabIndex = 6;
@@ -96,7 +97,7 @@
             // 
             // btn_edit_LF
             // 
-            btn_edit_LF.Location = new Point(201, 550);
+            btn_edit_LF.Location = new Point(499, 554);
             btn_edit_LF.Name = "btn_edit_LF";
             btn_edit_LF.Size = new Size(94, 36);
             btn_edit_LF.TabIndex = 10;
@@ -106,7 +107,7 @@
             // 
             // btn_delete
             // 
-            btn_delete.Location = new Point(365, 550);
+            btn_delete.Location = new Point(663, 554);
             btn_delete.Name = "btn_delete";
             btn_delete.Size = new Size(94, 36);
             btn_delete.TabIndex = 11;
@@ -173,11 +174,22 @@
             dgv_Available_MB.TabIndex = 22;
             dgv_Available_MB.RowHeaderMouseDoubleClick += DataGridView_RowHeaderMouseDoubleClick;
             // 
+            // btn_back
+            // 
+            btn_back.Location = new Point(19, 561);
+            btn_back.Name = "btn_back";
+            btn_back.Size = new Size(94, 29);
+            btn_back.TabIndex = 22;
+            btn_back.Text = "Back";
+            btn_back.UseVisualStyleBackColor = true;
+            btn_back.Click += btn_back_Click;
+            // 
             // ManageBooks
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(760, 615);
+            Controls.Add(btn_back);
             Controls.Add(tabControl);
             Controls.Add(lbl_categories_LF);
             Controls.Add(cmbBox_categories_LF);
@@ -213,5 +225,6 @@
         private TabPage tabPage1;
         private TabPage tabPage2;
         private DataGridView dgv_Available_MB;
+        private Button btn_back;
     }
 }

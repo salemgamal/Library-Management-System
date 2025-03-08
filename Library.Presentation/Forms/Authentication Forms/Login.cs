@@ -20,15 +20,15 @@ namespace Library.Presentation.Forms.Authentication_Forms
         LibraryDbContext context;
         UserRepository userRepo;
         UserService userService;
-        Form oldForm;
+        Form preForm;
 
-        public Login(Form oldF)
+        public Login(Form preF)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             userRepo = new UserRepository(context);
             userService = new UserService(userRepo);
-            oldForm = oldF;
+            preForm = preF;
         }
 
         //login button click
@@ -54,12 +54,12 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 if (user.Role == UserRole.Admin)
                 {
                     //this.Hide();
-                    MessageBox.Show("admin");
+                    
                 }
                 else if (user.Role == UserRole.Librarian)
                 {
                     this.Hide();
-                    HomeLibrarian homeLib = new HomeLibrarian();
+                    HomeLibrarian homeLib = new HomeLibrarian(this);
                     homeLib.ShowDialog();
                     this.Show();
 
@@ -68,7 +68,7 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 else if (user.Role == UserRole.Member)
                 {
                     //this.Hide();
-                    MessageBox.Show("user");
+                    
 
                 }
             }
@@ -96,8 +96,17 @@ namespace Library.Presentation.Forms.Authentication_Forms
 
         private void btn_back_L_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            oldForm.Show();
+            this.Close();
+
+            if (preForm != null && !preForm.IsDisposed)
+            {
+                preForm.Show();
+            }
+            else
+            {
+                // Optional: Handle the case where preForm is disposed
+                MessageBox.Show("The previous page is no longer available.");
+            }
         }
     }
 }

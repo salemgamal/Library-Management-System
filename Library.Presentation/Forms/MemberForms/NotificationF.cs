@@ -59,7 +59,7 @@ namespace Library.Presentation.Forms.MemberForms
         private void NotificationF_Load(object sender, EventArgs e)
         {
             var notificationBooks = BorrowRecordService.GetMemberBorrowedBooks(MemberID)
-                .Where(b => b.DueDate < DateTime.Now.Date).Select(b =>
+                .Where(b => b.DueDate < DateTime.Now.Date /*&& b.ReturnDate == null*/).Select(b =>
                 new{
                      Message = $"Book '{b.Book.Title}' is overdue! Due date was {b.DueDate:yyyy-MM-dd}"
                     }).ToList();

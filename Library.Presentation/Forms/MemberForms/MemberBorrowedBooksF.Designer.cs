@@ -117,9 +117,9 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             // panel1
             // 
-            panel1.Location = new Point(545, 45);
+            panel1.Location = new Point(409, 45);
             panel1.Name = "panel1";
-            panel1.Size = new Size(243, 192);
+            panel1.Size = new Size(379, 192);
             panel1.TabIndex = 10;
             // 
             // MemberBorrowedBooksF

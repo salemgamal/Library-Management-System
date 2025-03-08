@@ -34,6 +34,7 @@
             // 
             // dgv_notificationF_MBF
             // 
+            dgv_notificationF_MBF.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_notificationF_MBF.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_notificationF_MBF.Location = new Point(12, 12);
             dgv_notificationF_MBF.Name = "dgv_notificationF_MBF";

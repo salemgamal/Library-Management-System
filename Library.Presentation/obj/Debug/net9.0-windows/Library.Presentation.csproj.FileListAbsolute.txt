@@ -309,3 +309,8 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\o
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Forms.MemberForms.MemberMainF.resources
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Forms.MemberForms.MemberBorrowedBooksF.resources
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Forms.MemberForms.NotificationF.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.AdminDashBoard.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageAdmins.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageBooks.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageLibrarian.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageMembers.resources

@@ -50,7 +50,7 @@ namespace Library.Presentation.Forms.MemberForms
         //}
         public void SetNotificationData(List<Notification> notifications)
         {
-            if (dgv_notificationF_MBF != null) // Ensure the DataGridView exists
+            if (dgv_notificationF_MBF != null)
             {
                 dgv_notificationF_MBF.DataSource = notifications;
             }

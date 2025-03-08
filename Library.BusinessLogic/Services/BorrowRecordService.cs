@@ -94,5 +94,29 @@ namespace Library.BusinessLogic.Services
         {
             return _borrowRecordRepo.GetOverdueBooks();
         }
+
+        public List<BorrowRecord> SearchBorrowedBook(string searchKey)
+        {
+            if (string.IsNullOrEmpty(searchKey))
+            {
+                throw new Exception("Search key is required");
+            }
+            else
+            {
+                return _borrowRecordRepo.SearchBorrowedBooks(searchKey);
+            }
+        }
+
+        public List<BorrowRecord> SearchOverDueBook(string searchKey)
+        {
+            if (string.IsNullOrEmpty(searchKey))
+            {
+                throw new Exception("Search key is required");
+            }
+            else
+            {
+                return _borrowRecordRepo.SearchOverDueBooks(searchKey);
+            }
+        }
     }
 }

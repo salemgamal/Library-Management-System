@@ -78,15 +78,30 @@ namespace Library.DataAccess.Repositry
         //search borrowed books
         public List<BorrowRecord> SearchBorrowedBooks(string searchKey)
         {
-           return _context.BorrowRecords.Include(r => r.Book).Where(r => r.ReturnDate == null && r.Book != null && (r.Book.Title.Contains(searchKey)
-            || r.Book.Author.Contains(searchKey) || r.Book.Category.Contains(searchKey))).ToList();
+            searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
+            var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            return _context.BorrowRecords
+                .Include(r => r.Book)
+                .Where(r => r.ReturnDate == null
+                    && r.Book != null
+                    && words.Any(w => r.Book.Title.ToLower().Contains(w)
+                                    || r.Book.Author.ToLower().Contains(w)
+                                    || r.Book.Category.ToLower().Contains(w)))
+                .ToList();
         }
 
         //serach overdue books
         public List<BorrowRecord> SearchOverDueBooks(string searchKey)
         {
-            return _context.BorrowRecords.Include(r => r.Book).Where(r => r.DueDate < DateTime.Now && r.ReturnDate == null && r.Book != null && (r.Book.Title.Contains(searchKey)
-             || r.Book.Author.Contains(searchKey) || r.Book.Category.Contains(searchKey))).ToList();
+            searchKey = searchKey?.ToLower() ?? string.Empty;
+            var words = searchKey.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+
+            return _context.BorrowRecords.Include(r => r.Book).Where(r => r.DueDate < DateTime.Now && r.ReturnDate == null && r.Book != null
+            && words.Any(w => r.Book.Title.ToLower().Contains(w)
+                                    || r.Book.Author.ToLower().Contains(w)
+                                    || r.Book.Category.ToLower().Contains(w)))
+                .ToList();
         }
     }
 }

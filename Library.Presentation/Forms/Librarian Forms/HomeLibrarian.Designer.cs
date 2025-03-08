@@ -38,7 +38,7 @@
             btn_managment_HL.Name = "btn_managment_HL";
             btn_managment_HL.Size = new Size(419, 69);
             btn_managment_HL.TabIndex = 0;
-            btn_managment_HL.Text = "Managment";
+            btn_managment_HL.Text = "Book Managment";
             btn_managment_HL.UseVisualStyleBackColor = true;
             btn_managment_HL.Click += btn_managment_HL_Click;
             // 
@@ -48,7 +48,7 @@
             btn_reports_HL.Name = "btn_reports_HL";
             btn_reports_HL.Size = new Size(419, 69);
             btn_reports_HL.TabIndex = 1;
-            btn_reports_HL.Text = "Reports";
+            btn_reports_HL.Text = "Borrow-Return";
             btn_reports_HL.UseVisualStyleBackColor = true;
             btn_reports_HL.Click += btn_reports_HL_Click;
             // 

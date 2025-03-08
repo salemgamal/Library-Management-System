@@ -42,6 +42,7 @@
             txt_confirmPass_R = new TextBox();
             btn_register_R = new Button();
             pictureBox_passEye = new PictureBox();
+            btn_back_R = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox_passEye).BeginInit();
             SuspendLayout();
             // 
@@ -145,7 +146,7 @@
             // 
             // btn_register_R
             // 
-            btn_register_R.Location = new Point(176, 379);
+            btn_register_R.Location = new Point(176, 404);
             btn_register_R.Name = "btn_register_R";
             btn_register_R.Size = new Size(248, 34);
             btn_register_R.TabIndex = 12;
@@ -165,11 +166,22 @@
             pictureBox_passEye.TabStop = false;
             pictureBox_passEye.Click += pictureBox_passEye_Click;
             // 
+            // btn_back_R
+            // 
+            btn_back_R.Location = new Point(20, 404);
+            btn_back_R.Name = "btn_back_R";
+            btn_back_R.Size = new Size(119, 34);
+            btn_back_R.TabIndex = 14;
+            btn_back_R.Text = "Back";
+            btn_back_R.UseVisualStyleBackColor = true;
+            btn_back_R.Click += btn_back_R_Click;
+            // 
             // Register
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_back_R);
             Controls.Add(pictureBox_passEye);
             Controls.Add(btn_register_R);
             Controls.Add(txt_confirmPass_R);
@@ -207,5 +219,6 @@
         private TextBox txt_confirmPass_R;
         private Button btn_register_R;
         private PictureBox pictureBox_passEye;
+        private Button btn_back_R;
     }
 }

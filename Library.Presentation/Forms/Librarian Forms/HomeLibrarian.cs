@@ -28,8 +28,8 @@ namespace Library.Presentation.Forms.Librarian_Forms
         private void btn_reports_HL_Click(object sender, EventArgs e)
         {
             this.Hide();
-            GenerateReports reports = new GenerateReports(this);
-            reports.ShowDialog();
+            BorrowReturn borrowReturn = new BorrowReturn(this);
+            borrowReturn.ShowDialog();
             this.Show();
         }
     }

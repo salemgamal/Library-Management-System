@@ -28,14 +28,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Library.BusinessLogic\Library.BusinessLogic.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Forms\AdminForms\" />
     <Folder Include="Forms\LibrarianForms\" />
     <Folder Include="Forms\MemberForms\" />
-    <Folder Include="Forms\Registeration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.BusinessLogic\Library.BusinessLogic.csproj" />
   </ItemGroup>
 
   <ItemGroup>

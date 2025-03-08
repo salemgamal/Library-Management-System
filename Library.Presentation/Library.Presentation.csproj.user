@@ -1,6 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Forms\Admin\AdminDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\ManageAdmins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\ManageBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\ManageLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin\ManageMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Authentication Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -13,6 +28,9 @@
     <Compile Update="Forms\Librarian Forms\AddBook.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Librarian Forms\BorrowReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Librarian Forms\EditBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -20,9 +38,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Librarian Forms\ManageBooks.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\Librarian Forms\Reports\GenerateReports.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

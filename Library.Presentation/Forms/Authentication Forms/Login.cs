@@ -20,13 +20,15 @@ namespace Library.Presentation.Forms.Authentication_Forms
         LibraryDbContext context;
         UserRepository userRepo;
         UserService userService;
+        Form oldForm;
 
-        public Login()
+        public Login(Form oldF)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             userRepo = new UserRepository(context);
             userService = new UserService(userRepo);
+            oldForm = oldF;
         }
 
         //login button click
@@ -42,36 +44,42 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 return;
             }
 
-            //authenticate user
-            User user = userService.AuthenticateUser(username, password);
-
-
-            //redirect user based on his role
-            if (user.Role == UserRole.Admin)
+            try
             {
-                //this.Hide();
-                MessageBox.Show("admin");
+                //authenticate user
+                User user = userService.AuthenticateUser(username, password);
+
+
+                //redirect user based on his role
+                if (user.Role == UserRole.Admin)
+                {
+                    //this.Hide();
+                    MessageBox.Show("admin");
+                }
+                else if (user.Role == UserRole.Librarian)
+                {
+                    this.Hide();
+                    HomeLibrarian homeLib = new HomeLibrarian();
+                    homeLib.ShowDialog();
+                    this.Show();
+
+
+                }
+                else if (user.Role == UserRole.Member)
+                {
+                    //this.Hide();
+                    MessageBox.Show("user");
+
+                }
             }
-            else if (user.Role == UserRole.Librarian)
+            catch (Exception ex)
             {
-                this.Hide();
-                HomeLibrarian homeLib = new HomeLibrarian();
-                homeLib.ShowDialog();
-                this.Show();
-
-
+                MessageBox.Show(ex.Message, "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else if (user.Role == UserRole.Member)
-            {
-                //this.Hide();
-                MessageBox.Show("user");
-
-            }
-
-
         }
 
-        // show and hide password
+     // show and hide password
         private void pictureBox_passEye_Click(object sender, EventArgs e)
         {
             if (txt_pass_L.PasswordChar == '●')
@@ -85,5 +93,16 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 pictureBox_passEye.Image = Properties.Resources.eyeclosed;
             }
         }
+
+        private void btn_back_L_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            oldForm.Show();
+        }
     }
 }
+
+
+        
+
+       

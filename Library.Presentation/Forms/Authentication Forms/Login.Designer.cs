@@ -34,6 +34,7 @@
             txt_userName_L = new TextBox();
             txt_pass_L = new TextBox();
             pictureBox_passEye = new PictureBox();
+            btn_back_L = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox_passEye).BeginInit();
             SuspendLayout();
             // 
@@ -93,11 +94,22 @@
             pictureBox_passEye.TabStop = false;
             pictureBox_passEye.Click += pictureBox_passEye_Click;
             // 
+            // btn_back_L
+            // 
+            btn_back_L.Location = new Point(669, 404);
+            btn_back_L.Name = "btn_back_L";
+            btn_back_L.Size = new Size(119, 34);
+            btn_back_L.TabIndex = 6;
+            btn_back_L.Text = "Back";
+            btn_back_L.UseVisualStyleBackColor = true;
+            btn_back_L.Click += btn_back_L_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_back_L);
             Controls.Add(pictureBox_passEye);
             Controls.Add(txt_pass_L);
             Controls.Add(txt_userName_L);
@@ -119,5 +131,6 @@
         private TextBox txt_userName_L;
         private TextBox txt_pass_L;
         private PictureBox pictureBox_passEye;
+        private Button btn_back_L;
     }
 }

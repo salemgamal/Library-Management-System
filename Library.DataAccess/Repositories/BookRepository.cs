@@ -48,10 +48,18 @@ namespace Library.DataAccess.Repositry
             _context.SaveChanges();
         }
         //search all books
-        public List<Book> SearchBook(string searchKey) { 
-            return _context.Books.Where(b => b.Title.Contains(searchKey) 
-            || b.Author.Contains(searchKey) || b.Category.Contains(searchKey)).ToList();
+        public List<Book> SearchBook(string searchKey)
+        {
+            searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
+            var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            return _context.Books.Where(b => words.Any(w =>
+                b.Title.ToLower().Contains(w) ||
+                b.Author.ToLower().Contains(w) ||
+                b.Category.ToLower().Contains(w)))
+            .ToList();
         }
+
 
         //get availabe books
         public List<Book> GetAvailableBooks()
@@ -62,8 +70,16 @@ namespace Library.DataAccess.Repositry
         //search available books
         public List<Book> SearchAvailableBook(string searchKey)
         {
-            return _context.Books.Where(b =>b.Quantity>0 &&( b.Title.Contains(searchKey)
-            || b.Author.Contains(searchKey) || b.Category.Contains(searchKey))).ToList();
+            searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
+            var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            return _context.Books
+                .Where(b => b.Quantity > 0 && words.Any(w =>
+                    b.Title.ToLower().Contains(w) ||
+                    b.Author.ToLower().Contains(w) ||
+                    b.Category.ToLower().Contains(w)))
+                .ToList();
         }
+
     }
 }

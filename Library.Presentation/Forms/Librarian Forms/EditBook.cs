@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
 
@@ -16,12 +17,16 @@ namespace Library.Presentation.Forms.Librarian_Forms
     {
         LibraryDbContext context;
         BookRepository bookRepo;
+        BookService bookService;
+
         int bookId;
         public EditBook(ManageBooks MB, int _bookId)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             bookRepo = new BookRepository(context);
+            bookService = new BookService(bookRepo);
+
             bookId = _bookId;
 
             cmbBox_categories_EB.Items.AddRange(new string[]
@@ -82,11 +87,11 @@ namespace Library.Presentation.Forms.Librarian_Forms
             }
 
             //edit book (update)
-            Book book = bookRepo.GetBookById(bookId);
+            Book book = bookService.GetBookById(bookId);
 
             if (book != null)
             {
-                bookRepo.UpdateBook(book);
+                bookService.UpdateBook(book);
                 MessageBox.Show("Book updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else

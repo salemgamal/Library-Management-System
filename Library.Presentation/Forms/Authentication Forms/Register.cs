@@ -19,12 +19,14 @@ namespace Library.Presentation.Forms.Authentication_Forms
         LibraryDbContext context;
         UserRepository userRepo;
         UserService userService;
-        public Register()
+        Form oldForm;
+        public Register(Form oldF)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             userRepo = new UserRepository(context);
             userService = new UserService(userRepo);
+            oldForm = oldF;
         }
 
         // button register click
@@ -90,7 +92,7 @@ namespace Library.Presentation.Forms.Authentication_Forms
             //redirection to login
             Register register = this;
             register.Hide();
-            Login login = new Login();
+            Login login = new Login(this);
             login.ShowDialog();
             register.Close();
         }
@@ -124,5 +126,10 @@ namespace Library.Presentation.Forms.Authentication_Forms
             }
         }
 
+        private void btn_back_R_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            oldForm.Show();
+        }
     }
 }

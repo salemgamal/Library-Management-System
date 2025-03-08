@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
 
@@ -16,11 +17,15 @@ namespace Library.Presentation.Forms.Librarian_Forms
     {
         LibraryDbContext context;
         BookRepository bookRepo;
+        BookService bookService;
+
         public AddBook(ManageBooks MB)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             bookRepo = new BookRepository(context);
+            bookService = new BookService(bookRepo);
+
             cmbBox_categories_AB.Items.AddRange(new string[]
     {
         "Fiction",
@@ -91,7 +96,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
                 Category = cmbBox_categories_AB.SelectedItem?.ToString() ?? ""
             };
 
-            bookRepo.AddBook(book);
+            bookService.AddBook(book);
             MessageBox.Show("Book added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }

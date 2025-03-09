@@ -23,7 +23,7 @@ namespace Library.Presentation.Forms.Authentication_Forms
             this.Hide();
             Login login = new Login(this);
             login.ShowDialog();
-            this.Show();
+            
         }
 
         private void btn_register_W_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace Library.Presentation.Forms.Authentication_Forms
             this.Hide();
             Register register = new Register(this);
             register.ShowDialog();
-            this.Show();
+            
         }
 
         

@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "INaf6YY28uQ=",
   "success": true,
-  "projectFilePath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+  "projectFilePath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

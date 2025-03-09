@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\",
+  "WorkspaceRootPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,6 +32,53 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T23:38:44.288Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Welcome.cs",
+              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Welcome.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:22:20.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:11:04.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
+              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs [Design]",
+              "RelativeToolTip": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:11:01.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashBoard.cs [Design]",
+              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\AdminForms\\AdminDashBoard.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\AdminForms\\AdminDashBoard.cs",
+              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Library\\Library.Presentation\\Forms\\AdminForms\\AdminDashBoard.cs [Design]",
+              "RelativeToolTip": "Library.Presentation\\Forms\\AdminForms\\AdminDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:08:00.797Z"
             }
           ]
         }

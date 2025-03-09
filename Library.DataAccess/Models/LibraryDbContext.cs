@@ -30,8 +30,8 @@ namespace Library.DataAccess.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<BorrowRecord>()
-                .HasKey(br => new { br.BookId, br.MemberId });
+            //modelBuilder.Entity<BorrowRecord>()
+            //    .HasKey(br => new { br.BookId, br.MemberId });
 
             modelBuilder.Entity<Book>()
                 .HasMany(b => b.BorrowRecords)

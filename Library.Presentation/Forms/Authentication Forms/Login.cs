@@ -12,6 +12,8 @@ using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
 using Library.Presentation.Forms.Librarian_Forms;
+using Library.Presentation.Admin;
+using Library.Presentation.Forms.MemberForms;
 
 namespace Library.Presentation.Forms.Authentication_Forms
 {

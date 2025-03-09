@@ -28,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Forms\AdminForms\" />
     <Folder Include="Forms\LibrarianForms\" />
     <Folder Include="Forms\MemberForms\" />
   </ItemGroup>

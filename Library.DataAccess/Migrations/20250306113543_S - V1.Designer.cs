@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Library.DataAccess.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20250304221403_initailcreate")]
-    partial class initailcreate
+    [Migration("20250306113543_S - V1")]
+    partial class SV1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -69,25 +69,30 @@ namespace Library.DataAccess.Migrations
 
             modelBuilder.Entity("Library.DataAccess.Models.BorrowRecord", b =>
                 {
-                    b.Property<int>("BookId")
+                    b.Property<int>("BorrowId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("MemberId")
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BorrowId"));
+
+                    b.Property<int>("BookId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("BorrowDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("BorrowId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("MemberId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("ReturnDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("BookId", "MemberId");
+                    b.HasKey("BorrowId");
+
+                    b.HasIndex("BookId");
 
                     b.HasIndex("MemberId");
 

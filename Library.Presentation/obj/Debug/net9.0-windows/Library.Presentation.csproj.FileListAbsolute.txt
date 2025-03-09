@@ -148,7 +148,6 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\b
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.sourcelink.json
-D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Form1.resources
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\Library.Presentation.exe
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\Library.Presentation.dll.config
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\Library.Presentation.deps.json

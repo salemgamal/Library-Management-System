@@ -37,7 +37,7 @@ namespace Library.DataAccess.Models
 
         public override string ToString()
         {
-            return $"BookId: {BookId}, Title: {Title}, Author: {Author}, ISBN: {ISBN}, Category: {Category}, " +
+            return $"{BookId}- {Title}, Author: {Author}, ISBN: {ISBN}, Category: {Category}, " +
                    $"Quantity: {Quantity}, PublishedYear: {PublishedYear}, " +
                    $"BorrowRecords: {BorrowRecords?.Count ?? 0}, LogActions: {LogActions?.Count ?? 0}";
         }

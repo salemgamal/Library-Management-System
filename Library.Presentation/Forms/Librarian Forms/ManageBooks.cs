@@ -55,14 +55,10 @@ namespace Library.Presentation.Forms.Librarian_Forms
             string searchKey = (txt_search_LF.Text?.Trim() ?? string.Empty) + " " +
                    (cmbBox_categories_LF.SelectedItem?.ToString() ?? string.Empty);
 
-            if (tabControl.SelectedIndex == 0)
-            {
-                dgv_all_MB.DataSource = bookService.SearchBook(searchKey);
-            }
-            else if (tabControl.SelectedIndex == 1)
-            {
-                dgv_Available_MB.DataSource = bookService.SearchAvailBook(searchKey);
-            }
+
+            dgv_all_MB.DataSource = bookService.SearchBook(searchKey);
+
+
         }
 
         //add
@@ -133,31 +129,40 @@ namespace Library.Presentation.Forms.Librarian_Forms
         {
             string searchKey = txt_search_LF.Text?.Trim() ?? string.Empty;
 
-            if (tabControl.SelectedIndex == 0)
-            {
-                dgv_all_MB.DataSource = bookRepo.SearchBook(searchKey);
-            }
-            else if (tabControl.SelectedIndex == 1)
-            {
-                dgv_Available_MB.DataSource = bookRepo.SearchAvailableBook(searchKey);
-            }
+
+            dgv_all_MB.DataSource = bookRepo.SearchBook(searchKey);
+
+
         }
 
 
-      
+
         private void btn_back_Click(object sender, EventArgs e)
         {
             this.Close();
 
             if (preForm != null && !preForm.IsDisposed)
             {
-                preForm.Show();
+                preForm.ShowDialog();
             }
             else
             {
                 // Optional: Handle the case where preForm is disposed
                 MessageBox.Show("The previous page is no longer available.");
             }
+        }
+
+        private void ManageBooks_Load(object sender, EventArgs e)
+        {
+            btn_search_LF.PerformClick();
+        }
+
+        private void btn_clearMB_Click(object sender, EventArgs e)
+        {
+            txt_search_LF.Text = string.Empty;
+            cmbBox_categories_LF.SelectedIndex = -1;
+
+            btn_search_LF.PerformClick();
         }
     }
 }

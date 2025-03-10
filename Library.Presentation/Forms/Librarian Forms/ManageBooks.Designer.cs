@@ -39,20 +39,17 @@
             cmbBox_categories_LF = new ComboBox();
             tabControl = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            dgv_Available_MB = new DataGridView();
             btn_back = new Button();
+            btn_clearMB = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_all_MB).BeginInit();
             tabControl.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgv_Available_MB).BeginInit();
             SuspendLayout();
             // 
             // lbl_search_LF
             // 
             lbl_search_LF.AutoSize = true;
-            lbl_search_LF.Location = new Point(31, 33);
+            lbl_search_LF.Location = new Point(9, 34);
             lbl_search_LF.Name = "lbl_search_LF";
             lbl_search_LF.Size = new Size(53, 20);
             lbl_search_LF.TabIndex = 0;
@@ -60,7 +57,7 @@
             // 
             // txt_search_LF
             // 
-            txt_search_LF.Location = new Point(116, 33);
+            txt_search_LF.Location = new Point(68, 31);
             txt_search_LF.Name = "txt_search_LF";
             txt_search_LF.Size = new Size(369, 27);
             txt_search_LF.TabIndex = 1;
@@ -77,7 +74,7 @@
             // 
             // btn_search_LF
             // 
-            btn_search_LF.Location = new Point(491, 25);
+            btn_search_LF.Location = new Point(443, 25);
             btn_search_LF.Name = "btn_search_LF";
             btn_search_LF.Size = new Size(65, 42);
             btn_search_LF.TabIndex = 3;
@@ -118,7 +115,7 @@
             // lbl_categories_LF
             // 
             lbl_categories_LF.AutoSize = true;
-            lbl_categories_LF.Location = new Point(581, 15);
+            lbl_categories_LF.Location = new Point(514, 16);
             lbl_categories_LF.Name = "lbl_categories_LF";
             lbl_categories_LF.Size = new Size(69, 20);
             lbl_categories_LF.TabIndex = 20;
@@ -127,20 +124,21 @@
             // cmbBox_categories_LF
             // 
             cmbBox_categories_LF.FormattingEnabled = true;
-            cmbBox_categories_LF.Location = new Point(581, 38);
+            cmbBox_categories_LF.Location = new Point(514, 39);
             cmbBox_categories_LF.Name = "cmbBox_categories_LF";
             cmbBox_categories_LF.Size = new Size(151, 28);
             cmbBox_categories_LF.TabIndex = 19;
+            cmbBox_categories_LF.SelectedIndexChanged += btn_search_LF_Click;
             // 
             // tabControl
             // 
             tabControl.Controls.Add(tabPage1);
-            tabControl.Controls.Add(tabPage2);
             tabControl.Location = new Point(12, 73);
             tabControl.Name = "tabControl";
             tabControl.SelectedIndex = 0;
             tabControl.Size = new Size(736, 471);
             tabControl.TabIndex = 21;
+            tabControl.SelectedIndexChanged += btn_search_LF_Click;
             // 
             // tabPage1
             // 
@@ -153,27 +151,6 @@
             tabPage1.Text = "All Books";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            tabPage2.Controls.Add(dgv_Available_MB);
-            tabPage2.Location = new Point(4, 29);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(728, 438);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Available Books";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dgv_Available_MB
-            // 
-            dgv_Available_MB.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Available_MB.Location = new Point(3, 3);
-            dgv_Available_MB.Name = "dgv_Available_MB";
-            dgv_Available_MB.RowHeadersWidth = 51;
-            dgv_Available_MB.Size = new Size(719, 432);
-            dgv_Available_MB.TabIndex = 22;
-            dgv_Available_MB.RowHeaderMouseDoubleClick += DataGridView_RowHeaderMouseDoubleClick;
-            // 
             // btn_back
             // 
             btn_back.Location = new Point(19, 561);
@@ -184,11 +161,22 @@
             btn_back.UseVisualStyleBackColor = true;
             btn_back.Click += btn_back_Click;
             // 
+            // btn_clearMB
+            // 
+            btn_clearMB.Location = new Point(691, 38);
+            btn_clearMB.Name = "btn_clearMB";
+            btn_clearMB.Size = new Size(66, 29);
+            btn_clearMB.TabIndex = 23;
+            btn_clearMB.Text = "Clear";
+            btn_clearMB.UseVisualStyleBackColor = true;
+            btn_clearMB.Click += btn_clearMB_Click;
+            // 
             // ManageBooks
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(760, 615);
+            Controls.Add(btn_clearMB);
             Controls.Add(btn_back);
             Controls.Add(tabControl);
             Controls.Add(lbl_categories_LF);
@@ -201,11 +189,10 @@
             Controls.Add(lbl_search_LF);
             Name = "ManageBooks";
             Text = "Form1";
+            Load += ManageBooks_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_all_MB).EndInit();
             tabControl.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
-            tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgv_Available_MB).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -223,8 +210,7 @@
         private ComboBox cmbBox_categories_LF;
         private TabControl tabControl;
         private TabPage tabPage1;
-        private TabPage tabPage2;
-        private DataGridView dgv_Available_MB;
         private Button btn_back;
+        private Button btn_clearMB;
     }
 }

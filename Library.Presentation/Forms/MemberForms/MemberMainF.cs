@@ -64,17 +64,17 @@ namespace Library.Presentation.Forms.MemberForms
                 MessageBox.Show("Please select a book first.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            try
-            {
+            //try
+            //{
                 BorrowRecordService.AddBorrowRecord(BookID, MemberID);
                 MessageBox.Show("Book borrowed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 dgv_availableBooks_MF.DataSource = BookService.GetAvailableBooks();
                 ClearFields();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "You Alrady Borrowed this or You Borrowd more than 5", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message, "You Alrady Borrowed this or You Borrowd more than 5", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
 
         }
 

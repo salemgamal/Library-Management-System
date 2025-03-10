@@ -53,10 +53,12 @@ namespace Library.DataAccess.Repositry
             searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
             var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-            return _context.Books.Where(b => words.Any(w =>
-                b.Title.ToLower().Contains(w) ||
-                b.Author.ToLower().Contains(w) ||
-                b.Category.ToLower().Contains(w)))
+            return _context.Books.Where(b =>
+                string.IsNullOrEmpty(searchKey) ||
+                b.Category.ToLower().Contains(searchKey) ||
+                words.Any(w =>
+                    b.Title.ToLower().Contains(w) ||
+                    b.Author.ToLower().Contains(w)))
             .ToList();
         }
 
@@ -71,15 +73,28 @@ namespace Library.DataAccess.Repositry
         public List<Book> SearchAvailableBook(string searchKey)
         {
             searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
+
+            // Get all available books if no search key is provided
+            if (string.IsNullOrEmpty(searchKey))
+            {
+                return GetAvailableBooks();
+            }
+
             var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            // Check if the search key contains a year
+            bool isYearSearch = words.Any(w => int.TryParse(w, out _));
+            int searchYear = isYearSearch ? words.Where(w => int.TryParse(w, out _)).Select(int.Parse).FirstOrDefault() : 0;
 
             return _context.Books
                 .Where(b => b.Quantity > 0 && words.Any(w =>
                     b.Title.ToLower().Contains(w) ||
                     b.Author.ToLower().Contains(w) ||
-                    b.Category.ToLower().Contains(w)))
+                    b.Category.ToLower().Contains(w)||
+                    (isYearSearch && b.PublishedYear == searchYear)))
                 .ToList();
         }
+
 
     }
 }

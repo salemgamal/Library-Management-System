@@ -81,45 +81,50 @@ namespace Library.DataAccess.Repositry
         {
             return _context.BorrowRecords.Where(b => b.DueDate < DateTime.UtcNow.Date && b.ReturnDate == null).ToList();
         }
-        //search borrowed books
-        public List<BorrowRecord> SearchBorrowedBooks(string searchKey, DateTime? date)
+        // Search borrowed books (not yet returned)
+        public List<BorrowRecord> SearchBorrowedBooks(string searchKey)
         {
             searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
             var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-            return _context.BorrowRecords
-                .Include(r => r.Book)
-                .Include(r => r.Member)
-                .Where(r => r.ReturnDate == null
-                    && r.Book != null
-                    && words.Any(w => r.Book.Title.ToLower().Contains(w)
-                                    || r.Book.Author.ToLower().Contains(w)
-                                    || r.Book.Category.ToLower().Contains(w)
-                                    || r.Member.Name.ToLower().Contains(w)
-                                    || (date.HasValue && (r.BorrowDate == date || r.DueDate == date))))
-                .ToList();
-        }
-
-
-        //serach overdue books
-        public List<BorrowRecord> SearchOverDueBooks(string searchKey, DateTime? date)
-        {
-            searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
-            var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
+            bool isYearSearch = words.Any(w => int.TryParse(w, out _));
+            int searchYear = isYearSearch ? words.Where(w => int.TryParse(w, out _)).Select(int.Parse).FirstOrDefault() : 0;
 
             return _context.BorrowRecords
                 .Include(r => r.Book)
                 .Include(r => r.Member)
                 .Where(r => r.ReturnDate == null &&
-                            r.Book != null &&
-                            (words.Any(w =>
-                                r.Book.Title.ToLower().Contains(w) ||
-                                r.Book.Author.ToLower().Contains(w) ||
-                                r.Book.Category.ToLower().Contains(w) ||
-                                r.Member.Name.ToLower().Contains(w))
-                            || (date.HasValue &&
-                                (r.BorrowDate == date || r.DueDate == date))))
+                    (string.IsNullOrEmpty(searchKey) || words.Any(w =>
+                        r.Book.Title.ToLower().Contains(w) ||
+                        r.Book.Author.ToLower().Contains(w) ||
+                        r.Book.Category.ToLower().Contains(w) ||
+                        r.Member.Name.ToLower().Contains(w)) ||
+                    (isYearSearch && r.BorrowDate.Year == searchYear || r.DueDate.Year == searchYear)))
                 .ToList();
         }
+
+        // Search overdue books (past due date and not returned)
+        public List<BorrowRecord> SearchOverDueBooks(string searchKey)
+        {
+            searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
+            var words = searchKey.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            bool isYearSearch = words.Any(w => int.TryParse(w, out _));
+            int searchYear = isYearSearch ? words.Where(w => int.TryParse(w, out _)).Select(int.Parse).FirstOrDefault() : 0;
+
+            return _context.BorrowRecords
+                .Include(r => r.Book)
+                .Include(r => r.Member)
+               .Where(r => r.ReturnDate == null && r.DueDate < DateTime.Now &&
+   (words.Any(w =>
+       r.Book.Title.ToLower().Contains(w) ||
+       r.Book.Author.ToLower().Contains(w) ||
+       r.Book.Category.ToLower().Contains(w) ||
+       r.Member.Name.ToLower().Contains(w)) ||
+   (isYearSearch && (r.BorrowDate.Year == searchYear || r.DueDate.Year == searchYear))))
+
+                .ToList();
+        }
+
     }
 }

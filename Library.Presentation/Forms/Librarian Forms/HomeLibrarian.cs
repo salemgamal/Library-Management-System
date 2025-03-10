@@ -42,7 +42,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
 
             if (preForm != null && !preForm.IsDisposed)
             {
-                preForm.Show();
+                preForm.ShowDialog();
             }
             else
             {

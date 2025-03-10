@@ -55,8 +55,11 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 //redirect user based on his role
                 if (user.Role == UserRole.Admin)
                 {
-                    //this.Hide();
-                    
+                    this.Hide();
+                    AdminDashBoard admin = new AdminDashBoard(this);
+                    admin.ShowDialog();
+                    this.Show();
+
                 }
                 else if (user.Role == UserRole.Librarian)
                 {
@@ -69,8 +72,11 @@ namespace Library.Presentation.Forms.Authentication_Forms
                 }
                 else if (user.Role == UserRole.Member)
                 {
-                    //this.Hide();
-                    
+
+                    this.Hide();
+                    MemberMainF member = new MemberMainF(user.UserId, this);
+                    member.ShowDialog();
+                    this.Show();
 
                 }
             }

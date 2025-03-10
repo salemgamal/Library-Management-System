@@ -111,6 +111,19 @@ namespace Library.DataAccess.Models
                         Phone = "01553462979"
                     }
              );
+
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    UserId = 100,
+                    UserName = "saraAdmin",
+                    Password = "admin",
+                    Role = UserRole.Admin,
+                    Name = "Sara Yasser",
+                    Email = "sarahyasser979@gmail.com",
+                    Phone = "01159757952"
+                }
+                );
         }
     }
 }

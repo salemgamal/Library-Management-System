@@ -50,7 +50,7 @@ namespace Library.BusinessLogic.Services
                         throw new Exception("Book is not available");
                     }
                     var borrowRecord = new BorrowRecord
-                    {
+                    {                        
                         BookId = BookId,
                         MemberId = MemberId,
                         BorrowDate = DateTime.Now.Date,
@@ -118,5 +118,29 @@ namespace Library.BusinessLogic.Services
         {
             return _borrowRecordRepo.GetOverdueBooks();
         }
+
+        public List<BorrowRecord> SearchBorrowedBook(string searchKey)
+        {
+            
+                return _borrowRecordRepo.SearchBorrowedBooks(searchKey);
+            
+        }
+
+        public List<BorrowRecord> SearchOverDueBook(string searchKey )
+        {
+                return _borrowRecordRepo.SearchOverDueBooks(searchKey);
+            
+        }
+
+        public List<LogAction> GetLogActions() { 
+        
+            return _logActionRepo.GetLogActions();
+        }
+
+        public List<LogAction> searchLogActions(string searchKey) { 
+            return _logActionRepo.SearchLogActions(searchKey);
+        }
+
+        
     }
 }

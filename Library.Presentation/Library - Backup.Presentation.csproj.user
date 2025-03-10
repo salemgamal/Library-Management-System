@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Forms\AdminForms\AdminDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AdminForms\ManageAdmins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AdminForms\ManageBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AdminForms\ManageLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AdminForms\ManageMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Authentication Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Authentication Forms\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Authentication Forms\Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\AddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\BorrowReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\EditBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\HomeLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Librarian Forms\ManageBooks.cs">
+    <Compile Update="Forms\MemberForms\MemberBorrowedBooksF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MemberForms\MemberMainF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MemberForms\NotificationF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

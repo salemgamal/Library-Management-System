@@ -35,5 +35,13 @@ namespace Library.DataAccess.Models
         public virtual List<BorrowRecord> BorrowRecords { get; set; }
         public virtual List<LogAction> LogActions { get; set; }
 
+        public override string ToString()
+        {
+            return $"{BookId}- {Title}, Author: {Author}, ISBN: {ISBN}, Category: {Category}, " +
+                   $"Quantity: {Quantity}, PublishedYear: {PublishedYear}, " +
+                   $"BorrowRecords: {BorrowRecords?.Count ?? 0}, LogActions: {LogActions?.Count ?? 0}";
+        }
+
+
     }
 }

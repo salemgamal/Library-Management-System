@@ -8,6 +8,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.Pdf;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositry;
@@ -19,14 +20,14 @@ namespace Library.Presentation.Forms.Authentication_Forms
         LibraryDbContext context;
         UserRepository userRepo;
         UserService userService;
-        Form oldForm;
-        public Register(Form oldF)
+        Form preForm;
+        public Register(Form preF)
         {
             InitializeComponent();
             context = new LibraryDbContext();
             userRepo = new UserRepository(context);
             userService = new UserService(userRepo);
-            oldForm = oldF;
+            preForm = preF;
         }
 
         // button register click
@@ -128,8 +129,17 @@ namespace Library.Presentation.Forms.Authentication_Forms
 
         private void btn_back_R_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            oldForm.Show();
+            this.Close();
+
+            if (preForm != null && !preForm.IsDisposed)
+            {
+                preForm.Show();
+            }
+            else
+            {
+                // Optional: Handle the case where preForm is disposed
+                MessageBox.Show("The previous page is no longer available.");
+            }
         }
     }
 }

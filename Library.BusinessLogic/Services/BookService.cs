@@ -59,18 +59,21 @@ namespace Library.BusinessLogic.Services
         }
         public List<Book> SearchBook(string searchKey)
         {
-            if (string.IsNullOrEmpty(searchKey))
-            {
-                throw new Exception("Search key is required");
-            }
-            else
-            {
-                return _bookRepo.SearchBook(searchKey);
-            }
+            return _bookRepo.SearchBook(searchKey);
+            
+        }
+
+        public List<Book> SearchAvailBook(string searchKey)
+        {
+            
+                return _bookRepo.SearchAvailableBook(searchKey);
+            
         }
         public List<Book> GetAvailableBooks()
         {
             return _bookRepo.GetAvailableBooks().ToList();
         }
+
+
     }
 }

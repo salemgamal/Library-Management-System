@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -101,7 +102,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -186,7 +188,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
@@ -214,6 +217,26 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "BarCode": {
+              "target": "Package",
+              "version": "[2025.3.4, )"
+            },
+            "DevExpress.Win": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
+            "DevExpress.Win.Design": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
+            "DevExpress.Win.Reporting": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -231,6 +254,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.ReportViewer.WinForms": {
+              "target": "Package",
+              "version": "[10.0.40219.1, )"
+            },
+            "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
+              "target": "Package",
+              "version": "[150.1652.0, )"
             },
             "QRCoder": {
               "target": "Package",
@@ -260,7 +291,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
             }
           },

@@ -1,4 +1,5 @@
-﻿namespace Library.Presentation.Forms.MemberForms
+﻿
+namespace Library.Presentation.Forms.MemberForms
 {
     partial class MemberMainF
     {
@@ -44,8 +45,15 @@
             btn_back_MF = new Button();
             btn_clear_MF = new Button();
             panel_QR_MF = new Panel();
+            txtQRCode = new TextBox();
+            btnStart = new Button();
+            pictureBox1 = new PictureBox();
+            cboDevice = new ComboBox();
+            label6 = new Label();
             btn_scan_MF = new Button();
+            btnCapture = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_availableBooks_MF).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // dgv_availableBooks_MF
@@ -54,7 +62,7 @@
             dgv_availableBooks_MF.Location = new Point(12, 250);
             dgv_availableBooks_MF.Name = "dgv_availableBooks_MF";
             dgv_availableBooks_MF.RowHeadersWidth = 51;
-            dgv_availableBooks_MF.Size = new Size(776, 188);
+            dgv_availableBooks_MF.Size = new Size(580, 227);
             dgv_availableBooks_MF.TabIndex = 0;
             dgv_availableBooks_MF.RowHeaderMouseDoubleClick += dgv_availableBooks_MF_RowHeaderMouseDoubleClick;
             // 
@@ -145,7 +153,7 @@
             // 
             // brn_borrow_MF
             // 
-            brn_borrow_MF.Location = new Point(370, 29);
+            brn_borrow_MF.Location = new Point(105, 212);
             brn_borrow_MF.Name = "brn_borrow_MF";
             brn_borrow_MF.Size = new Size(94, 29);
             brn_borrow_MF.TabIndex = 11;
@@ -155,7 +163,7 @@
             // 
             // btn_memberRecords_MF
             // 
-            btn_memberRecords_MF.Location = new Point(370, 77);
+            btn_memberRecords_MF.Location = new Point(205, 212);
             btn_memberRecords_MF.Name = "btn_memberRecords_MF";
             btn_memberRecords_MF.Size = new Size(94, 29);
             btn_memberRecords_MF.TabIndex = 12;
@@ -165,17 +173,17 @@
             // 
             // btn_back_MF
             // 
-            btn_back_MF.Location = new Point(370, 179);
+            btn_back_MF.Location = new Point(5, 212);
             btn_back_MF.Name = "btn_back_MF";
             btn_back_MF.Size = new Size(94, 29);
             btn_back_MF.TabIndex = 13;
-            btn_back_MF.Text = "back";
+            btn_back_MF.Text = "Logout";
             btn_back_MF.UseVisualStyleBackColor = true;
             btn_back_MF.Click += btn_back_MF_Click;
             // 
             // btn_clear_MF
             // 
-            btn_clear_MF.Location = new Point(370, 130);
+            btn_clear_MF.Location = new Point(305, 212);
             btn_clear_MF.Name = "btn_clear_MF";
             btn_clear_MF.Size = new Size(94, 29);
             btn_clear_MF.TabIndex = 14;
@@ -185,14 +193,58 @@
             // 
             // panel_QR_MF
             // 
-            panel_QR_MF.Location = new Point(599, 12);
+            panel_QR_MF.Location = new Point(326, 12);
             panel_QR_MF.Name = "panel_QR_MF";
             panel_QR_MF.Size = new Size(189, 187);
             panel_QR_MF.TabIndex = 15;
             // 
+            // txtQRCode
+            // 
+            txtQRCode.Location = new Point(771, 6);
+            txtQRCode.Multiline = true;
+            txtQRCode.Name = "txtQRCode";
+            txtQRCode.Size = new Size(404, 91);
+            txtQRCode.TabIndex = 21;
+            // 
+            // btnStart
+            // 
+            btnStart.Location = new Point(405, 212);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(189, 29);
+            btnStart.TabIndex = 20;
+            btnStart.Text = "&Start";
+            btnStart.UseVisualStyleBackColor = true;
+            btnStart.Click += btnStart_Click_1;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox1.Location = new Point(614, 103);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(561, 374);
+            pictureBox1.TabIndex = 17;
+            pictureBox1.TabStop = false;
+            // 
+            // cboDevice
+            // 
+            cboDevice.FormattingEnabled = true;
+            cboDevice.Location = new Point(614, 6);
+            cboDevice.Name = "cboDevice";
+            cboDevice.Size = new Size(151, 28);
+            cboDevice.TabIndex = 18;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(534, 9);
+            label6.Name = "label6";
+            label6.Size = new Size(58, 20);
+            label6.TabIndex = 19;
+            label6.Text = "camera";
+            // 
             // btn_scan_MF
             // 
-            btn_scan_MF.Location = new Point(642, 215);
+            btn_scan_MF.Location = new Point(656, 56);
             btn_scan_MF.Name = "btn_scan_MF";
             btn_scan_MF.Size = new Size(94, 29);
             btn_scan_MF.TabIndex = 16;
@@ -200,11 +252,27 @@
             btn_scan_MF.UseVisualStyleBackColor = true;
             btn_scan_MF.Click += btn_scan_MF_Click;
             // 
+            // btnCapture
+            // 
+            btnCapture.Location = new Point(534, 54);
+            btnCapture.Name = "btnCapture";
+            btnCapture.Size = new Size(94, 29);
+            btnCapture.TabIndex = 22;
+            btnCapture.Text = "Capture";
+            btnCapture.UseVisualStyleBackColor = true;
+            btnCapture.Click += btnCapture_Click;
+            // 
             // MemberMainF
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1187, 519);
+            Controls.Add(btnCapture);
+            Controls.Add(txtQRCode);
+            Controls.Add(btnStart);
+            Controls.Add(label6);
+            Controls.Add(cboDevice);
+            Controls.Add(pictureBox1);
             Controls.Add(btn_scan_MF);
             Controls.Add(panel_QR_MF);
             Controls.Add(btn_clear_MF);
@@ -226,8 +294,19 @@
             Text = "MemberMainF";
             Load += MemberMainF_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_availableBooks_MF).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void MemberMainF_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
@@ -248,6 +327,12 @@
         private Button btn_back_MF;
         private Button btn_clear_MF;
         private Panel panel_QR_MF;
+        private TextBox txtQRCode;
+        private Button btnStart;
+        private PictureBox pictureBox1;
+        private ComboBox cboDevice;
+        private Label label6;
         private Button btn_scan_MF;
+        private Button btnCapture;
     }
 }

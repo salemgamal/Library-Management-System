@@ -68,6 +68,13 @@ namespace Library.BusinessLogic.Services
                 return _bookRepo.SearchBook(searchKey);
             }
         }
+        public List<Book> SearchAvailBook(string searchKey)
+        {
+
+            return _bookRepo.SearchAvailableBook(searchKey);
+
+        }
+
         public List<Book> GetAvailableBooks()
         {
             return _bookRepo.GetAvailableBooks().ToList();

@@ -339,10 +339,6 @@ namespace Library.Presentation.Admin
             oldForm.Show();
         }
 
-        private void btn_manageLib_MLF_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            oldForm.Show();
-        }
+        
     }
 }

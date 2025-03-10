@@ -19,5 +19,6 @@ namespace Library.Presentation.Forms.MemberForms
             InitializeComponent();
             pictureBoxQRCode.Image = qrCodeImage;
         }
+        
     }
 }

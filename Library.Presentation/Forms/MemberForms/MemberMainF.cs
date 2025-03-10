@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -11,6 +12,14 @@ using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
 using Library.DataAccess.Repositories;
 using Library.DataAccess.Repositry;
+using QRCoder;
+using System.Drawing;
+using System.Globalization;
+using ZXing;
+using ZXing.QrCode;
+using ZXing.Common;
+using ZXing.Rendering;
+
 
 namespace Library.Presentation.Forms.MemberForms
 {
@@ -37,6 +46,7 @@ namespace Library.Presentation.Forms.MemberForms
         private void MemberMainF_Load(object sender, EventArgs e)
         {
             dgv_availableBooks_MF.DataSource = BookService.GetAvailableBooks();
+            brn_borrow_MF.Enabled = false;
 
         }
 
@@ -44,18 +54,57 @@ namespace Library.Presentation.Forms.MemberForms
         {
             if (dgv_availableBooks_MF.SelectedRows.Count > 0)
             {
+                brn_borrow_MF.Enabled = true;
                 BookID = (int)dgv_availableBooks_MF.SelectedRows[0].Cells[0].Value;
                 txt_title_MF.Text = dgv_availableBooks_MF.SelectedRows[0].Cells["Title"].Value.ToString();
                 txt_author_MF.Text = dgv_availableBooks_MF.SelectedRows[0].Cells["Author"].Value.ToString();
                 txt_category_MF.Text = dgv_availableBooks_MF.SelectedRows[0].Cells["Category"].Value.ToString();
                 txt_year_MF.Text = dgv_availableBooks_MF.SelectedRows[0].Cells["PublishedYear"].Value.ToString();
                 txt_dueDate_MF.Text = DateTime.Now.AddDays(7).ToString("yyyy-MM-dd");
+
+                //for QR message
+                string title = dgv_availableBooks_MF.SelectedRows[0].Cells["Title"].Value.ToString();
+                string author = dgv_availableBooks_MF.SelectedRows[0].Cells["Author"].Value.ToString();
+                string isbn = dgv_availableBooks_MF.SelectedRows[0].Cells["ISBN"].Value.ToString();
+                string year = dgv_availableBooks_MF.SelectedRows[0].Cells["PublishedYear"].Value.ToString();
+
+                string qrCodeData = $"📚 Book Details:\n\n" +
+                    $"🆔 BookID: {BookID}\n" +
+                    $"📖 Title: {title}\n" +
+                    $"✍️ Author: {author}\n" +
+                    $"🔖 ISBN: {isbn}\n" +
+                    $"📅 Published in: {year}";
+
+                Bitmap qrCodeImage = GenerateQRCode(qrCodeData);
+                ShowQRInPanel(qrCodeImage);
             }
             else
             {
                 MessageBox.Show("Please select a row first.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+        //show QR in panel
+        private void ShowQRInPanel(Bitmap qrCodeImage)
+        {
+            panel_QR_MF.Controls.Clear();
+
+            PictureBox pictureBoxQR = new PictureBox
+            {
+                Image = qrCodeImage,
+                SizeMode = PictureBoxSizeMode.Zoom,
+                Dock = DockStyle.Fill
+            };
+            panel_QR_MF.Controls.Add(pictureBoxQR);
+        }
+        private Bitmap GenerateQRCode(string data)
+        {
+            QRCodeGenerator qrGenerator = new QRCodeGenerator();
+            QRCodeData qrCodeData = qrGenerator.CreateQrCode(data, QRCodeGenerator.ECCLevel.Q);
+            QRCode qrCode = new QRCode(qrCodeData);
+            Bitmap qrCodeImage = qrCode.GetGraphic(20);
+            return qrCodeImage;
+        }
+
 
         private void brn_borrow_MF_Click(object sender, EventArgs e)
         {
@@ -78,6 +127,8 @@ namespace Library.Presentation.Forms.MemberForms
 
         }
 
+
+
         private void btn_memberRecords_MF_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -98,6 +149,116 @@ namespace Library.Presentation.Forms.MemberForms
         private void btn_clear_MF_Click(object sender, EventArgs e)
         {
             ClearFields();
+            if (dgv_availableBooks_MF.SelectedRows.Count > 0)
+            {
+                dgv_availableBooks_MF.ClearSelection();
+                dgv_availableBooks_MF.CurrentCell = null;
+            }
+            panel_QR_MF.Controls.Clear();
+            BookID = 0;
+            brn_borrow_MF.Enabled = false;
         }
+
+        private void btn_scan_MF_Click(object sender, EventArgs e)
+        {
+            //OpenFileDialog openFileDialog = new OpenFileDialog
+            //{
+            //    Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp",
+            //    Title = "Select a QR Code Image"
+            //};
+            //if (openFileDialog.ShowDialog() == DialogResult.OK)
+            //{ 
+            //    try
+            //    {
+            //        QRCodeForm q = new QRCodeForm();
+            //        //get image from picture box
+            //        var image = QRCodeF
+            //        Bitmap qrCodeImage = new Bitmap();
+            //        string qrCodeData = DecodeQRCode(qrCodeImage);
+            //        int bookId = ExtractBookIdFromQRCodeData(qrCodeData);
+            //        if (bookId > 0)
+            //        {
+            //            BorrowBook(bookId);
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Invalid QR Code", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //        }
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        MessageBox.Show($"Error scanning QR code: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    }
+            //}
+        }
+
+        //private string DecodeQRCode(Bitmap qrCodeImage)
+        //{
+        //     try
+        //        {
+        //            BarcodeReader reader = new BarcodeReader();
+
+        //            // Decode directly from Bitmap
+        //            Result result = BarcodeReader.Decode((Bitmap)qrCodeImage);
+
+        //            if (result != null)
+        //            {
+        //                return result.Text;
+        //            }
+        //            else
+        //            {
+        //                throw new Exception("QR code could not be decoded.");
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            MessageBox.Show($"Error decoding QR Code: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //            return string.Empty;
+        //        }
+        //}
+
+
+        //private int ExtractBookIdFromQRCodeData(string qrCodeData)
+        //{
+        //    string[] lines = qrCodeData.Split('\n');
+
+        //    foreach (string line in lines)
+        //    {
+        //        if (line.StartsWith("🆔 BookID:"))
+        //        {
+        //            string bookIdStr = line.Replace("🆔 BookID:", "").Trim();
+        //            if (int.TryParse(bookIdStr, out int bookId))
+        //            {
+        //                return bookId;
+        //            }
+        //        }
+        //    }
+
+        //    return 0;
+        //}
+
+        //private void BorrowBook(int bookId)
+        //{
+        //    try
+        //    {
+        //        BorrowRecordService.AddBorrowRecord(bookId, MemberID);
+        //        MessageBox.Show("Book borrowed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        //        // Refresh the DataGridView
+        //        dgv_availableBooks_MF.DataSource = BookService.GetAvailableBooks();
+
+        //        // Clear fields and reset UI
+        //        ClearFields();
+        //        panel_QR_MF.Controls.Clear();
+        //        BookID = 0;
+        //        brn_borrow_MF.Enabled = false;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //}
+
+
     }
 }

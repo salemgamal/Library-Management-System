@@ -43,6 +43,8 @@
             btn_memberRecords_MF = new Button();
             btn_back_MF = new Button();
             btn_clear_MF = new Button();
+            panel_QR_MF = new Panel();
+            btn_scan_MF = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_availableBooks_MF).BeginInit();
             SuspendLayout();
             // 
@@ -105,6 +107,7 @@
             // 
             txt_title_MF.Location = new Point(191, 20);
             txt_title_MF.Name = "txt_title_MF";
+            txt_title_MF.ReadOnly = true;
             txt_title_MF.Size = new Size(125, 27);
             txt_title_MF.TabIndex = 6;
             // 
@@ -112,6 +115,7 @@
             // 
             txt_author_MF.Location = new Point(191, 56);
             txt_author_MF.Name = "txt_author_MF";
+            txt_author_MF.ReadOnly = true;
             txt_author_MF.Size = new Size(125, 27);
             txt_author_MF.TabIndex = 7;
             // 
@@ -119,6 +123,7 @@
             // 
             txt_category_MF.Location = new Point(191, 99);
             txt_category_MF.Name = "txt_category_MF";
+            txt_category_MF.ReadOnly = true;
             txt_category_MF.Size = new Size(125, 27);
             txt_category_MF.TabIndex = 8;
             // 
@@ -126,6 +131,7 @@
             // 
             txt_year_MF.Location = new Point(191, 136);
             txt_year_MF.Name = "txt_year_MF";
+            txt_year_MF.ReadOnly = true;
             txt_year_MF.Size = new Size(125, 27);
             txt_year_MF.TabIndex = 9;
             // 
@@ -133,12 +139,13 @@
             // 
             txt_dueDate_MF.Location = new Point(191, 179);
             txt_dueDate_MF.Name = "txt_dueDate_MF";
+            txt_dueDate_MF.ReadOnly = true;
             txt_dueDate_MF.Size = new Size(125, 27);
             txt_dueDate_MF.TabIndex = 10;
             // 
             // brn_borrow_MF
             // 
-            brn_borrow_MF.Location = new Point(486, 50);
+            brn_borrow_MF.Location = new Point(370, 29);
             brn_borrow_MF.Name = "brn_borrow_MF";
             brn_borrow_MF.Size = new Size(94, 29);
             brn_borrow_MF.TabIndex = 11;
@@ -148,7 +155,7 @@
             // 
             // btn_memberRecords_MF
             // 
-            btn_memberRecords_MF.Location = new Point(486, 111);
+            btn_memberRecords_MF.Location = new Point(370, 77);
             btn_memberRecords_MF.Name = "btn_memberRecords_MF";
             btn_memberRecords_MF.Size = new Size(94, 29);
             btn_memberRecords_MF.TabIndex = 12;
@@ -158,7 +165,7 @@
             // 
             // btn_back_MF
             // 
-            btn_back_MF.Location = new Point(694, 189);
+            btn_back_MF.Location = new Point(370, 179);
             btn_back_MF.Name = "btn_back_MF";
             btn_back_MF.Size = new Size(94, 29);
             btn_back_MF.TabIndex = 13;
@@ -168,19 +175,38 @@
             // 
             // btn_clear_MF
             // 
-            btn_clear_MF.Location = new Point(191, 215);
+            btn_clear_MF.Location = new Point(370, 130);
             btn_clear_MF.Name = "btn_clear_MF";
-            btn_clear_MF.Size = new Size(125, 29);
+            btn_clear_MF.Size = new Size(94, 29);
             btn_clear_MF.TabIndex = 14;
             btn_clear_MF.Text = "Clear";
             btn_clear_MF.UseVisualStyleBackColor = true;
             btn_clear_MF.Click += btn_clear_MF_Click;
+            // 
+            // panel_QR_MF
+            // 
+            panel_QR_MF.Location = new Point(599, 12);
+            panel_QR_MF.Name = "panel_QR_MF";
+            panel_QR_MF.Size = new Size(189, 187);
+            panel_QR_MF.TabIndex = 15;
+            // 
+            // btn_scan_MF
+            // 
+            btn_scan_MF.Location = new Point(642, 215);
+            btn_scan_MF.Name = "btn_scan_MF";
+            btn_scan_MF.Size = new Size(94, 29);
+            btn_scan_MF.TabIndex = 16;
+            btn_scan_MF.Text = "Scan";
+            btn_scan_MF.UseVisualStyleBackColor = true;
+            btn_scan_MF.Click += btn_scan_MF_Click;
             // 
             // MemberMainF
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_scan_MF);
+            Controls.Add(panel_QR_MF);
             Controls.Add(btn_clear_MF);
             Controls.Add(btn_back_MF);
             Controls.Add(btn_memberRecords_MF);
@@ -221,5 +247,7 @@
         private Button btn_memberRecords_MF;
         private Button btn_back_MF;
         private Button btn_clear_MF;
+        private Panel panel_QR_MF;
+        private Button btn_scan_MF;
     }
 }

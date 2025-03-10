@@ -314,3 +314,6 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\o
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageBooks.resources
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageLibrarian.resources
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Admin.ManageMembers.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\bin\Debug\net9.0-windows\QRCoder.dll
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Forms.MemberForms.QRCodeForm.resources
+D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.Presentation\bin\Debug\net9.0-windows\zxing.dll

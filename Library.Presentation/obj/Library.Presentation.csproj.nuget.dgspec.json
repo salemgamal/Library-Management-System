@@ -232,9 +232,17 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.5, )"
             }
           },
           "imports": [

@@ -38,6 +38,7 @@ namespace Library.Presentation.Forms.MemberForms
             btn_back_MBF = new Button();
             btn_notification_MBF = new Button();
             panel1 = new Panel();
+            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             ((System.ComponentModel.ISupportInitialize)dgv_borrowedBooks_MBF).BeginInit();
             SuspendLayout();
             // 
@@ -122,6 +123,11 @@ namespace Library.Presentation.Forms.MemberForms
             panel1.Size = new Size(379, 192);
             panel1.TabIndex = 10;
             // 
+            // sqlCommand1
+            // 
+            sqlCommand1.CommandTimeout = 30;
+            sqlCommand1.EnableOptimizedParameterBinding = false;
+            // 
             // MemberBorrowedBooksF
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -159,5 +165,6 @@ namespace Library.Presentation.Forms.MemberForms
         private Button btn_back_MBF;
         private Button btn_notification_MBF;
         private Panel panel1;
+        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
     }
 }

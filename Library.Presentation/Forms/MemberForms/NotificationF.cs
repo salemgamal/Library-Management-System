@@ -63,7 +63,6 @@ namespace Library.Presentation.Forms.MemberForms
                 new{
                      Message = $"Book '{b.Book.Title}' is overdue! Due date was {b.DueDate:yyyy-MM-dd}"
                     }).ToList();
-
             dgv_notificationF_MBF.DataSource = notificationBooks;
         }
     }

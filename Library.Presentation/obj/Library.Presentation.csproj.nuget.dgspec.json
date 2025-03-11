@@ -270,10 +270,6 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[9.0.2, )"
-            },
-            "ZXing.Net": {
-              "target": "Package",
-              "version": "[0.16.5, )"
             }
           },
           "imports": [

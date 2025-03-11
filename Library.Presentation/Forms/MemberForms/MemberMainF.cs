@@ -50,9 +50,6 @@ namespace Library.Presentation.Forms.MemberForms
             this.Old = oldForm;
         }
 
-        //FilterInfoCollection filterInfoCollection;
-        //VideoCaptureDevice captureDevice;
-
         private void MemberMainF_Load(object sender, EventArgs e)
         {
             dgv_availableBooks_MF.DataSource = BookService.GetAvailableBooks();
@@ -96,7 +93,7 @@ namespace Library.Presentation.Forms.MemberForms
                     if (results != null)
                     {
                         txtQRCode.Text = results.First().Text;
-                        videoCaptureDevice.SignalToStop(); // Stop the camera after successful scan
+                        videoCaptureDevice.SignalToStop();
                     }
                     else
                     {
@@ -113,7 +110,73 @@ namespace Library.Presentation.Forms.MemberForms
         {
             pictureBox1.Image = (Bitmap)eventArgs.Frame.Clone();
         }
-        
+        private void btn_scan_MF_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                // Extract the BookID from the decoded QR code data
+                int bookId = ExtractBookIdFromQRCodeData(txtQRCode.Text);
+
+                if (bookId > 0)
+                {
+                    // Borrow the book if a valid BookID is found
+                    BorrowBook(bookId);
+                }
+                else
+                {
+                    MessageBox.Show("Invalid QR Code: No valid BookID found.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any errors that occur during the process
+                MessageBox.Show($"Error scanning QR code: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+
+        private int ExtractBookIdFromQRCodeData(string qrCodeData)
+        {
+            string[] lines = qrCodeData.Split('\n');
+
+            foreach (string line in lines)
+            {
+                if (line.StartsWith("🆔 BookID:"))
+                {
+                    string bookIdStr = line.Replace("🆔 BookID:", "").Trim();
+                    if (int.TryParse(bookIdStr, out int bookId))
+                    {
+                        return bookId;
+                    }
+                }
+            }
+
+            return 0;
+        }
+
+        private void BorrowBook(int bookId)
+        {
+            try
+            {
+                BorrowRecordService.AddBorrowRecord(bookId, MemberID);
+                MessageBox.Show("Book borrowed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Refresh the DataGridView
+                dgv_availableBooks_MF.DataSource = BookService.GetAvailableBooks();
+
+                // Clear fields and reset UI
+                ClearFields();
+                panel_QR_MF.Controls.Clear();
+                BookID = 0;
+                brn_borrow_MF.Enabled = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         private void dgv_availableBooks_MF_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -232,118 +295,9 @@ namespace Library.Presentation.Forms.MemberForms
             }
         }
 
-        private void btn_scan_MF_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            try
-            {
 
-                // Extract the BookID from the decoded QR code data
-                int bookId = ExtractBookIdFromQRCodeData(txtQRCode.Text);
-
-                if (bookId > 0)
-                {
-                    // Borrow the book if a valid BookID is found
-                    BorrowBook(bookId);
-                }
-                else
-                {
-                    MessageBox.Show("Invalid QR Code: No valid BookID found.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-            }
-            catch (Exception ex)
-            {
-                // Handle any errors that occur during the process
-                MessageBox.Show($"Error scanning QR code: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
         }
-
-        //}
-
-        //public byte[] BitmapToByteArray(Bitmap bitmap)
-        //{
-        //    using (MemoryStream ms = new MemoryStream())
-        //    {
-        //        bitmap.Save(ms, System.Drawing.Imaging.ImageFormat.Png); // or another format
-        //        return ms.ToArray();
-        //    }
-        //}
-
-        //private string DecodeQRCode(Bitmap qrCodeImage)
-        //{
-        //    try
-        //    {
-        //        BarcodeReader reader = new BarcodeReader();
-
-        //        byte[] byteArray = BitmapToByteArray(qrCodeImage);
-
-        //        //ImageConverter converter = new ImageConverter();
-        //        //byte[] bytes = (byte[])converter.ConvertTo(qrCodeImage, typeof(byte[]));
-
-        //        var luminanceSource = new RGBLuminanceSource(byteArray, qrCodeImage.Width, qrCodeImage.Height);
-
-        //        //ImageConverter converter = new ImageConverter();
-        //        //byte[] bytes = (byte[])converter.ConvertTo(qrCodeImage, typeof(byte[]));
-        //        // Decode directly from Bitmap
-        //        Result result = reader.Decode(luminanceSource);
-
-        //        if (result != null)
-        //        {
-        //            return result.Text;
-        //        }
-        //        else
-        //        {
-        //            throw new Exception("QR code could not be decoded.");
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"Error decoding QR Code: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        return string.Empty;
-        //    }
-        //}
-
-
-        private int ExtractBookIdFromQRCodeData(string qrCodeData)
-        {
-            string[] lines = qrCodeData.Split('\n');
-
-            foreach (string line in lines)
-            {
-                if (line.StartsWith("🆔 BookID:"))
-                {
-                    string bookIdStr = line.Replace("🆔 BookID:", "").Trim();
-                    if (int.TryParse(bookIdStr, out int bookId))
-                    {
-                        return bookId;
-                    }
-                }
-            }
-
-            return 0;
-        }
-
-        private void BorrowBook(int bookId)
-        {
-            try
-            {
-                BorrowRecordService.AddBorrowRecord(bookId, MemberID);
-                MessageBox.Show("Book borrowed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Refresh the DataGridView
-                dgv_availableBooks_MF.DataSource = BookService.GetAvailableBooks();
-
-                // Clear fields and reset UI
-                ClearFields();
-                panel_QR_MF.Controls.Clear();
-                BookID = 0;
-                brn_borrow_MF.Enabled = false;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        
     }
 }

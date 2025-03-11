@@ -219,11 +219,12 @@ namespace Library.Presentation.Forms.MemberForms
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(614, 103);
+            pictureBox1.Location = new Point(600, 103);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(561, 374);
+            pictureBox1.Size = new Size(575, 404);
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // cboDevice
             // 
@@ -241,6 +242,7 @@ namespace Library.Presentation.Forms.MemberForms
             label6.Size = new Size(58, 20);
             label6.TabIndex = 19;
             label6.Text = "camera";
+            label6.Click += label6_Click;
             // 
             // btn_scan_MF
             // 
@@ -298,6 +300,23 @@ namespace Library.Presentation.Forms.MemberForms
             ResumeLayout(false);
             PerformLayout();
         }
+
+        private void panel_QR_MF_Paint(object sender, PaintEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void txtQRCode_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        
 
         private void MemberMainF_FormClosing(object sender, FormClosingEventArgs e)
         {

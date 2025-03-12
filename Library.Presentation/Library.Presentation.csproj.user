@@ -62,5 +62,8 @@
     <Compile Update="Forms\MemberForms\NotificationF.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\MemberForms\QRCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

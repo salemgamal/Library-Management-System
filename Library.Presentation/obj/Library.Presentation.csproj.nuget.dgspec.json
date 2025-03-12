@@ -234,6 +234,14 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "BarCode": {
+              "target": "Package",
+              "version": "[2025.3.4, )"
+            },
             "DevExpress.Win": {
               "target": "Package",
               "version": "[24.2.5, )"
@@ -271,6 +279,10 @@
             "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
               "target": "Package",
               "version": "[150.1652.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

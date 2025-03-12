@@ -146,13 +146,19 @@ namespace Library.Presentation.Admin
 
             };
 
-            userService.AddUser(newUser);
-            load_DGV();
-            ClearInouts();
-            MessageBox.Show("Successfully Added", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            var existingUsers = userService.GetAllUsers().Where(x => x.UserName == newUser.UserName || x.Email == newUser.Email).ToList();
+            if (existingUsers.Count == 0)
+            {
+                userService.AddUser(newUser);
+                load_DGV();
+                ClearInouts();
+                MessageBox.Show("Successfully Added", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("There is a user with the same Username or Email", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-
-
+            }
         }
 
         private void btn_update_MA_Click(object sender, EventArgs e)
@@ -249,8 +255,6 @@ namespace Library.Presentation.Admin
 
         }
 
-
-
         private void showIcon_Click(object sender, EventArgs e)
         {
             if (txt_userPass_MA.PasswordChar == '●')
@@ -276,6 +280,11 @@ namespace Library.Presentation.Admin
         {
             this.Hide();
             newF.Show();
+        }
+
+        private void btn_clear_MAF_Click(object sender, EventArgs e)
+        {
+            ClearInouts();
         }
     }
 }

@@ -116,15 +116,12 @@ namespace Library.DataAccess.Repositry
                 .Include(r => r.Book)
                 .Include(r => r.Member)
                .Where(r => r.ReturnDate == null && r.DueDate < DateTime.Now &&
-   (words.Any(w =>
-       r.Book.Title.ToLower().Contains(w) ||
-       r.Book.Author.ToLower().Contains(w) ||
-       r.Book.Category.ToLower().Contains(w) ||
-       r.Member.Name.ToLower().Contains(w)) ||
-   (isYearSearch && (r.BorrowDate.Year == searchYear || r.DueDate.Year == searchYear))))
-
-                .ToList();
+               (words.Any(w =>
+                   r.Book.Title.ToLower().Contains(w) ||
+                   r.Book.Author.ToLower().Contains(w) ||
+                   r.Book.Category.ToLower().Contains(w) ||
+                   r.Member.Name.ToLower().Contains(w)) ||
+               (isYearSearch && (r.BorrowDate.Year == searchYear || r.DueDate.Year == searchYear)))).ToList();
         }
-
     }
 }

@@ -104,16 +104,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
         private void btn_back_Click(object sender, EventArgs e)
         {
             this.Close();
-
-            if (preForm != null && !preForm.IsDisposed)
-            {
-                preForm.ShowDialog ();
-            }
-            else
-            {
-                // Optional: Handle the case where preForm is disposed
-                MessageBox.Show("The previous page is no longer available.");
-            }
+            preForm.Show();
         }
 
         private void BorrowReturn_Load(object sender, EventArgs e)

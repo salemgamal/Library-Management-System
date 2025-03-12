@@ -14,7 +14,7 @@ namespace Library.BusinessLogic.Services
         public BorrowRecordRepository _borrowRecordRepo;
         public BookRepository _bookRepo;
         public LogActionRepositry _logActionRepo;
-        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo , LogActionRepositry logActionRepo)
+        public BorrowRecordService(BorrowRecordRepository borrowRecordRepo, BookRepository bookRepo, LogActionRepositry logActionRepo)
         {
             _borrowRecordRepo = borrowRecordRepo;
             _bookRepo = bookRepo;
@@ -22,7 +22,7 @@ namespace Library.BusinessLogic.Services
         }
 
         //borrow
-        public void AddBorrowRecord( int BookId , int MemberId)
+        public void AddBorrowRecord(int BookId, int MemberId)
         {
             //check if Memner alraedy borrowed this book and did not returned yet
             var notReturnedBooks = GetNotReturnedBooks(MemberId);
@@ -86,7 +86,7 @@ namespace Library.BusinessLogic.Services
                 Date = DateTime.Now.Date
             };
             _logActionRepo.AddUserAction(returnLog);
-            _borrowRecordRepo.ReturnBook(MemberId , BookId);
+            _borrowRecordRepo.ReturnBook(MemberId, BookId);
         }
 
         //get all borrowed books
@@ -104,7 +104,7 @@ namespace Library.BusinessLogic.Services
         //get member borrowed books which he didn't return yet
         public List<BorrowRecord> GetNotReturnedBooks(int MemberID)
         {
-            return _borrowRecordRepo.GetNotReturnedBooks().Where( b => b.MemberId == MemberID ).ToList();
+            return _borrowRecordRepo.GetNotReturnedBooks().Where(b => b.MemberId == MemberID).ToList();
         }
 
         //get returned books
@@ -121,26 +121,28 @@ namespace Library.BusinessLogic.Services
 
         public List<BorrowRecord> SearchBorrowedBook(string searchKey)
         {
-            
-                return _borrowRecordRepo.SearchBorrowedBooks(searchKey);
-            
+
+            return _borrowRecordRepo.SearchBorrowedBooks(searchKey);
+
         }
 
-        public List<BorrowRecord> SearchOverDueBook(string searchKey )
+        public List<BorrowRecord> SearchOverDueBook(string searchKey)
         {
-                return _borrowRecordRepo.SearchOverDueBooks(searchKey);
-            
+            return _borrowRecordRepo.SearchOverDueBooks(searchKey);
+
         }
 
-        public List<LogAction> GetLogActions() { 
-        
+        public List<LogAction> GetLogActions()
+        {
+
             return _logActionRepo.GetLogActions();
         }
 
-        public List<LogAction> searchLogActions(string searchKey) { 
+        public List<LogAction> searchLogActions(string searchKey)
+        {
             return _logActionRepo.SearchLogActions(searchKey);
         }
 
-        
+
     }
 }

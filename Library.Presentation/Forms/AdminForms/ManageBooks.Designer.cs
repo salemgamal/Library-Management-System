@@ -46,10 +46,8 @@
             label1 = new Label();
             label6 = new Label();
             txt_QTY_MB = new NumericUpDown();
-            num_publish_MB = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)dgv_books).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txt_QTY_MB).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_publish_MB).BeginInit();
             SuspendLayout();
             // 
             // btn_back_ML
@@ -229,19 +227,11 @@
             txt_QTY_MB.Size = new Size(182, 27);
             txt_QTY_MB.TabIndex = 60;
             // 
-            // num_publish_MB
-            // 
-            num_publish_MB.Location = new Point(630, 348);
-            num_publish_MB.Name = "num_publish_MB";
-            num_publish_MB.Size = new Size(150, 27);
-            num_publish_MB.TabIndex = 61;
-            // 
             // ManageBooks
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(853, 580);
-            Controls.Add(num_publish_MB);
             Controls.Add(txt_QTY_MB);
             Controls.Add(label6);
             Controls.Add(btn_back_ML);
@@ -266,7 +256,6 @@
             Load += ManageBooks_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_books).EndInit();
             ((System.ComponentModel.ISupportInitialize)txt_QTY_MB).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_publish_MB).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -290,6 +279,5 @@
         private Label label1;
         private Label label6;
         private NumericUpDown txt_QTY_MB;
-        private NumericUpDown num_publish_MB;
     }
 }

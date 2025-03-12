@@ -24,8 +24,9 @@ namespace Library.DataAccess.Repositories
         }
 
         //get log actions
-        public List<LogAction> GetLogActions() { 
-        return _context.LogActions.ToList();
+        public List<LogAction> GetLogActions()
+        {
+            return _context.LogActions.ToList();
         }
         public List<LogAction> SearchLogActions(string searchKey)
         {
@@ -44,10 +45,9 @@ namespace Library.DataAccess.Repositories
                     words.Any(w => a.Action.ToString().ToLower().Contains(w)
                                 || a.Member.Name.ToLower().Contains(w)
                                 || a.Book.Title.ToLower().Contains(w))
-                    || (isYearSearch && a.Date.Year == searchYear) 
+                    || (isYearSearch && a.Date.Year == searchYear)
                 )
                 .ToList();
         }
-
     }
 }

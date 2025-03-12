@@ -34,20 +34,20 @@ namespace Library.Presentation.Forms.Librarian_Forms
             btn_delete.Hide();
             //assigning combobox of categories
             cmbBox_categories_LF.Items.AddRange(new string[]
-    {
-        "Fiction",
-        "Non-Fiction",
-        "Science",
-        "History",
-        "Biography",
-        "Technology",
-        "Philosophy",
-        "Children",
-        "Self-Help",
-        "Fantasy",
-        "Politics"
-    });
-        }
+            {
+                "Fiction",
+                "Non-Fiction",
+                "Science",
+                "History",
+                "Biography",
+                "Technology",
+                "Philosophy",
+                "Children",
+                "Self-Help",
+                "Fantasy",
+                "Politics"
+            });
+                }
 
         //search
         private void btn_search_LF_Click(object sender, EventArgs e)
@@ -140,16 +140,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
         private void btn_back_Click(object sender, EventArgs e)
         {
             this.Close();
-
-            if (preForm != null && !preForm.IsDisposed)
-            {
-                preForm.ShowDialog();
-            }
-            else
-            {
-                // Optional: Handle the case where preForm is disposed
-                MessageBox.Show("The previous page is no longer available.");
-            }
+            preForm.Show();
         }
 
         private void ManageBooks_Load(object sender, EventArgs e)

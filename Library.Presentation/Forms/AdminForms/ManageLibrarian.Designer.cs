@@ -49,7 +49,6 @@
             btn_back_ML = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            btn_manageLib_MLF = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_Libraian).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -259,24 +258,11 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
-            // btn_manageLib_MLF
-            // 
-            btn_manageLib_MLF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_manageLib_MLF.Location = new Point(30, 529);
-            btn_manageLib_MLF.Margin = new Padding(3, 4, 3, 4);
-            btn_manageLib_MLF.Name = "btn_manageLib_MLF";
-            btn_manageLib_MLF.Size = new Size(94, 39);
-            btn_manageLib_MLF.TabIndex = 57;
-            btn_manageLib_MLF.Text = "back";
-            btn_manageLib_MLF.UseVisualStyleBackColor = true;
-            btn_manageLib_MLF.Click += btn_manageLib_MLF_Click;
-            // 
             // ManageLibrarian
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 637);
-            Controls.Add(btn_manageLib_MLF);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(btn_back_ML);
@@ -330,6 +316,5 @@
         private Button btn_back_ML;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private Button btn_manageLib_MLF;
     }
 }

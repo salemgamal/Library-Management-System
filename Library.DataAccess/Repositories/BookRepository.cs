@@ -47,7 +47,7 @@ namespace Library.DataAccess.Repositry
             _context.Books.Remove(book);
             _context.SaveChanges();
         }
-        //search all books
+        //search
         public List<Book> SearchBook(string searchKey)
         {
             searchKey = searchKey?.Trim().ToLower() ?? string.Empty;
@@ -68,7 +68,6 @@ namespace Library.DataAccess.Repositry
         {
             return _context.Books.Where(b => b.Quantity > 0).ToList();
         }
-
         //search available books
         public List<Book> SearchAvailableBook(string searchKey)
         {

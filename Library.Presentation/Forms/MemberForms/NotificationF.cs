@@ -32,7 +32,7 @@ namespace Library.Presentation.Forms.MemberForms
             var logActionRepositry = new LogActionRepositry(context);
             BookService = new BookService(bookRepositty);
             BorrowRecordService = new BorrowRecordService(borrowRecordRepositty, bookRepositty, new LogActionRepositry(context));
-            
+
         }
 
         //public static void Visible(int MemberID)
@@ -60,10 +60,16 @@ namespace Library.Presentation.Forms.MemberForms
         {
             var notificationBooks = BorrowRecordService.GetMemberBorrowedBooks(MemberID)
                 .Where(b => b.DueDate < DateTime.Now.Date /*&& b.ReturnDate == null*/).Select(b =>
-                new{
-                     Message = $"Book '{b.Book.Title}' is overdue! Due date was {b.DueDate:yyyy-MM-dd}"
-                    }).ToList();
+                new
+                {
+                    Message = $"Book '{b.Book.Title}' is overdue! Due date was {b.DueDate:yyyy-MM-dd}"
+                }).ToList();
             dgv_notificationF_MBF.DataSource = notificationBooks;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

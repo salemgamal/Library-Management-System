@@ -30,3 +30,19 @@ G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Deb
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.AssemblyReference.cache
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfoInputs.cache
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfo.cs
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.CoreCompileInputs.cache
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.sourcelink.json
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.dll
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\refint\Library.BusinessLogic.dll
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.deps.json
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.dll
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.pdb
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.dll
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
+F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll

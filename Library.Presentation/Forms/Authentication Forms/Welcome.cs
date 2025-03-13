@@ -19,11 +19,11 @@ namespace Library.Presentation.Forms.Authentication_Forms
 
         private void btn_login_W_Click(object sender, EventArgs e)
         {
-            
+
             this.Hide();
             Login login = new Login(this);
             login.ShowDialog();
-            
+
         }
 
         private void btn_register_W_Click(object sender, EventArgs e)
@@ -31,9 +31,14 @@ namespace Library.Presentation.Forms.Authentication_Forms
             this.Hide();
             Register register = new Register(this);
             register.ShowDialog();
-            
+
         }
 
-        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+      
     }
 }

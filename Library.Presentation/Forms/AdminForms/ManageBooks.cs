@@ -200,5 +200,10 @@ namespace Library.Presentation.Admin
             oldForm.Show();
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

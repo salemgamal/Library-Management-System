@@ -19,6 +19,10 @@ namespace Library.Presentation.Forms.MemberForms
             InitializeComponent();
             pictureBoxQRCode.Image = qrCodeImage;
         }
-        
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

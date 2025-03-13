@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageMembers));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             showIcon = new PictureBox();
             hideIcon = new PictureBox();
             btn_back_ML = new Button();
@@ -47,15 +48,18 @@
             label2 = new Label();
             dgv_Members = new DataGridView();
             label1 = new Label();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)showIcon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)hideIcon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgv_Members).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // showIcon
             // 
+            showIcon.BackColor = Color.Transparent;
             showIcon.Image = (Image)resources.GetObject("showIcon.Image");
-            showIcon.Location = new Point(662, 147);
+            showIcon.Location = new Point(718, 153);
             showIcon.Name = "showIcon";
             showIcon.Size = new Size(23, 22);
             showIcon.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -65,8 +69,9 @@
             // 
             // hideIcon
             // 
+            hideIcon.BackColor = Color.Transparent;
             hideIcon.Image = (Image)resources.GetObject("hideIcon.Image");
-            hideIcon.Location = new Point(662, 147);
+            hideIcon.Location = new Point(717, 153);
             hideIcon.Name = "hideIcon";
             hideIcon.Size = new Size(24, 22);
             hideIcon.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -76,51 +81,58 @@
             // 
             // btn_back_ML
             // 
+            btn_back_ML.BackColor = Color.LightGray;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_back_ML.Location = new Point(49, 404);
+            btn_back_ML.Location = new Point(12, 420);
             btn_back_ML.Name = "btn_back_ML";
-            btn_back_ML.Size = new Size(82, 29);
+            btn_back_ML.Size = new Size(82, 35);
             btn_back_ML.TabIndex = 38;
             btn_back_ML.Text = "back";
-            btn_back_ML.UseVisualStyleBackColor = true;
+            btn_back_ML.UseVisualStyleBackColor = false;
             btn_back_ML.Click += btn_back_ML_Click;
             // 
             // btn_delete_MM
             // 
+            btn_delete_MM.BackColor = Color.Maroon;
             btn_delete_MM.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_delete_MM.Location = new Point(627, 369);
+            btn_delete_MM.ForeColor = SystemColors.ControlLightLight;
+            btn_delete_MM.Location = new Point(645, 369);
             btn_delete_MM.Name = "btn_delete_MM";
-            btn_delete_MM.Size = new Size(75, 31);
+            btn_delete_MM.Size = new Size(75, 43);
             btn_delete_MM.TabIndex = 37;
             btn_delete_MM.Text = "Delete";
-            btn_delete_MM.UseVisualStyleBackColor = true;
+            btn_delete_MM.UseVisualStyleBackColor = false;
             btn_delete_MM.Click += btn_delete_MM_Click;
             // 
             // btn_update_MM
             // 
+            btn_update_MM.BackColor = SystemColors.ActiveCaptionText;
             btn_update_MM.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_update_MM.Location = new Point(528, 369);
+            btn_update_MM.ForeColor = SystemColors.ControlLightLight;
+            btn_update_MM.Location = new Point(550, 369);
             btn_update_MM.Name = "btn_update_MM";
-            btn_update_MM.Size = new Size(75, 31);
+            btn_update_MM.Size = new Size(75, 43);
             btn_update_MM.TabIndex = 36;
             btn_update_MM.Text = "update";
-            btn_update_MM.UseVisualStyleBackColor = true;
+            btn_update_MM.UseVisualStyleBackColor = false;
             btn_update_MM.Click += btn_update_MM_Click;
             // 
             // btn_add_MM
             // 
+            btn_add_MM.BackColor = Color.SteelBlue;
             btn_add_MM.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_add_MM.Location = new Point(436, 369);
+            btn_add_MM.ForeColor = SystemColors.ControlLightLight;
+            btn_add_MM.Location = new Point(459, 369);
             btn_add_MM.Name = "btn_add_MM";
-            btn_add_MM.Size = new Size(75, 31);
+            btn_add_MM.Size = new Size(75, 43);
             btn_add_MM.TabIndex = 35;
             btn_add_MM.Text = "Add";
-            btn_add_MM.UseVisualStyleBackColor = true;
+            btn_add_MM.UseVisualStyleBackColor = false;
             btn_add_MM.Click += btn_add_MM_Click;
             // 
             // txt_Phone_MM
             // 
-            txt_Phone_MM.Location = new Point(528, 284);
+            txt_Phone_MM.Location = new Point(562, 290);
             txt_Phone_MM.Name = "txt_Phone_MM";
             txt_Phone_MM.Size = new Size(158, 23);
             txt_Phone_MM.TabIndex = 33;
@@ -128,16 +140,17 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(436, 283);
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label7.Location = new Point(449, 287);
             label7.Name = "label7";
-            label7.Size = new Size(52, 19);
+            label7.Size = new Size(67, 24);
             label7.TabIndex = 32;
             label7.Text = "Phone";
             // 
             // txt_userPass_MM
             // 
-            txt_userPass_MM.Location = new Point(528, 146);
+            txt_userPass_MM.Location = new Point(562, 152);
             txt_userPass_MM.Name = "txt_userPass_MM";
             txt_userPass_MM.PasswordChar = '●';
             txt_userPass_MM.Size = new Size(158, 23);
@@ -146,16 +159,17 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(436, 145);
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label5.Location = new Point(447, 149);
             label5.Name = "label5";
-            label5.Size = new Size(76, 19);
+            label5.Size = new Size(96, 24);
             label5.TabIndex = 29;
             label5.Text = "Password";
             // 
             // txt_userEmail_MM
             // 
-            txt_userEmail_MM.Location = new Point(528, 190);
+            txt_userEmail_MM.Location = new Point(562, 196);
             txt_userEmail_MM.Name = "txt_userEmail_MM";
             txt_userEmail_MM.Size = new Size(158, 23);
             txt_userEmail_MM.TabIndex = 28;
@@ -163,16 +177,17 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(440, 238);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label4.Location = new Point(447, 241);
             label4.Name = "label4";
-            label4.Size = new Size(49, 19);
+            label4.Size = new Size(63, 24);
             label4.TabIndex = 27;
             label4.Text = "Name";
             // 
             // txt_Name_MM
             // 
-            txt_Name_MM.Location = new Point(528, 238);
+            txt_Name_MM.Location = new Point(562, 244);
             txt_Name_MM.Name = "txt_Name_MM";
             txt_Name_MM.Size = new Size(158, 23);
             txt_Name_MM.TabIndex = 26;
@@ -180,16 +195,17 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(440, 190);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label3.Location = new Point(447, 192);
             label3.Name = "label3";
-            label3.Size = new Size(49, 19);
+            label3.Size = new Size(62, 24);
             label3.TabIndex = 25;
             label3.Text = "Email";
             // 
             // txt_userName_MM
             // 
-            txt_userName_MM.Location = new Point(528, 103);
+            txt_userName_MM.Location = new Point(562, 109);
             txt_userName_MM.Name = "txt_userName_MM";
             txt_userName_MM.Size = new Size(158, 23);
             txt_userName_MM.TabIndex = 24;
@@ -197,39 +213,65 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(436, 102);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label2.Location = new Point(447, 106);
             label2.Name = "label2";
-            label2.Size = new Size(82, 19);
+            label2.Size = new Size(104, 24);
             label2.TabIndex = 23;
             label2.Text = "UserName";
             // 
             // dgv_Members
             // 
+            dgv_Members.BackgroundColor = Color.BurlyWood;
             dgv_Members.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Members.Location = new Point(26, 102);
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.PeachPuff;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            dgv_Members.DefaultCellStyle = dataGridViewCellStyle1;
+            dgv_Members.Location = new Point(24, 109);
             dgv_Members.Name = "dgv_Members";
-            dgv_Members.Size = new Size(373, 256);
+            dgv_Members.Size = new Size(408, 257);
             dgv_Members.TabIndex = 22;
             dgv_Members.RowHeaderMouseDoubleClick += dgv_Members_RowHeaderMouseDoubleClick;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Sitka Small", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(234, 12);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Times New Roman", 36F, FontStyle.Bold);
+            label1.Location = new Point(187, 12);
             label1.Name = "label1";
-            label1.Size = new Size(245, 35);
+            label1.Size = new Size(395, 55);
             label1.TabIndex = 21;
-            label1.Text = "Manage Librarian";
+            label1.Text = "Manage Members";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(711, 12);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(30, 26);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 43;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // ManageMembers
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(714, 449);
-            Controls.Add(showIcon);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(753, 467);
             Controls.Add(hideIcon);
+            Controls.Add(showIcon);
+            Controls.Add(pictureBox3);
             Controls.Add(btn_back_ML);
             Controls.Add(btn_delete_MM);
             Controls.Add(btn_update_MM);
@@ -246,12 +288,14 @@
             Controls.Add(label2);
             Controls.Add(dgv_Members);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "ManageMembers";
             Text = "ManageMembers";
             Load += ManageMembers_Load;
             ((System.ComponentModel.ISupportInitialize)showIcon).EndInit();
             ((System.ComponentModel.ISupportInitialize)hideIcon).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgv_Members).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -276,5 +320,6 @@
         private Label label2;
         private DataGridView dgv_Members;
         private Label label1;
+        private PictureBox pictureBox3;
     }
 }

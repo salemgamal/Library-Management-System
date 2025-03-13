@@ -131,5 +131,11 @@ namespace Library.Presentation.Forms.Authentication_Forms
             this.Hide();
             oldForm.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+
+        }
     }
 }

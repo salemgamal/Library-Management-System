@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageLibrarian));
             label1 = new Label();
             dgv_Libraian = new DataGridView();
@@ -49,37 +51,57 @@
             btn_back_ML = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dgv_Libraian).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Sitka Small", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(226, 29);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Times New Roman", 36F, FontStyle.Bold);
+            label1.Location = new Point(196, 12);
             label1.Name = "label1";
-            label1.Size = new Size(308, 43);
+            label1.Size = new Size(401, 55);
             label1.TabIndex = 0;
             label1.Text = "Manage Librarian";
             // 
             // dgv_Libraian
             // 
+            dgv_Libraian.BackgroundColor = Color.BurlyWood;
             dgv_Libraian.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Libraian.Location = new Point(14, 132);
-            dgv_Libraian.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.PeachPuff;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
+            dgv_Libraian.DefaultCellStyle = dataGridViewCellStyle5;
+            dgv_Libraian.Location = new Point(12, 125);
             dgv_Libraian.Name = "dgv_Libraian";
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle6.ForeColor = SystemColors.Info;
+            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
+            dgv_Libraian.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             dgv_Libraian.RowHeadersWidth = 51;
-            dgv_Libraian.Size = new Size(426, 341);
+            dgv_Libraian.Size = new Size(411, 256);
             dgv_Libraian.TabIndex = 1;
             dgv_Libraian.RowHeaderMouseDoubleClick += dgv_Libraian_RowHeaderMouseDoubleClick;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(456, 132);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label2.Location = new Point(433, 129);
             label2.Name = "label2";
             label2.Size = new Size(104, 24);
             label2.TabIndex = 2;
@@ -87,90 +109,90 @@
             // 
             // txt_userName_ML
             // 
-            txt_userName_ML.Location = new Point(561, 133);
-            txt_userName_ML.Margin = new Padding(3, 4, 3, 4);
+            txt_userName_ML.Location = new Point(543, 130);
             txt_userName_ML.Name = "txt_userName_ML";
-            txt_userName_ML.Size = new Size(180, 27);
+            txt_userName_ML.Size = new Size(158, 23);
             txt_userName_ML.TabIndex = 3;
             // 
             // txt_Name_ML
             // 
-            txt_Name_ML.Location = new Point(561, 313);
-            txt_Name_ML.Margin = new Padding(3, 4, 3, 4);
+            txt_Name_ML.Location = new Point(543, 265);
             txt_Name_ML.Name = "txt_Name_ML";
-            txt_Name_ML.Size = new Size(180, 27);
+            txt_Name_ML.Size = new Size(158, 23);
             txt_Name_ML.TabIndex = 5;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(461, 249);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label3.Location = new Point(434, 213);
             label3.Name = "label3";
-            label3.Size = new Size(63, 24);
+            label3.Size = new Size(62, 24);
             label3.TabIndex = 4;
             label3.Text = "Email";
             // 
             // txt_userEmail_ML
             // 
-            txt_userEmail_ML.Location = new Point(561, 249);
-            txt_userEmail_ML.Margin = new Padding(3, 4, 3, 4);
+            txt_userEmail_ML.Location = new Point(543, 217);
             txt_userEmail_ML.Name = "txt_userEmail_ML";
-            txt_userEmail_ML.Size = new Size(180, 27);
+            txt_userEmail_ML.Size = new Size(158, 23);
             txt_userEmail_ML.TabIndex = 7;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(461, 313);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label4.Location = new Point(433, 265);
             label4.Name = "label4";
-            label4.Size = new Size(62, 24);
+            label4.Size = new Size(63, 24);
             label4.TabIndex = 6;
             label4.Text = "Name";
             // 
             // txt_userPass_ML
             // 
-            txt_userPass_ML.Location = new Point(561, 191);
-            txt_userPass_ML.Margin = new Padding(3, 4, 3, 4);
+            txt_userPass_ML.Location = new Point(543, 173);
             txt_userPass_ML.Name = "txt_userPass_ML";
             txt_userPass_ML.PasswordChar = '●';
-            txt_userPass_ML.Size = new Size(180, 27);
+            txt_userPass_ML.Size = new Size(158, 23);
             txt_userPass_ML.TabIndex = 9;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(456, 189);
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label5.Location = new Point(433, 172);
             label5.Name = "label5";
-            label5.Size = new Size(98, 24);
+            label5.Size = new Size(96, 24);
             label5.TabIndex = 8;
             label5.Text = "Password";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(461, 440);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label6.Location = new Point(433, 357);
             label6.Name = "label6";
-            label6.Size = new Size(50, 24);
+            label6.Size = new Size(51, 24);
             label6.TabIndex = 10;
             label6.Text = "Role";
             // 
             // txt_Phone_ML
             // 
-            txt_Phone_ML.Location = new Point(561, 375);
-            txt_Phone_ML.Margin = new Padding(3, 4, 3, 4);
+            txt_Phone_ML.Location = new Point(543, 311);
             txt_Phone_ML.Name = "txt_Phone_ML";
-            txt_Phone_ML.Size = new Size(180, 27);
+            txt_Phone_ML.Size = new Size(158, 23);
             txt_Phone_ML.TabIndex = 13;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Sitka Small", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(456, 373);
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            label7.Location = new Point(429, 311);
             label7.Name = "label7";
             label7.Size = new Size(67, 24);
             label7.TabIndex = 12;
@@ -180,67 +202,69 @@
             // 
             cb_Role.FormattingEnabled = true;
             cb_Role.Items.AddRange(new object[] { "Librarian", "Admin" });
-            cb_Role.Location = new Point(565, 435);
-            cb_Role.Margin = new Padding(3, 4, 3, 4);
+            cb_Role.Location = new Point(546, 356);
             cb_Role.Name = "cb_Role";
-            cb_Role.Size = new Size(177, 28);
+            cb_Role.Size = new Size(155, 23);
             cb_Role.TabIndex = 14;
             // 
             // btn_add_ML
             // 
+            btn_add_ML.BackColor = Color.SteelBlue;
             btn_add_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_add_ML.Location = new Point(446, 529);
-            btn_add_ML.Margin = new Padding(3, 4, 3, 4);
+            btn_add_ML.ForeColor = SystemColors.ButtonFace;
+            btn_add_ML.Location = new Point(443, 418);
             btn_add_ML.Name = "btn_add_ML";
-            btn_add_ML.Size = new Size(86, 41);
+            btn_add_ML.Size = new Size(75, 42);
             btn_add_ML.TabIndex = 15;
             btn_add_ML.Text = "Add";
-            btn_add_ML.UseVisualStyleBackColor = true;
+            btn_add_ML.UseVisualStyleBackColor = false;
             btn_add_ML.Click += btn_add_ML_Click;
             // 
             // btn_update_ML
             // 
+            btn_update_ML.BackColor = SystemColors.ActiveCaptionText;
             btn_update_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_update_ML.Location = new Point(549, 529);
-            btn_update_ML.Margin = new Padding(3, 4, 3, 4);
+            btn_update_ML.ForeColor = SystemColors.ControlLightLight;
+            btn_update_ML.Location = new Point(533, 418);
             btn_update_ML.Name = "btn_update_ML";
-            btn_update_ML.Size = new Size(86, 41);
+            btn_update_ML.Size = new Size(75, 42);
             btn_update_ML.TabIndex = 16;
             btn_update_ML.Text = "update";
-            btn_update_ML.UseVisualStyleBackColor = true;
+            btn_update_ML.UseVisualStyleBackColor = false;
             btn_update_ML.Click += btn_update_ML_Click;
             // 
             // btn_delete_ML
             // 
+            btn_delete_ML.BackColor = Color.Maroon;
             btn_delete_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_delete_ML.Location = new Point(657, 529);
-            btn_delete_ML.Margin = new Padding(3, 4, 3, 4);
+            btn_delete_ML.ForeColor = SystemColors.ControlLightLight;
+            btn_delete_ML.Location = new Point(628, 418);
             btn_delete_ML.Name = "btn_delete_ML";
-            btn_delete_ML.Size = new Size(86, 41);
+            btn_delete_ML.Size = new Size(75, 42);
             btn_delete_ML.TabIndex = 17;
             btn_delete_ML.Text = "Delete";
-            btn_delete_ML.UseVisualStyleBackColor = true;
+            btn_delete_ML.UseVisualStyleBackColor = false;
             btn_delete_ML.Click += btn_delete_ML_Click;
             // 
             // btn_back_ML
             // 
+            btn_back_ML.BackColor = Color.LightGray;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_back_ML.Location = new Point(30, 583);
-            btn_back_ML.Margin = new Padding(3, 4, 3, 4);
+            btn_back_ML.Location = new Point(23, 449);
             btn_back_ML.Name = "btn_back_ML";
-            btn_back_ML.Size = new Size(94, 39);
+            btn_back_ML.Size = new Size(82, 40);
             btn_back_ML.TabIndex = 18;
             btn_back_ML.Text = "back";
-            btn_back_ML.UseVisualStyleBackColor = true;
+            btn_back_ML.UseVisualStyleBackColor = false;
             btn_back_ML.Click += btn_back_ML_Click;
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(714, 192);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(699, 174);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(27, 29);
+            pictureBox1.Size = new Size(24, 22);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 19;
             pictureBox1.TabStop = false;
@@ -248,23 +272,38 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(714, 192);
-            pictureBox2.Margin = new Padding(3, 4, 3, 4);
+            pictureBox2.Location = new Point(699, 174);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(26, 29);
+            pictureBox2.Size = new Size(23, 22);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 20;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(699, 12);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(30, 26);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 42;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
             // ManageLibrarian
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(784, 637);
-            Controls.Add(pictureBox2);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(735, 501);
             Controls.Add(pictureBox1);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
             Controls.Add(btn_back_ML);
             Controls.Add(btn_delete_ML);
             Controls.Add(btn_update_ML);
@@ -283,13 +322,14 @@
             Controls.Add(label2);
             Controls.Add(dgv_Libraian);
             Controls.Add(label1);
-            Margin = new Padding(3, 4, 3, 4);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "ManageLibrarian";
             Text = "ManageLibrarian";
             Load += ManageLibrarian_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_Libraian).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -316,5 +356,6 @@
         private Button btn_back_ML;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
     }
 }

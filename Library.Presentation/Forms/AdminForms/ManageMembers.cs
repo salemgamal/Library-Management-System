@@ -204,7 +204,7 @@ namespace Library.Presentation.Admin
                 return;
             }
 
-             User member = userService.GetUserById(ID);
+            User member = userService.GetUserById(ID);
 
 
             if (member != null)
@@ -270,6 +270,11 @@ namespace Library.Presentation.Admin
             this.Close();
             oldForm.Show();
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

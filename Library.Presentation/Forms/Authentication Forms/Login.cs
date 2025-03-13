@@ -63,13 +63,13 @@ namespace Library.Presentation.Forms.Authentication_Forms
                     this.Hide();
                     HomeLibrarian homeLib = new HomeLibrarian(this);
                     homeLib.ShowDialog();
-                    
+
 
                 }
                 else if (user.Role == UserRole.Member)
                 {
                     this.Hide();
-                    new MemberMainF(user.UserId , this).ShowDialog();
+                    new MemberMainF(user.UserId, this).ShowDialog();
 
                 }
             }
@@ -103,6 +103,12 @@ namespace Library.Presentation.Forms.Authentication_Forms
         {
             this.Hide();
             oldForm.Show();
+         
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

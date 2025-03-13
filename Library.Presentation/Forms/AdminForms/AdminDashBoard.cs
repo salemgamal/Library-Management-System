@@ -52,12 +52,17 @@ namespace Library.Presentation.Admin
             manageBooks.Show();
         }
 
-        
+
 
         private void btn_back_AD_Click(object sender, EventArgs e)
         {
             this.Close();
             oldForm.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

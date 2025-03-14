@@ -101,14 +101,25 @@ namespace Library.Presentation.Forms.Authentication_Forms
 
         private void btn_back_L_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             oldForm.Show();
-         
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Clear();
+        }
+
+        private void Clear()
+        {
+            txt_userName_L.Text = string.Empty;
+            txt_pass_L.Text = string.Empty;
         }
     }
 }

@@ -63,6 +63,7 @@ namespace Library.Presentation.Forms.MemberForms
             // dgv_availableBooks_MF
             // 
             dgv_availableBooks_MF.BackgroundColor = Color.PaleGoldenrod;
+            dgv_availableBooks_MF.BorderStyle = BorderStyle.None;
             dgv_availableBooks_MF.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_availableBooks_MF.Location = new Point(24, 423);
             dgv_availableBooks_MF.Name = "dgv_availableBooks_MF";
@@ -234,7 +235,7 @@ namespace Library.Presentation.Forms.MemberForms
             // txtQRCode
             // 
             txtQRCode.BackColor = Color.PaleGoldenrod;
-            txtQRCode.Location = new Point(826, 147);
+            txtQRCode.Location = new Point(798, 147);
             txtQRCode.Multiline = true;
             txtQRCode.Name = "txtQRCode";
             txtQRCode.Size = new Size(361, 91);
@@ -245,7 +246,7 @@ namespace Library.Presentation.Forms.MemberForms
             btnStart.BackColor = Color.FromArgb(128, 64, 0);
             btnStart.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btnStart.ForeColor = SystemColors.ControlLightLight;
-            btnStart.Location = new Point(712, 194);
+            btnStart.Location = new Point(684, 194);
             btnStart.Name = "btnStart";
             btnStart.Size = new Size(108, 44);
             btnStart.TabIndex = 20;
@@ -256,7 +257,7 @@ namespace Library.Presentation.Forms.MemberForms
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(611, 244);
+            pictureBox1.Location = new Point(583, 244);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(575, 404);
             pictureBox1.TabIndex = 17;
@@ -267,7 +268,7 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             cboDevice.BackColor = Color.PaleGoldenrod;
             cboDevice.FormattingEnabled = true;
-            cboDevice.Location = new Point(625, 147);
+            cboDevice.Location = new Point(583, 160);
             cboDevice.Name = "cboDevice";
             cboDevice.Size = new Size(194, 28);
             cboDevice.TabIndex = 18;
@@ -277,7 +278,7 @@ namespace Library.Presentation.Forms.MemberForms
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label6.Location = new Point(625, 112);
+            label6.Location = new Point(583, 117);
             label6.Name = "label6";
             label6.Size = new Size(100, 31);
             label6.TabIndex = 19;
@@ -302,7 +303,7 @@ namespace Library.Presentation.Forms.MemberForms
             btnCapture.BackColor = Color.FromArgb(128, 64, 0);
             btnCapture.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btnCapture.ForeColor = SystemColors.ControlLightLight;
-            btnCapture.Location = new Point(611, 194);
+            btnCapture.Location = new Point(583, 194);
             btnCapture.Name = "btnCapture";
             btnCapture.Size = new Size(108, 44);
             btnCapture.TabIndex = 22;
@@ -340,7 +341,7 @@ namespace Library.Presentation.Forms.MemberForms
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1223, 745);
+            ClientSize = new Size(1179, 684);
             Controls.Add(label7);
             Controls.Add(pictureBox3);
             Controls.Add(btnCapture);

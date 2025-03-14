@@ -212,7 +212,8 @@ namespace Library.Presentation.Forms.MemberForms
                 videoCaptureDevice.NewFrame += CaptureDevice_NewFrame;
                 videoCaptureDevice.Start();
             }
-            catch {
+            catch
+            {
                 MessageBox.Show("There is no camera to start.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
@@ -340,6 +341,18 @@ namespace Library.Presentation.Forms.MemberForms
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (notificationForm == null)
+            {
+                ShowNotification(MemberID);
+            }
+            else
+            {
+                HideNotificationFrom();
+            }
         }
     }
 }

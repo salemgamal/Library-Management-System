@@ -47,6 +47,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            btn_clear_RF = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox_passEye).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -112,7 +113,7 @@
             lbl_confirmPass_R.AutoSize = true;
             lbl_confirmPass_R.BackColor = Color.Transparent;
             lbl_confirmPass_R.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_confirmPass_R.Location = new Point(394, 416);
+            lbl_confirmPass_R.Location = new Point(376, 416);
             lbl_confirmPass_R.Name = "lbl_confirmPass_R";
             lbl_confirmPass_R.Size = new Size(202, 26);
             lbl_confirmPass_R.TabIndex = 5;
@@ -237,12 +238,27 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
+            // btn_clear_RF
+            // 
+            btn_clear_RF.BackColor = SystemColors.ActiveCaptionText;
+            btn_clear_RF.FlatStyle = FlatStyle.Flat;
+            btn_clear_RF.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_clear_RF.ForeColor = SystemColors.ControlLightLight;
+            btn_clear_RF.Location = new Point(702, 479);
+            btn_clear_RF.Name = "btn_clear_RF";
+            btn_clear_RF.Size = new Size(81, 45);
+            btn_clear_RF.TabIndex = 18;
+            btn_clear_RF.Text = "Clear";
+            btn_clear_RF.UseVisualStyleBackColor = false;
+            btn_clear_RF.Click += btn_clear_RF_Click;
+            // 
             // Register
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 557);
+            Controls.Add(btn_clear_RF);
             Controls.Add(pictureBox2);
             Controls.Add(label1);
             Controls.Add(btn_back_R);
@@ -292,5 +308,6 @@
         private PictureBox pictureBox1;
         private Label label1;
         private PictureBox pictureBox2;
+        private Button btn_clear_RF;
     }
 }

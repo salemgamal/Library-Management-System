@@ -108,7 +108,7 @@
             btn_update_MA.Name = "btn_update_MA";
             btn_update_MA.Size = new Size(97, 53);
             btn_update_MA.TabIndex = 35;
-            btn_update_MA.Text = "update";
+            btn_update_MA.Text = "Update";
             btn_update_MA.UseVisualStyleBackColor = false;
             btn_update_MA.Click += btn_update_MA_Click;
             // 
@@ -304,7 +304,7 @@
             btn_clear_MAF.Name = "btn_clear_MAF";
             btn_clear_MAF.Size = new Size(65, 53);
             btn_clear_MAF.TabIndex = 40;
-            btn_clear_MAF.Text = "clear";
+            btn_clear_MAF.Text = "Clear";
             btn_clear_MAF.UseVisualStyleBackColor = false;
             btn_clear_MAF.Click += btn_clear_MAF_Click;
             // 

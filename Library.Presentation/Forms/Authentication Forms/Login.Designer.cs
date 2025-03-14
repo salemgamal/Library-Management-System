@@ -39,6 +39,7 @@
             panel1 = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox_passEye).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -50,9 +51,9 @@
             btn_login_L.FlatStyle = FlatStyle.Flat;
             btn_login_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_login_L.ForeColor = SystemColors.ControlLightLight;
-            btn_login_L.Location = new Point(159, 301);
+            btn_login_L.Location = new Point(157, 291);
             btn_login_L.Name = "btn_login_L";
-            btn_login_L.Size = new Size(118, 51);
+            btn_login_L.Size = new Size(198, 45);
             btn_login_L.TabIndex = 0;
             btn_login_L.Text = "Login";
             btn_login_L.UseVisualStyleBackColor = false;
@@ -127,6 +128,7 @@
             // panel1
             // 
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btn_login_L);
             panel1.Controls.Add(txt_pass_L);
@@ -164,6 +166,20 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ActiveCaptionText;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ControlLightLight;
+            button1.Location = new Point(50, 291);
+            button1.Name = "button1";
+            button1.Size = new Size(81, 45);
+            button1.TabIndex = 9;
+            button1.Text = "Clear";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -197,5 +213,6 @@
         private Panel panel1;
         private Label label1;
         private PictureBox pictureBox1;
+        private Button button1;
     }
 }

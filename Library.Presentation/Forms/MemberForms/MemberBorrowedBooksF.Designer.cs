@@ -272,13 +272,14 @@ namespace Library.Presentation.Forms.MemberForms
             pictureBox2.BackColor = Color.FromArgb(128, 64, 0);
             pictureBox2.BackgroundImageLayout = ImageLayout.None;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(595, 125);
+            pictureBox2.Location = new Point(591, 125);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(29, 27);
+            pictureBox2.Size = new Size(37, 38);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 33;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
@@ -299,8 +300,8 @@ namespace Library.Presentation.Forms.MemberForms
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1017, 656);
-            Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
+            Controls.Add(pictureBox3);
             Controls.Add(label2);
             Controls.Add(panel_QR_MF);
             Controls.Add(btnCapture);

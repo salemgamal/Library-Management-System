@@ -128,7 +128,7 @@ namespace Library.Presentation.Forms.Authentication_Forms
 
         private void btn_back_R_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             oldForm.Show();
         }
 
@@ -136,6 +136,15 @@ namespace Library.Presentation.Forms.Authentication_Forms
         {
             Environment.Exit(0);
 
+        }
+
+        private void btn_clear_RF_Click(object sender, EventArgs e)
+        {
+            Clear();
+        }
+        private void Clear()
+        {
+            txt_name.Text = txt_email_R.Text = txt_pass_R.Text = txt_confirmPass_R.Text = txt_userName_R.Text = txt_phone_R.Text = String.Empty;   
         }
     }
 }

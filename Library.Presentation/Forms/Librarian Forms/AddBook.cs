@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
+using Library.DataAccess.Repositories;
 using Library.DataAccess.Repositry;
 
 namespace Library.Presentation.Forms.Librarian_Forms
@@ -18,7 +19,8 @@ namespace Library.Presentation.Forms.Librarian_Forms
         LibraryDbContext context;
         BookRepository bookRepo;
         BookService bookService;
-
+        BorrowRecordRepository recordRepository;
+        LogActionRepositry actionRepositry;
         public AddBook(ManageBooks MB)
         {
             InitializeComponent();
@@ -49,7 +51,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
             string isbn = txt_ISBN_AB.Text.Trim();
             string title = txt_title_AB.Text.Trim();
             string author = txt_auth_AB.Text.Trim();
-            int publishedYear= Convert.ToInt32(numericUpDown_puplishYear_AB.Value);
+            int publishedYear = Convert.ToInt32(numericUpDown_puplishYear_AB.Value);
             int quantity = Convert.ToInt32(numericUpDown_quantity_AB.Value);
             string category = cmbBox_categories_AB.SelectedItem?.ToString() ?? "";
 
@@ -60,18 +62,18 @@ namespace Library.Presentation.Forms.Librarian_Forms
                 category == null)
             {
                 MessageBox.Show("Please fill in all required fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; 
+                return;
             }
 
             // Validate PublishedYear (should be a number within range)
-            if ( publishedYear < 1450 || publishedYear > 2100)
+            if (publishedYear < 1450 || publishedYear > 2100)
             {
                 MessageBox.Show("Published Year must be a valid number between 1450 and 2100.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             // Validate Quantity (should be a positive integer)
-            
+
             if (quantity < 0 || quantity > 1000)
             {
                 MessageBox.Show("Quantity must be between 0 and 1000.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -98,6 +100,11 @@ namespace Library.Presentation.Forms.Librarian_Forms
 
             bookService.AddBook(book);
             MessageBox.Show("Book added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

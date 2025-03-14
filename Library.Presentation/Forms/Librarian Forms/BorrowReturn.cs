@@ -35,9 +35,9 @@ namespace Library.Presentation.Forms.Librarian_Forms
             borrowRecordRepo = new BorrowRecordRepository(context);
             logActionRepo = new LogActionRepositry(context);
             borrowRecordService = new BorrowRecordService(borrowRecordRepo, bookRepo, logActionRepo);
-         
+
             preForm = preF;
-           
+
         }
 
         private void btn_search_BR_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
                 dgv_borrowed_BR.Columns["Member"].Visible = false;
 
             }
-            else if(tabControl.SelectedIndex == 1)
+            else if (tabControl.SelectedIndex == 1)
             {
                 dgv_availbleBooks.DataSource = bookService.SearchAvailBook(searchKey);
             }
@@ -75,38 +75,41 @@ namespace Library.Presentation.Forms.Librarian_Forms
 
         private void btn_generateReport_Click(object sender, EventArgs e)
         {
-  
-             ReportPrintTool printTool;
+
+            ReportPrintTool printTool;
             if (tabControl.SelectedIndex == 0)
             {
                 BorrowdBooksReport report = new BorrowdBooksReport();
-                printTool = new ReportPrintTool(report); 
+                printTool = new ReportPrintTool(report);
                 printTool.ShowPreview();
             }
-            else if(tabControl.SelectedIndex == 1) {
+            else if (tabControl.SelectedIndex == 1)
+            {
                 AvailBooksReport report = new AvailBooksReport();
                 printTool = new ReportPrintTool(report);
                 printTool.ShowPreview();
             }
-            else if(tabControl.SelectedIndex == 2) {
+            else if (tabControl.SelectedIndex == 2)
+            {
                 OverdueBooksReport report = new OverdueBooksReport();
                 printTool = new ReportPrintTool(report);
                 printTool.ShowPreview();
             }
-            else if(tabControl.SelectedIndex ==3) {
+            else if (tabControl.SelectedIndex == 3)
+            {
                 LogActionsReport report = new LogActionsReport();
                 printTool = new ReportPrintTool(report);
                 printTool.ShowPreview();
             }
 
-            
+
         }
 
-       
+
         private void btn_clear_Click(object sender, EventArgs e)
         {
             txt_search_BR.Clear();
-        
+
 
             btn_search_BR.PerformClick();
         }
@@ -121,6 +124,11 @@ namespace Library.Presentation.Forms.Librarian_Forms
         {
             btn_clear.PerformClick();
             btn_search_BR.PerformClick();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

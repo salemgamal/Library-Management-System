@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BorrowReturn));
             tabControl = new TabControl();
             tabBorrow = new TabPage();
             dgv_borrowed_BR = new DataGridView();
@@ -39,10 +40,10 @@
             dgv_logActions_MB = new DataGridView();
             btn_search_BR = new Button();
             txt_search_BR = new TextBox();
-            lbl_search_BR = new Label();
             btn_generateReport = new Button();
             btn_clear = new Button();
             btn_back = new Button();
+            pictureBox2 = new PictureBox();
             tabControl.SuspendLayout();
             tabBorrow.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_borrowed_BR).BeginInit();
@@ -52,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)dgv_overDue_MB).BeginInit();
             tabLogActions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_logActions_MB).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // tabControl
@@ -80,6 +82,7 @@
             // 
             // dgv_borrowed_BR
             // 
+            dgv_borrowed_BR.BackgroundColor = Color.BurlyWood;
             dgv_borrowed_BR.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_borrowed_BR.Location = new Point(6, 3);
             dgv_borrowed_BR.Name = "dgv_borrowed_BR";
@@ -99,6 +102,7 @@
             // 
             // dgv_availbleBooks
             // 
+            dgv_availbleBooks.BackgroundColor = Color.BurlyWood;
             dgv_availbleBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_availbleBooks.Location = new Point(3, 3);
             dgv_availbleBooks.Name = "dgv_availbleBooks";
@@ -119,6 +123,7 @@
             // 
             // dgv_overDue_MB
             // 
+            dgv_overDue_MB.BackgroundColor = Color.BurlyWood;
             dgv_overDue_MB.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_overDue_MB.Location = new Point(3, 3);
             dgv_overDue_MB.Name = "dgv_overDue_MB";
@@ -138,7 +143,9 @@
             // 
             // dgv_logActions_MB
             // 
+            dgv_logActions_MB.BackgroundColor = Color.BurlyWood;
             dgv_logActions_MB.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_logActions_MB.GridColor = Color.LightGray;
             dgv_logActions_MB.Location = new Point(3, 3);
             dgv_logActions_MB.Name = "dgv_logActions_MB";
             dgv_logActions_MB.RowHeadersWidth = 51;
@@ -147,73 +154,91 @@
             // 
             // btn_search_BR
             // 
-            btn_search_BR.Location = new Point(535, 17);
+            btn_search_BR.BackColor = SystemColors.ActiveCaption;
+            btn_search_BR.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_search_BR.Location = new Point(405, 25);
             btn_search_BR.Name = "btn_search_BR";
-            btn_search_BR.Size = new Size(65, 42);
+            btn_search_BR.Size = new Size(127, 27);
             btn_search_BR.TabIndex = 24;
             btn_search_BR.Text = "Search";
-            btn_search_BR.UseVisualStyleBackColor = true;
+            btn_search_BR.UseVisualStyleBackColor = false;
             btn_search_BR.Click += btn_search_BR_Click;
             // 
             // txt_search_BR
             // 
-            txt_search_BR.Location = new Point(160, 25);
+            txt_search_BR.BackColor = SystemColors.Info;
+            txt_search_BR.Location = new Point(30, 25);
             txt_search_BR.Name = "txt_search_BR";
             txt_search_BR.Size = new Size(369, 27);
             txt_search_BR.TabIndex = 23;
             // 
-            // lbl_search_BR
-            // 
-            lbl_search_BR.AutoSize = true;
-            lbl_search_BR.Location = new Point(75, 25);
-            lbl_search_BR.Name = "lbl_search_BR";
-            lbl_search_BR.Size = new Size(53, 20);
-            lbl_search_BR.TabIndex = 22;
-            lbl_search_BR.Text = "Search";
-            // 
             // btn_generateReport
             // 
-            btn_generateReport.Location = new Point(651, 603);
+            btn_generateReport.BackColor = Color.Green;
+            btn_generateReport.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            btn_generateReport.ForeColor = SystemColors.ButtonHighlight;
+            btn_generateReport.Location = new Point(597, 603);
             btn_generateReport.Name = "btn_generateReport";
-            btn_generateReport.Size = new Size(192, 41);
+            btn_generateReport.Size = new Size(246, 41);
             btn_generateReport.TabIndex = 28;
             btn_generateReport.Text = "Generate Report";
-            btn_generateReport.UseVisualStyleBackColor = true;
+            btn_generateReport.UseVisualStyleBackColor = false;
             btn_generateReport.Click += btn_generateReport_Click;
             // 
             // btn_clear
             // 
-            btn_clear.Location = new Point(621, 30);
+            btn_clear.BackColor = SystemColors.ActiveCaption;
+            btn_clear.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_clear.Location = new Point(552, 25);
             btn_clear.Name = "btn_clear";
-            btn_clear.Size = new Size(62, 29);
+            btn_clear.Size = new Size(127, 27);
             btn_clear.TabIndex = 30;
             btn_clear.Text = "Clear";
-            btn_clear.UseVisualStyleBackColor = true;
+            btn_clear.UseVisualStyleBackColor = false;
             btn_clear.Click += btn_clear_Click;
             // 
             // btn_back
             // 
-            btn_back.Location = new Point(30, 608);
+            btn_back.BackColor = SystemColors.ActiveCaptionText;
+            btn_back.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
+            btn_back.ForeColor = SystemColors.ButtonHighlight;
+            btn_back.Location = new Point(34, 608);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(94, 29);
+            btn_back.Size = new Size(121, 36);
             btn_back.TabIndex = 31;
             btn_back.Text = "Back";
-            btn_back.UseVisualStyleBackColor = true;
+            btn_back.UseVisualStyleBackColor = false;
             btn_back.Click += btn_back_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Gray;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(823, 17);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(34, 35);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 42;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // BorrowReturn
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(883, 656);
+            Controls.Add(pictureBox2);
             Controls.Add(btn_back);
             Controls.Add(btn_clear);
             Controls.Add(btn_generateReport);
             Controls.Add(tabControl);
             Controls.Add(btn_search_BR);
             Controls.Add(txt_search_BR);
-            Controls.Add(lbl_search_BR);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "BorrowReturn";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "BorrowReturn";
             Load += BorrowReturn_Load;
             tabControl.ResumeLayout(false);
@@ -225,6 +250,7 @@
             ((System.ComponentModel.ISupportInitialize)dgv_overDue_MB).EndInit();
             tabLogActions.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_logActions_MB).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -238,7 +264,6 @@
         private DataGridView dgv_overDue_MB;
         private Button btn_search_BR;
         private TextBox txt_search_BR;
-        private Label lbl_search_BR;
         private Button btn_generateReport;
         private TabPage tabLogActions;
         private DataGridView dgv_logActions_MB;
@@ -246,5 +271,6 @@
         private Button btn_back;
         private TabPage tabAvailable;
         private DataGridView dgv_availbleBooks;
+        private PictureBox pictureBox2;
     }
 }

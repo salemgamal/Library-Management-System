@@ -11,6 +11,7 @@ using Castle.Components.DictionaryAdapter;
 using DevExpress.Pdf;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
+using Library.DataAccess.Repositories;
 using Library.DataAccess.Repositry;
 
 namespace Library.Presentation.Forms.Librarian_Forms
@@ -20,6 +21,8 @@ namespace Library.Presentation.Forms.Librarian_Forms
         LibraryDbContext context;
         BookRepository bookRepo;
         BookService bookService;
+        BorrowRecordRepository borrowRecordRepository;
+        LogActionRepositry LogActionRepositry;
         int bookId;
         Form preForm;
         public ManageBooks(Form preF)
@@ -47,7 +50,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
                 "Fantasy",
                 "Politics"
             });
-                }
+        }
 
         //search
         private void btn_search_LF_Click(object sender, EventArgs e)
@@ -154,6 +157,11 @@ namespace Library.Presentation.Forms.Librarian_Forms
             cmbBox_categories_LF.SelectedIndex = -1;
 
             btn_search_LF.PerformClick();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

@@ -41,5 +41,10 @@ namespace Library.Presentation.Forms.Librarian_Forms
             this.Close();
             preForm.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

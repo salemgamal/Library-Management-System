@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
+using Library.DataAccess.Repositories;
 using Library.DataAccess.Repositry;
 
 namespace Library.Presentation.Forms.Librarian_Forms
@@ -18,6 +19,8 @@ namespace Library.Presentation.Forms.Librarian_Forms
         LibraryDbContext context;
         BookRepository bookRepo;
         BookService bookService;
+        BorrowRecordRepository recordRepository;
+        LogActionRepositry actionRepositry;
 
         int bookId;
         public EditBook(ManageBooks MB, int _bookId)
@@ -98,6 +101,11 @@ namespace Library.Presentation.Forms.Librarian_Forms
             {
                 MessageBox.Show("Book not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

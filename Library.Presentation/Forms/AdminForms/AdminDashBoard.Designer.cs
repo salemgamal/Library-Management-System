@@ -46,9 +46,10 @@
             btn_Manage_Librarian_AD.BackColor = Color.BurlyWood;
             btn_Manage_Librarian_AD.FlatStyle = FlatStyle.Flat;
             btn_Manage_Librarian_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_Manage_Librarian_AD.Location = new Point(72, 165);
+            btn_Manage_Librarian_AD.Location = new Point(82, 220);
+            btn_Manage_Librarian_AD.Margin = new Padding(3, 4, 3, 4);
             btn_Manage_Librarian_AD.Name = "btn_Manage_Librarian_AD";
-            btn_Manage_Librarian_AD.Size = new Size(236, 52);
+            btn_Manage_Librarian_AD.Size = new Size(270, 69);
             btn_Manage_Librarian_AD.TabIndex = 0;
             btn_Manage_Librarian_AD.Text = "Manage Librarian";
             btn_Manage_Librarian_AD.UseVisualStyleBackColor = false;
@@ -59,9 +60,10 @@
             btn_ManageMembers_AD.BackColor = Color.BurlyWood;
             btn_ManageMembers_AD.FlatStyle = FlatStyle.Flat;
             btn_ManageMembers_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            btn_ManageMembers_AD.Location = new Point(72, 267);
+            btn_ManageMembers_AD.Location = new Point(82, 356);
+            btn_ManageMembers_AD.Margin = new Padding(3, 4, 3, 4);
             btn_ManageMembers_AD.Name = "btn_ManageMembers_AD";
-            btn_ManageMembers_AD.Size = new Size(236, 52);
+            btn_ManageMembers_AD.Size = new Size(270, 69);
             btn_ManageMembers_AD.TabIndex = 1;
             btn_ManageMembers_AD.Text = "Manage Members";
             btn_ManageMembers_AD.UseVisualStyleBackColor = false;
@@ -72,9 +74,10 @@
             btn_ManageBooks_AD.BackColor = Color.BurlyWood;
             btn_ManageBooks_AD.FlatStyle = FlatStyle.Flat;
             btn_ManageBooks_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            btn_ManageBooks_AD.Location = new Point(342, 267);
+            btn_ManageBooks_AD.Location = new Point(391, 356);
+            btn_ManageBooks_AD.Margin = new Padding(3, 4, 3, 4);
             btn_ManageBooks_AD.Name = "btn_ManageBooks_AD";
-            btn_ManageBooks_AD.Size = new Size(236, 52);
+            btn_ManageBooks_AD.Size = new Size(270, 69);
             btn_ManageBooks_AD.TabIndex = 2;
             btn_ManageBooks_AD.Text = "Manage Books";
             btn_ManageBooks_AD.UseVisualStyleBackColor = false;
@@ -86,9 +89,10 @@
             btn_back_AD.FlatStyle = FlatStyle.Flat;
             btn_back_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back_AD.ForeColor = SystemColors.ButtonFace;
-            btn_back_AD.Location = new Point(22, 390);
+            btn_back_AD.Location = new Point(25, 520);
+            btn_back_AD.Margin = new Padding(3, 4, 3, 4);
             btn_back_AD.Name = "btn_back_AD";
-            btn_back_AD.Size = new Size(75, 32);
+            btn_back_AD.Size = new Size(86, 43);
             btn_back_AD.TabIndex = 3;
             btn_back_AD.Text = "back";
             btn_back_AD.UseVisualStyleBackColor = false;
@@ -99,9 +103,10 @@
             button1.BackColor = Color.BurlyWood;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            button1.Location = new Point(342, 165);
+            button1.Location = new Point(391, 220);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(236, 52);
+            button1.Size = new Size(270, 69);
             button1.TabIndex = 4;
             button1.Text = "Manage Admins";
             button1.UseVisualStyleBackColor = false;
@@ -113,9 +118,9 @@
             label1.BackColor = Color.Black;
             label1.Font = new Font("Times New Roman", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(166, 80);
+            label1.Location = new Point(190, 107);
             label1.Name = "label1";
-            label1.Size = new Size(315, 42);
+            label1.Size = new Size(401, 53);
             label1.TabIndex = 5;
             label1.Text = "Admin DashBoard";
             // 
@@ -124,9 +129,10 @@
             pictureBox1.BackColor = Color.Tan;
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(51, 80);
+            pictureBox1.Location = new Point(58, 107);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(543, 283);
+            pictureBox1.Size = new Size(621, 377);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
@@ -134,9 +140,10 @@
             // 
             pictureBox2.BackColor = Color.Peru;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(576, 12);
+            pictureBox2.Location = new Point(658, 16);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 26);
+            pictureBox2.Size = new Size(34, 35);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
@@ -144,10 +151,10 @@
             // 
             // AdminDashBoard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(618, 434);
+            ClientSize = new Size(706, 579);
             Controls.Add(pictureBox2);
             Controls.Add(label1);
             Controls.Add(button1);
@@ -157,7 +164,9 @@
             Controls.Add(btn_Manage_Librarian_AD);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AdminDashBoard";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminDashBoard";
             Load += AdminDashBoard_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

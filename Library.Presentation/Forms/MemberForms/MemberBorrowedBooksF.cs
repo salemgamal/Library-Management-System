@@ -33,6 +33,8 @@ namespace Library.Presentation.Forms.MemberForms
         public int BookID;
         public BookService BookService;
         public BorrowRecordService BorrowRecordService;
+        LogActionRepositry LogActionRepositry;
+        BorrowRecordRepository BorrowRecordRepository;
         Form Old;
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice videoCaptureDevice;
@@ -58,7 +60,14 @@ namespace Library.Presentation.Forms.MemberForms
             {
                 cboDevice.Items.Add(filterInfo.Name);
             }
-            cboDevice.SelectedIndex = 0;
+            try
+            {
+                cboDevice.SelectedIndex = 0;
+            }
+            catch
+            {
+                MessageBox.Show("Enable camera device");
+            }
         }
         private void dgv_borrowedBooks_MBF_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -197,9 +206,15 @@ namespace Library.Presentation.Forms.MemberForms
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
-            videoCaptureDevice.NewFrame += CaptureDevice_NewFrame;
-            videoCaptureDevice.Start();
+            try
+            {
+                videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
+                videoCaptureDevice.NewFrame += CaptureDevice_NewFrame;
+                videoCaptureDevice.Start();
+            }
+            catch {
+                MessageBox.Show("There is no camera to start.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
         private void btnCapture_Click(object sender, EventArgs e)
         {

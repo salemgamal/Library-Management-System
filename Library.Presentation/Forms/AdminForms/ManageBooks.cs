@@ -1,5 +1,7 @@
 ﻿using Library.BusinessLogic.Services;
 using Library.DataAccess.Models;
+using Library.DataAccess.Repositories;
+using Library.DataAccess.Repositry;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,12 +20,14 @@ namespace Library.Presentation.Admin
     {
         BookService bookService;
         LibraryDbContext context;
+        BorrowRecordRepository recordRepository;
+        LogActionRepositry LogActionRepositry;
         Form oldForm;
         public ManageBooks(Form oldF)
         {
             InitializeComponent();
             context = new LibraryDbContext();
-            bookService = new BookService(new DataAccess.Repositry.BookRepository(context));
+            bookService = new BookService(new DataAccess.Repositry.BookRepository(context) );
             oldForm = oldF;
         }
 

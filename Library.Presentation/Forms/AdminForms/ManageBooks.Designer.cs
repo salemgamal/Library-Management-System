@@ -58,9 +58,10 @@
             // 
             btn_back_ML.BackColor = Color.LightGray;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_back_ML.Location = new Point(700, 431);
+            btn_back_ML.Location = new Point(800, 575);
+            btn_back_ML.Margin = new Padding(3, 4, 3, 4);
             btn_back_ML.Name = "btn_back_ML";
-            btn_back_ML.Size = new Size(82, 38);
+            btn_back_ML.Size = new Size(94, 51);
             btn_back_ML.TabIndex = 56;
             btn_back_ML.Text = "back";
             btn_back_ML.UseVisualStyleBackColor = false;
@@ -71,9 +72,10 @@
             btn_delete_MB.BackColor = Color.Maroon;
             btn_delete_MB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_delete_MB.ForeColor = SystemColors.ControlLightLight;
-            btn_delete_MB.Location = new Point(273, 416);
+            btn_delete_MB.Location = new Point(312, 555);
+            btn_delete_MB.Margin = new Padding(3, 4, 3, 4);
             btn_delete_MB.Name = "btn_delete_MB";
-            btn_delete_MB.Size = new Size(90, 42);
+            btn_delete_MB.Size = new Size(103, 56);
             btn_delete_MB.TabIndex = 55;
             btn_delete_MB.Text = "Delete";
             btn_delete_MB.UseVisualStyleBackColor = false;
@@ -84,9 +86,10 @@
             btn_update_MB.BackColor = Color.Black;
             btn_update_MB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_update_MB.ForeColor = SystemColors.ControlLightLight;
-            btn_update_MB.Location = new Point(163, 416);
+            btn_update_MB.Location = new Point(186, 555);
+            btn_update_MB.Margin = new Padding(3, 4, 3, 4);
             btn_update_MB.Name = "btn_update_MB";
-            btn_update_MB.Size = new Size(94, 42);
+            btn_update_MB.Size = new Size(107, 56);
             btn_update_MB.TabIndex = 54;
             btn_update_MB.Text = "update";
             btn_update_MB.UseVisualStyleBackColor = false;
@@ -97,9 +100,10 @@
             btn_add_MB.BackColor = Color.SteelBlue;
             btn_add_MB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_add_MB.ForeColor = SystemColors.ControlLightLight;
-            btn_add_MB.Location = new Point(53, 416);
+            btn_add_MB.Location = new Point(61, 555);
+            btn_add_MB.Margin = new Padding(3, 4, 3, 4);
             btn_add_MB.Name = "btn_add_MB";
-            btn_add_MB.Size = new Size(88, 42);
+            btn_add_MB.Size = new Size(101, 56);
             btn_add_MB.TabIndex = 53;
             btn_add_MB.Text = "Add";
             btn_add_MB.UseVisualStyleBackColor = false;
@@ -107,9 +111,10 @@
             // 
             // txt_publish_MB
             // 
-            txt_publish_MB.Location = new Point(205, 313);
+            txt_publish_MB.Location = new Point(234, 417);
+            txt_publish_MB.Margin = new Padding(3, 4, 3, 4);
             txt_publish_MB.Name = "txt_publish_MB";
-            txt_publish_MB.Size = new Size(158, 23);
+            txt_publish_MB.Size = new Size(180, 27);
             txt_publish_MB.TabIndex = 52;
             // 
             // label7
@@ -117,17 +122,18 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label7.Location = new Point(52, 313);
+            label7.Location = new Point(34, 416);
             label7.Name = "label7";
-            label7.Size = new Size(142, 24);
+            label7.Size = new Size(191, 31);
             label7.TabIndex = 51;
             label7.Text = "Published Year";
             // 
             // txt_author_MB
             // 
-            txt_author_MB.Location = new Point(205, 175);
+            txt_author_MB.Location = new Point(234, 233);
+            txt_author_MB.Margin = new Padding(3, 4, 3, 4);
             txt_author_MB.Name = "txt_author_MB";
-            txt_author_MB.Size = new Size(158, 23);
+            txt_author_MB.Size = new Size(180, 27);
             txt_author_MB.TabIndex = 50;
             // 
             // label5
@@ -135,17 +141,18 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label5.Location = new Point(52, 171);
+            label5.Location = new Point(34, 227);
             label5.Name = "label5";
-            label5.Size = new Size(73, 24);
+            label5.Size = new Size(98, 31);
             label5.TabIndex = 49;
             label5.Text = "Author";
             // 
             // txt_ISBN_MB
             // 
-            txt_ISBN_MB.Location = new Point(205, 219);
+            txt_ISBN_MB.Location = new Point(234, 292);
+            txt_ISBN_MB.Margin = new Padding(3, 4, 3, 4);
             txt_ISBN_MB.Name = "txt_ISBN_MB";
-            txt_ISBN_MB.Size = new Size(158, 23);
+            txt_ISBN_MB.Size = new Size(180, 27);
             txt_ISBN_MB.TabIndex = 48;
             // 
             // label4
@@ -153,17 +160,18 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label4.Location = new Point(52, 267);
+            label4.Location = new Point(34, 355);
             label4.Name = "label4";
-            label4.Size = new Size(93, 24);
+            label4.Size = new Size(121, 31);
             label4.TabIndex = 47;
             label4.Text = "Category";
             // 
             // txt_category_MB
             // 
-            txt_category_MB.Location = new Point(205, 267);
+            txt_category_MB.Location = new Point(234, 356);
+            txt_category_MB.Margin = new Padding(3, 4, 3, 4);
             txt_category_MB.Name = "txt_category_MB";
-            txt_category_MB.Size = new Size(158, 23);
+            txt_category_MB.Size = new Size(180, 27);
             txt_category_MB.TabIndex = 46;
             // 
             // label3
@@ -171,17 +179,18 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label3.Location = new Point(53, 215);
+            label3.Location = new Point(36, 286);
             label3.Name = "label3";
-            label3.Size = new Size(59, 24);
+            label3.Size = new Size(77, 31);
             label3.TabIndex = 45;
             label3.Text = "ISBN";
             // 
             // txt_title_MB
             // 
-            txt_title_MB.Location = new Point(205, 131);
+            txt_title_MB.Location = new Point(234, 175);
+            txt_title_MB.Margin = new Padding(3, 4, 3, 4);
             txt_title_MB.Name = "txt_title_MB";
-            txt_title_MB.Size = new Size(158, 23);
+            txt_title_MB.Size = new Size(180, 27);
             txt_title_MB.TabIndex = 44;
             // 
             // label2
@@ -189,9 +198,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label2.Location = new Point(53, 132);
+            label2.Location = new Point(36, 175);
             label2.Name = "label2";
-            label2.Size = new Size(50, 24);
+            label2.Size = new Size(69, 31);
             label2.TabIndex = 43;
             label2.Text = "Title";
             // 
@@ -207,10 +216,11 @@
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
             dgv_books.DefaultCellStyle = dataGridViewCellStyle1;
-            dgv_books.Location = new Point(387, 128);
+            dgv_books.Location = new Point(442, 171);
+            dgv_books.Margin = new Padding(3, 4, 3, 4);
             dgv_books.Name = "dgv_books";
             dgv_books.RowHeadersWidth = 51;
-            dgv_books.Size = new Size(395, 257);
+            dgv_books.Size = new Size(451, 343);
             dgv_books.TabIndex = 42;
             dgv_books.RowHeaderMouseDoubleClick += dgv_books_RowHeaderMouseDoubleClick;
             // 
@@ -219,9 +229,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 36F, FontStyle.Bold);
-            label1.Location = new Point(240, 12);
+            label1.Location = new Point(274, 16);
             label1.Name = "label1";
-            label1.Size = new Size(327, 55);
+            label1.Size = new Size(403, 68);
             label1.TabIndex = 41;
             label1.Text = "Manage Books";
             // 
@@ -230,26 +240,28 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label6.Location = new Point(53, 361);
+            label6.Location = new Point(36, 480);
             label6.Name = "label6";
-            label6.Size = new Size(88, 24);
+            label6.Size = new Size(118, 31);
             label6.TabIndex = 59;
             label6.Text = "Quantity";
             // 
             // txt_QTY_MB
             // 
-            txt_QTY_MB.Location = new Point(205, 361);
+            txt_QTY_MB.Location = new Point(234, 481);
+            txt_QTY_MB.Margin = new Padding(3, 4, 3, 4);
             txt_QTY_MB.Name = "txt_QTY_MB";
-            txt_QTY_MB.Size = new Size(159, 23);
+            txt_QTY_MB.Size = new Size(182, 27);
             txt_QTY_MB.TabIndex = 60;
             // 
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(742, 12);
+            pictureBox3.Location = new Point(848, 16);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(30, 26);
+            pictureBox3.Size = new Size(34, 35);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 61;
             pictureBox3.TabStop = false;
@@ -257,10 +269,10 @@
             // 
             // ManageBooks
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(794, 491);
+            ClientSize = new Size(907, 655);
             Controls.Add(pictureBox3);
             Controls.Add(txt_QTY_MB);
             Controls.Add(label6);
@@ -281,7 +293,9 @@
             Controls.Add(dgv_books);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ManageBooks";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ManageBooks";
             Load += ManageBooks_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_books).EndInit();

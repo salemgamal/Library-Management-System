@@ -50,10 +50,9 @@
             btn_login_L.FlatStyle = FlatStyle.Flat;
             btn_login_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_login_L.ForeColor = SystemColors.ControlLightLight;
-            btn_login_L.Location = new Point(139, 226);
-            btn_login_L.Margin = new Padding(3, 2, 3, 2);
+            btn_login_L.Location = new Point(159, 301);
             btn_login_L.Name = "btn_login_L";
-            btn_login_L.Size = new Size(103, 38);
+            btn_login_L.Size = new Size(118, 51);
             btn_login_L.TabIndex = 0;
             btn_login_L.Text = "Login";
             btn_login_L.UseVisualStyleBackColor = false;
@@ -64,9 +63,9 @@
             lbl_userName.AutoSize = true;
             lbl_userName.BackColor = Color.Transparent;
             lbl_userName.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_userName.Location = new Point(21, 114);
+            lbl_userName.Location = new Point(24, 152);
             lbl_userName.Name = "lbl_userName";
-            lbl_userName.Size = new Size(100, 24);
+            lbl_userName.Size = new Size(132, 31);
             lbl_userName.TabIndex = 1;
             lbl_userName.Text = "Username";
             // 
@@ -75,29 +74,27 @@
             lbl_pass.AutoSize = true;
             lbl_pass.BackColor = Color.Transparent;
             lbl_pass.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            lbl_pass.Location = new Point(25, 170);
+            lbl_pass.Location = new Point(29, 227);
             lbl_pass.Name = "lbl_pass";
-            lbl_pass.Size = new Size(96, 24);
+            lbl_pass.Size = new Size(127, 31);
             lbl_pass.TabIndex = 2;
             lbl_pass.Text = "Password";
             // 
             // txt_userName_L
             // 
             txt_userName_L.BackColor = Color.SeaShell;
-            txt_userName_L.Location = new Point(139, 114);
-            txt_userName_L.Margin = new Padding(3, 2, 3, 2);
+            txt_userName_L.Location = new Point(159, 152);
             txt_userName_L.Name = "txt_userName_L";
-            txt_userName_L.Size = new Size(174, 23);
+            txt_userName_L.Size = new Size(198, 27);
             txt_userName_L.TabIndex = 3;
             // 
             // txt_pass_L
             // 
             txt_pass_L.BackColor = Color.SeaShell;
-            txt_pass_L.Location = new Point(139, 171);
-            txt_pass_L.Margin = new Padding(3, 2, 3, 2);
+            txt_pass_L.Location = new Point(159, 228);
             txt_pass_L.Name = "txt_pass_L";
             txt_pass_L.PasswordChar = '●';
-            txt_pass_L.Size = new Size(174, 23);
+            txt_pass_L.Size = new Size(198, 27);
             txt_pass_L.TabIndex = 4;
             // 
             // pictureBox_passEye
@@ -105,10 +102,9 @@
             pictureBox_passEye.BackColor = Color.Transparent;
             pictureBox_passEye.Cursor = Cursors.Hand;
             pictureBox_passEye.Image = Properties.Resources.eyeclosed;
-            pictureBox_passEye.Location = new Point(319, 174);
-            pictureBox_passEye.Margin = new Padding(3, 2, 3, 2);
+            pictureBox_passEye.Location = new Point(365, 232);
             pictureBox_passEye.Name = "pictureBox_passEye";
-            pictureBox_passEye.Size = new Size(24, 20);
+            pictureBox_passEye.Size = new Size(27, 27);
             pictureBox_passEye.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox_passEye.TabIndex = 5;
             pictureBox_passEye.TabStop = false;
@@ -120,10 +116,9 @@
             btn_back_L.FlatStyle = FlatStyle.Flat;
             btn_back_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_back_L.ForeColor = SystemColors.ControlLightLight;
-            btn_back_L.Location = new Point(24, 346);
-            btn_back_L.Margin = new Padding(3, 2, 3, 2);
+            btn_back_L.Location = new Point(2, 490);
             btn_back_L.Name = "btn_back_L";
-            btn_back_L.Size = new Size(104, 38);
+            btn_back_L.Size = new Size(107, 37);
             btn_back_L.TabIndex = 6;
             btn_back_L.Text = "Back";
             btn_back_L.UseVisualStyleBackColor = false;
@@ -139,9 +134,10 @@
             panel1.Controls.Add(pictureBox_passEye);
             panel1.Controls.Add(lbl_userName);
             panel1.Controls.Add(txt_userName_L);
-            panel1.Location = new Point(152, 49);
+            panel1.Location = new Point(174, 65);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(353, 279);
+            panel1.Size = new Size(403, 372);
             panel1.TabIndex = 7;
             // 
             // label1
@@ -149,9 +145,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(109, 9);
+            label1.Location = new Point(125, 12);
             label1.Name = "label1";
-            label1.Size = new Size(143, 55);
+            label1.Size = new Size(178, 68);
             label1.TabIndex = 6;
             label1.Text = "Login";
             // 
@@ -159,9 +155,10 @@
             // 
             pictureBox1.BackColor = Color.Peru;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(605, 12);
+            pictureBox1.Location = new Point(691, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(30, 26);
+            pictureBox1.Size = new Size(34, 35);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -169,17 +166,17 @@
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(647, 404);
+            ClientSize = new Size(739, 539);
             Controls.Add(pictureBox1);
             Controls.Add(panel1);
             Controls.Add(btn_back_L);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox_passEye).EndInit();
             panel1.ResumeLayout(false);

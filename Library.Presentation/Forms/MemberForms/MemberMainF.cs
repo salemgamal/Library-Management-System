@@ -32,6 +32,7 @@ namespace Library.Presentation.Forms.MemberForms
     {
         public BookService BookService;
         public BorrowRecordService BorrowRecordService;
+        LogActionRepositry actionRepositry;
         public int MemberID;
         public int BookID;
         Form Old;
@@ -60,14 +61,27 @@ namespace Library.Presentation.Forms.MemberForms
             {
                 cboDevice.Items.Add(filterInfo.Name);
             }
-            cboDevice.SelectedIndex = 0;
+            try
+            {
+                cboDevice.SelectedIndex = 0;
+            }
+            catch {
+                MessageBox.Show("Enable camera device");
+            }
 
         }
         private void btnStart_Click_1(object sender, EventArgs e)
         {
-            videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
-            videoCaptureDevice.NewFrame += CaptureDevice_NewFrame;
-            videoCaptureDevice.Start();
+            try
+            {
+                videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
+                videoCaptureDevice.NewFrame += CaptureDevice_NewFrame;
+                videoCaptureDevice.Start();
+            }
+            catch
+            {
+                MessageBox.Show("There is no camera to start.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
         private void btnCapture_Click(object sender, EventArgs e)
         {

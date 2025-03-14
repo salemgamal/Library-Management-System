@@ -21,6 +21,7 @@ namespace Library.Presentation.Forms.MemberForms
         public int MemberID;
         public BookService BookService;
         public BorrowRecordService BorrowRecordService;
+        LogActionRepositry actionRepositry;
         //private static NotificationF notificationf;
         public NotificationF(int MemberId)
         {

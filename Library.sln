@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.DataAccess", "Libra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.BusinessLogic", "Library.BusinessLogic\Library.BusinessLogic.csproj", "{38873663-EC86-495F-96C4-A7271BE7CAF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.EmailNotifier", "Library.EmailNotifier\Library.EmailNotifier.csproj", "{39945E8D-CDA0-4307-820C-359FB7D7C082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{38873663-EC86-495F-96C4-A7271BE7CAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38873663-EC86-495F-96C4-A7271BE7CAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38873663-EC86-495F-96C4-A7271BE7CAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39945E8D-CDA0-4307-820C-359FB7D7C082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39945E8D-CDA0-4307-820C-359FB7D7C082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39945E8D-CDA0-4307-820C-359FB7D7C082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39945E8D-CDA0-4307-820C-359FB7D7C082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

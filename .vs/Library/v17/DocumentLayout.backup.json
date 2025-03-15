@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{39945E8D-CDA0-4307-820C-359FB7D7C082}|Library.EmailNotifier\\Library.EmailNotifier.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.emailnotifier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39945E8D-CDA0-4307-820C-359FB7D7C082}|Library.EmailNotifier\\Library.EmailNotifier.csproj|solutionrelative:library.emailnotifier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|solutionrelative:library.businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\forms\\memberforms\\memberborrowedbooksf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\memberforms\\memberborrowedbooksf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -17,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\authentication forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38873663-EC86-495F-96C4-A7271BE7CAF1}|Library.BusinessLogic\\Library.BusinessLogic.csproj|solutionrelative:library.businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\forms\\memberforms\\memberborrowedbooksf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\memberforms\\memberborrowedbooksf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
               "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Authentication Forms\\Login.cs",
@@ -50,10 +54,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BorrowReturn.cs",
@@ -61,14 +61,31 @@
               "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
               "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
               "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAADwv6MAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAADwv5sAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T11:05:41.414Z",
+              "WhenOpened": "2025-03-15T11:39:31.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.EmailNotifier\\Program.cs",
+              "RelativeDocumentMoniker": "Library.EmailNotifier\\Program.cs",
+              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.EmailNotifier\\Program.cs",
+              "RelativeToolTip": "Library.EmailNotifier\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:36:56.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BorrowReturn.cs [Design]",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
               "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
@@ -80,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "App.config",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\App.config",
               "RelativeDocumentMoniker": "Library.Presentation\\App.config",
@@ -92,27 +109,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.BusinessLogic\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Library.BusinessLogic\\Services\\EmailService.cs",
               "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.BusinessLogic\\Services\\EmailService.cs",
               "RelativeToolTip": "Library.BusinessLogic\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwDEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:35:09.71Z"
+              "WhenOpened": "2025-03-15T10:35:09.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MemberBorrowedBooksF.cs",
               "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
               "RelativeDocumentMoniker": "Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
               "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
               "RelativeToolTip": "Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAqwGQAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAQwGQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:33:15.892Z"
+              "WhenOpened": "2025-03-15T10:33:15.892Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -42,5 +42,10 @@ namespace Library.DataAccess.Models
         //Navigation Properties
         public virtual List<BorrowRecord> BorrowRecords { get; set; }
         public virtual List<LogAction> LogActions { get; set; }
+
+        public override string ToString()
+        {
+            return $"User: {Name}";
+        }
     }
 }

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Library.Presentation")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Library.EmailNotifier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3928f62b011a1e2f5b1f62e84a5983e7af8c70d0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Library.Presentation")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Library.Presentation")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeefdc4419325583d03c8ca314095100bcbc4d5e")]
+[assembly: System.Reflection.AssemblyProductAttribute("Library.EmailNotifier")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Library.EmailNotifier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

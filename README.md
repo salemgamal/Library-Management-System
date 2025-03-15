@@ -1,6 +1,6 @@
 # 📚 Library Management System - Setup Instructions
 
-## 🔹 1. Prerequisites
+## 🔹 Prerequisites
 Before setting up the project, ensure you have the following installed:
 - ✅ **.NET SDK** (Latest Version)
 - ✅ **SQL Server** & **SQL Server Management Studio (SSMS)**
@@ -9,7 +9,7 @@ Before setting up the project, ensure you have the following installed:
 
 ---
 
-## 🔹 2. Configure the Database Connection
+## 🔹 Configure the Database Connection
 1. Open the project in **Visual Studio**.
 2. Navigate to **`App.config`** *(in `Library.Presentation` project).*
 3. Locate the `<connectionStrings>` section:
@@ -24,7 +24,7 @@ Before setting up the project, ensure you have the following installed:
 
 ---
 
-## 🔹 3. Configure Email Credentials
+## 🔹 Configure Email Credentials
 The system sends email notifications for due date reminders. Update your email credentials:
 1. Open **`App.config`**.
 2. Find the email settings section and modify these values:
@@ -38,7 +38,7 @@ The system sends email notifications for due date reminders. Update your email c
 
 ---
 
-## 🔹 4. Run Database Migrations
+## 🔹 Run Database Migrations
 - Ensure that **SQL Server is running** in the Services.
 - Open **Package Manager Console** in Visual Studio:
   - Navigate to **Tools > NuGet Package Manager > Package Manager Console**.
@@ -56,7 +56,7 @@ The system sends email notifications for due date reminders. Update your email c
 
 ---
 
-## 🔹 5. Running the Application
+## 🔹 Running the Application
 ### ▶️ **To run the desktop application:**
 - In **Visual Studio**, set `Library.Presentation` as the **Startup Project**.
 - Press `F5` or click **Start** to launch the application.
@@ -71,7 +71,7 @@ The system sends email notifications for due date reminders. Update your email c
 
 ---
 
-## 🔹 6. Default Login Credentials
+## 🔹 Default Login Credentials
 | Role      | Username        | Password  |
 |-----------|---------------|-----------|
 | **Admin** | `salemgamall`  | `admin`   |
@@ -80,11 +80,61 @@ The system sends email notifications for due date reminders. Update your email c
 
 ---
 
-## 🔹 7. Troubleshooting
+## 🔹 Troubleshooting
 - ❗ **If emails are not sent:** Check **SMTP settings** and ensure your email provider allows outgoing emails.
 - ❗ **If the database does not connect:** Verify the **SQL Server instance** and credentials.
 - ❗ **If the console app does not run automatically:** Consider using **Windows Task Scheduler**.
 
 ---
-### 🚀 Enjoy using the Library Management System! 🎉
 
+# 📚 Library Management System - Features Document
+
+## 🌇 Introduction
+The Library Management System is designed to streamline library operations, manage books and users efficiently, and ensure smooth borrowing and returning processes. It aims to improve user experience and enhance administrative control.
+
+## 👥 User Management
+- Register new users (students/staff).
+- Edit user details (name, email, role).
+- View user borrowing history.
+
+## 📚 Book Management
+- Add new books with title, author, category, and ISBN.
+- Edit book details (title, author, year, category).
+- Categorize books for easier search and organization.
+- Track book availability status (available/borrowed).
+
+## 🔄 Borrowing and Returning Books
+- Borrow books with a set due date.
+- Return books and update availability instantly.
+
+## 📊 Reports and Logs
+- Generate detailed reports for:
+  - Available books.
+  - Borrowed books.
+  - Overdue books.
+  - Active users.
+- Log user actions (borrow, return).
+- Export reports to CSV or PDF.
+
+## 📧 Email Reminder System
+- Send automatic email reminders for:
+  - Due date approaching.
+
+## 🔔 Notification System
+- Internal notifications for:
+  - Overdue book alerts.
+
+## 📲 QR Code Support
+- Generate QR codes for each book.
+- Scan QR codes for fast borrowing and returning.
+
+## 🔍 Search and Filter
+- Search books by title, author, category, or ISBN.
+- Filter books by:
+  - Availability (available/borrowed).
+  - Category.
+
+## 🔒 User Roles and Permissions
+- **Admin:** Full system control (manage books, users).
+- **Librarian:** Manage books, reports, and user log actions.
+- **Member:** View books, borrow, return.

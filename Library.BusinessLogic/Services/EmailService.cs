@@ -27,7 +27,7 @@ namespace Library.BusinessLogic.Services
                 {
                     MailMessage mail = new MailMessage
                     {
-                        From = new MailAddress("sarayasseriti@gmail.com", "Library Reminder Service"),
+                        From = new MailAddress(emailAddress, "Library Reminder Service"),
                         Subject = "Reminder: Book Due Date",
                         Body = $@"
                         <h2>📚 Reminder: Book Due Date</h2>

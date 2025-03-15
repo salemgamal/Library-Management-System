@@ -78,13 +78,33 @@ namespace Library.Presentation.Forms.MemberForms
                     BookID = (int)dgv_borrowedBooks_MBF.SelectedRows[0].Cells[1].Value;
                     var title = BookService.GetBookById(BookID).Title;
                     txt_title_MBF.Text = title;
-                    var dueDate = (DateTime)dgv_borrowedBooks_MBF.SelectedRows[0].Cells[4].Value;
-                    int days = (dueDate - DateTime.Now).Days;
-                    txt_dueDate_MBF.Text = $"{days} days";
 
-                    string qrCodeData = $"📚 Book Details:\n\n🆔 BookID: {BookID}\n📖 Title: {title}\n";
-                    Bitmap qrCodeImage = GenerateQRCode(qrCodeData);
-                    ShowQRInPanel(qrCodeImage);
+                    var dueDate = dgv_borrowedBooks_MBF.SelectedRows[0].Cells[4].Value != DBNull.Value
+                        ? (DateTime)dgv_borrowedBooks_MBF.SelectedRows[0].Cells[4].Value
+                        : DateTime.MinValue;
+
+                    DateTime? returnDate = dgv_borrowedBooks_MBF.SelectedRows[0].Cells[5].Value != DBNull.Value
+                        ? (DateTime?)dgv_borrowedBooks_MBF.SelectedRows[0].Cells[5].Value
+                        : null;
+
+                    if (returnDate.HasValue)
+                    {
+                        txt_dueDate_MBF.Text = "Already Returned!";
+
+                        btn_scan_MF.Enabled = false;
+                        btnStart.Enabled = false;
+                        btnCapture.Enabled = false;
+                    }
+                    else
+                    {
+                        int days = (dueDate - DateTime.Now).Days;
+                        txt_dueDate_MBF.Text = $"{days} days remaining";
+
+                        string qrCodeData = $"📚 Book Details:\n\n🆔 BookID: {BookID}\n📖 Title: {title}\n";
+                        Bitmap qrCodeImage = GenerateQRCode(qrCodeData);
+                        ShowQRInPanel(qrCodeImage);
+                    }
+
                 }
                 else
                 {

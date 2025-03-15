@@ -130,5 +130,54 @@ namespace Library.Presentation.Forms.Librarian_Forms
         {
             Environment.Exit(0);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var context = new LibraryDbContext())
+                {
+                    BookRepository book = new BookRepository(context);
+                    BorrowRecordRepository b = new BorrowRecordRepository(context);
+                    LogActionRepositry log = new LogActionRepositry(context);
+                    BorrowRecordService bs = new BorrowRecordService(b, book, log);
+                    var emailService = new EmailService();
+
+                    var tomorrow = DateTime.Now.Date.AddDays(1);
+
+                    var dueBooks = context.BorrowRecords
+                        .Where(b => b.DueDate.Date == tomorrow || b.DueDate.Date <= DateTime.Now.Date)
+                        .Select(b => new
+                        {
+                            UserEmail = b.Member.Email,
+                            BookTitle = b.Book.Title,
+                            DueDate = b.DueDate
+                        })
+                        .ToList();
+
+                    if (dueBooks.Any())
+                    {
+                        foreach (var item in dueBooks)
+                        {
+                            emailService.SendDuedateReminder(item.UserEmail, item.BookTitle, item.DueDate);
+                        }
+
+                        //Console.WriteLine("All reminders sent successfully!");
+                        MessageBox.Show("All reminders sent successfully!");
+                    }
+                    else
+                    {
+                        //Console.WriteLine("No due books for tomorrow.");
+                        MessageBox.Show("No due books for tomorrow.");
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
     }
 }

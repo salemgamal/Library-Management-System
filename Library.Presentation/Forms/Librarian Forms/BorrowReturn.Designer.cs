@@ -44,6 +44,7 @@
             btn_clear = new Button();
             btn_back = new Button();
             pictureBox2 = new PictureBox();
+            button1 = new Button();
             tabControl.SuspendLayout();
             tabBorrow.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_borrowed_BR).BeginInit();
@@ -223,12 +224,26 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ActiveCaption;
+            button1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(336, 603);
+            button1.Name = "button1";
+            button1.Size = new Size(246, 41);
+            button1.TabIndex = 43;
+            button1.Text = "Email Overdue Users";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // BorrowReturn
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(883, 656);
+            Controls.Add(button1);
             Controls.Add(pictureBox2);
             Controls.Add(btn_back);
             Controls.Add(btn_clear);
@@ -272,5 +287,6 @@
         private TabPage tabAvailable;
         private DataGridView dgv_availbleBooks;
         private PictureBox pictureBox2;
+        private Button button1;
     }
 }

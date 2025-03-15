@@ -34,7 +34,7 @@ The system sends email notifications for due date reminders. Update your email c
        <add key="EmailPassword" value="YOUR_PASSWORD" />
    </appSettings>
    ```
-3. **Important:** using **Gmail**, enable **Less Secure Apps** or create an **App Password**.
+3. **Important:** use **Gmail** and enable **Less Secure Apps** or create an **App Password**.
 
 ---
 

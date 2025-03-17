@@ -44,6 +44,7 @@
             // btn_Manage_Librarian_AD
             // 
             btn_Manage_Librarian_AD.BackColor = Color.BurlyWood;
+            btn_Manage_Librarian_AD.Cursor = Cursors.Hand;
             btn_Manage_Librarian_AD.FlatStyle = FlatStyle.Flat;
             btn_Manage_Librarian_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_Manage_Librarian_AD.Location = new Point(82, 220);
@@ -58,6 +59,7 @@
             // btn_ManageMembers_AD
             // 
             btn_ManageMembers_AD.BackColor = Color.BurlyWood;
+            btn_ManageMembers_AD.Cursor = Cursors.Hand;
             btn_ManageMembers_AD.FlatStyle = FlatStyle.Flat;
             btn_ManageMembers_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_ManageMembers_AD.Location = new Point(82, 356);
@@ -72,6 +74,7 @@
             // btn_ManageBooks_AD
             // 
             btn_ManageBooks_AD.BackColor = Color.BurlyWood;
+            btn_ManageBooks_AD.Cursor = Cursors.Hand;
             btn_ManageBooks_AD.FlatStyle = FlatStyle.Flat;
             btn_ManageBooks_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_ManageBooks_AD.Location = new Point(391, 356);
@@ -86,6 +89,7 @@
             // btn_back_AD
             // 
             btn_back_AD.BackColor = SystemColors.ActiveCaptionText;
+            btn_back_AD.Cursor = Cursors.Hand;
             btn_back_AD.FlatStyle = FlatStyle.Flat;
             btn_back_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back_AD.ForeColor = SystemColors.ButtonFace;
@@ -101,6 +105,7 @@
             // button1
             // 
             button1.BackColor = Color.BurlyWood;
+            button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             button1.Location = new Point(391, 220);
@@ -139,6 +144,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Peru;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(658, 16);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);

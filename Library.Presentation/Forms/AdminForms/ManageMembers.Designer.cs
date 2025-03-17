@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageMembers));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             showIcon = new PictureBox();
             hideIcon = new PictureBox();
             btn_back_ML = new Button();
@@ -71,6 +71,7 @@
             // hideIcon
             // 
             hideIcon.BackColor = Color.Transparent;
+            hideIcon.Cursor = Cursors.Hand;
             hideIcon.Image = (Image)resources.GetObject("hideIcon.Image");
             hideIcon.Location = new Point(819, 204);
             hideIcon.Margin = new Padding(3, 4, 3, 4);
@@ -84,6 +85,7 @@
             // btn_back_ML
             // 
             btn_back_ML.BackColor = Color.LightGray;
+            btn_back_ML.Cursor = Cursors.Hand;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back_ML.Location = new Point(14, 560);
             btn_back_ML.Margin = new Padding(3, 4, 3, 4);
@@ -97,6 +99,7 @@
             // btn_delete_MM
             // 
             btn_delete_MM.BackColor = Color.Maroon;
+            btn_delete_MM.Cursor = Cursors.Hand;
             btn_delete_MM.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_delete_MM.ForeColor = SystemColors.ControlLightLight;
             btn_delete_MM.Location = new Point(737, 492);
@@ -111,6 +114,7 @@
             // btn_update_MM
             // 
             btn_update_MM.BackColor = SystemColors.ActiveCaptionText;
+            btn_update_MM.Cursor = Cursors.Hand;
             btn_update_MM.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_update_MM.ForeColor = SystemColors.ControlLightLight;
             btn_update_MM.Location = new Point(629, 492);
@@ -125,6 +129,7 @@
             // btn_add_MM
             // 
             btn_add_MM.BackColor = Color.SteelBlue;
+            btn_add_MM.Cursor = Cursors.Hand;
             btn_add_MM.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_add_MM.ForeColor = SystemColors.ControlLightLight;
             btn_add_MM.Location = new Point(525, 492);
@@ -236,14 +241,14 @@
             // 
             dgv_Members.BackgroundColor = Color.BurlyWood;
             dgv_Members.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.PeachPuff;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
-            dgv_Members.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.PeachPuff;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dgv_Members.DefaultCellStyle = dataGridViewCellStyle3;
             dgv_Members.Location = new Point(27, 145);
             dgv_Members.Margin = new Padding(3, 4, 3, 4);
             dgv_Members.Name = "dgv_Members";
@@ -266,6 +271,7 @@
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(813, 16);
             pictureBox3.Margin = new Padding(3, 4, 3, 4);

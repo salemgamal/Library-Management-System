@@ -1,24 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.dataaccess\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\librarian forms\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|d:\\iti_professional_45\\22-linq and ef\\project\\lms\\final version\\library v2\\library-management-system\\library.dataaccess\\repositories\\borrowrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D4CEF0E-2385-441B-9DC4-67F84CCE41F0}|Library.DataAccess\\Library.DataAccess.csproj|solutionrelative:library.dataaccess\\repositories\\borrowrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -26,61 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Library.DataAccess\\Models\\Book.cs",
-              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\Models\\Book.cs",
-              "RelativeToolTip": "Library.DataAccess\\Models\\Book.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T15:07:36.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BorrowRecordRepository.cs",
-              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "RelativeDocumentMoniker": "Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "RelativeToolTip": "Library.DataAccess\\Repositories\\BorrowRecordRepository.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAjwHIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:48:05.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BorrowReturn.cs",
-              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:40:01.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BorrowReturn.cs [Design]",
-              "DocumentMoniker": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs",
-              "ToolTip": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs [Design]",
-              "RelativeToolTip": "Library.Presentation\\Forms\\Librarian Forms\\BorrowReturn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:39:58.892Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -62,6 +62,7 @@
             // hideIcon
             // 
             hideIcon.BackColor = Color.Transparent;
+            hideIcon.Cursor = Cursors.Hand;
             hideIcon.Image = (Image)resources.GetObject("hideIcon.Image");
             hideIcon.Location = new Point(816, 191);
             hideIcon.Margin = new Padding(3, 4, 3, 4);
@@ -74,6 +75,7 @@
             // 
             // btn_back_ML
             // 
+            btn_back_ML.Cursor = Cursors.Hand;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back_ML.Location = new Point(25, 545);
             btn_back_ML.Margin = new Padding(3, 4, 3, 4);
@@ -87,6 +89,7 @@
             // btn_delete_MA
             // 
             btn_delete_MA.BackColor = Color.Maroon;
+            btn_delete_MA.Cursor = Cursors.Hand;
             btn_delete_MA.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_delete_MA.ForeColor = Color.Transparent;
             btn_delete_MA.Location = new Point(686, 508);
@@ -101,6 +104,7 @@
             // btn_update_MA
             // 
             btn_update_MA.BackColor = Color.Black;
+            btn_update_MA.Cursor = Cursors.Hand;
             btn_update_MA.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_update_MA.ForeColor = Color.WhiteSmoke;
             btn_update_MA.Location = new Point(584, 508);
@@ -115,6 +119,7 @@
             // btn_add_MA
             // 
             btn_add_MA.BackColor = Color.SteelBlue;
+            btn_add_MA.Cursor = Cursors.Hand;
             btn_add_MA.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_add_MA.ForeColor = Color.Transparent;
             btn_add_MA.Location = new Point(492, 508);
@@ -298,6 +303,7 @@
             // btn_clear_MAF
             // 
             btn_clear_MAF.BackColor = SystemColors.ControlDarkDark;
+            btn_clear_MAF.Cursor = Cursors.Hand;
             btn_clear_MAF.Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_clear_MAF.ForeColor = Color.Transparent;
             btn_clear_MAF.Location = new Point(778, 508);
@@ -311,6 +317,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(802, 16);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);

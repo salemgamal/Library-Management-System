@@ -4578,23 +4578,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Salem\\.nuget\\packages\\": {},
+    "C:\\Users\\Al-Ahram\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+      "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
       "projectName": "Library.DataAccess",
-      "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Project\\LMS\\Final Version\\Library V2\\Library-Management-System\\Library.DataAccess\\obj\\",
+      "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+      "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4603,8 +4606,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+        "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
       },
       "frameworks": {
         "net9.0": {

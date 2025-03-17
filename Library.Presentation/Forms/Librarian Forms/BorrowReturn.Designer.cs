@@ -156,6 +156,7 @@
             // btn_search_BR
             // 
             btn_search_BR.BackColor = SystemColors.ActiveCaption;
+            btn_search_BR.Cursor = Cursors.Hand;
             btn_search_BR.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_search_BR.Location = new Point(405, 25);
             btn_search_BR.Name = "btn_search_BR";
@@ -176,6 +177,7 @@
             // btn_generateReport
             // 
             btn_generateReport.BackColor = Color.Green;
+            btn_generateReport.Cursor = Cursors.Hand;
             btn_generateReport.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_generateReport.ForeColor = SystemColors.ButtonHighlight;
             btn_generateReport.Location = new Point(597, 603);
@@ -189,6 +191,7 @@
             // btn_clear
             // 
             btn_clear.BackColor = SystemColors.ActiveCaption;
+            btn_clear.Cursor = Cursors.Hand;
             btn_clear.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_clear.Location = new Point(552, 25);
             btn_clear.Name = "btn_clear";
@@ -201,6 +204,7 @@
             // btn_back
             // 
             btn_back.BackColor = SystemColors.ActiveCaptionText;
+            btn_back.Cursor = Cursors.Hand;
             btn_back.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back.ForeColor = SystemColors.ButtonHighlight;
             btn_back.Location = new Point(34, 608);
@@ -213,7 +217,8 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.Gray;
+            pictureBox2.BackColor = Color.BurlyWood;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(823, 17);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);
@@ -227,6 +232,7 @@
             // button1
             // 
             button1.BackColor = SystemColors.ActiveCaption;
+            button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(336, 603);

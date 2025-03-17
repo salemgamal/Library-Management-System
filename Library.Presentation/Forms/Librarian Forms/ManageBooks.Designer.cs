@@ -70,6 +70,7 @@
             // btn_search_LF
             // 
             btn_search_LF.BackColor = SystemColors.ActiveCaption;
+            btn_search_LF.Cursor = Cursors.Hand;
             btn_search_LF.Font = new Font("Sitka Small", 7.79999971F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_search_LF.ForeColor = SystemColors.ActiveCaptionText;
             btn_search_LF.Location = new Point(387, 16);
@@ -83,6 +84,7 @@
             // btn_add_LF
             // 
             btn_add_LF.BackColor = Color.SteelBlue;
+            btn_add_LF.Cursor = Cursors.Hand;
             btn_add_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_add_LF.ForeColor = SystemColors.ControlLightLight;
             btn_add_LF.Location = new Point(277, 561);
@@ -96,6 +98,7 @@
             // btn_edit_LF
             // 
             btn_edit_LF.BackColor = Color.Black;
+            btn_edit_LF.Cursor = Cursors.Hand;
             btn_edit_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_edit_LF.ForeColor = SystemColors.ControlLightLight;
             btn_edit_LF.Location = new Point(447, 561);
@@ -109,6 +112,7 @@
             // btn_delete
             // 
             btn_delete.BackColor = Color.Maroon;
+            btn_delete.Cursor = Cursors.Hand;
             btn_delete.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_delete.ForeColor = SystemColors.ControlLightLight;
             btn_delete.Location = new Point(611, 561);
@@ -126,7 +130,7 @@
             lbl_categories_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             lbl_categories_LF.Location = new Point(497, 9);
             lbl_categories_LF.Name = "lbl_categories_LF";
-            lbl_categories_LF.Size = new Size(102, 28);
+            lbl_categories_LF.Size = new Size(103, 28);
             lbl_categories_LF.TabIndex = 20;
             lbl_categories_LF.Text = "Category";
             // 
@@ -164,6 +168,7 @@
             // btn_back
             // 
             btn_back.BackColor = Color.LightGray;
+            btn_back.Cursor = Cursors.Hand;
             btn_back.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_back.Location = new Point(19, 561);
             btn_back.Name = "btn_back";
@@ -176,6 +181,7 @@
             // btn_clearMB
             // 
             btn_clearMB.BackColor = Color.Green;
+            btn_clearMB.Cursor = Cursors.Hand;
             btn_clearMB.Font = new Font("Sitka Small", 7.79999971F, FontStyle.Bold);
             btn_clearMB.ForeColor = SystemColors.ButtonHighlight;
             btn_clearMB.Location = new Point(387, 52);
@@ -189,6 +195,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(704, 11);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);

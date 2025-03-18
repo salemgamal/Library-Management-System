@@ -57,6 +57,7 @@
             // btn_back_ML
             // 
             btn_back_ML.BackColor = Color.LightGray;
+            btn_back_ML.Cursor = Cursors.Hand;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back_ML.Location = new Point(800, 575);
             btn_back_ML.Margin = new Padding(3, 4, 3, 4);
@@ -70,6 +71,7 @@
             // btn_delete_MB
             // 
             btn_delete_MB.BackColor = Color.Maroon;
+            btn_delete_MB.Cursor = Cursors.Hand;
             btn_delete_MB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_delete_MB.ForeColor = SystemColors.ControlLightLight;
             btn_delete_MB.Location = new Point(312, 555);
@@ -84,6 +86,7 @@
             // btn_update_MB
             // 
             btn_update_MB.BackColor = Color.Black;
+            btn_update_MB.Cursor = Cursors.Hand;
             btn_update_MB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_update_MB.ForeColor = SystemColors.ControlLightLight;
             btn_update_MB.Location = new Point(186, 555);
@@ -98,6 +101,7 @@
             // btn_add_MB
             // 
             btn_add_MB.BackColor = Color.SteelBlue;
+            btn_add_MB.Cursor = Cursors.Hand;
             btn_add_MB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_add_MB.ForeColor = SystemColors.ControlLightLight;
             btn_add_MB.Location = new Point(61, 555);
@@ -257,6 +261,7 @@
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(848, 16);
             pictureBox3.Margin = new Padding(3, 4, 3, 4);

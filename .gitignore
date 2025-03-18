@@ -1,0 +1,21 @@
+# Visual Studio files
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.log
+*.mdf
+*.ldf
+
+
+# Temporary files
+*.tmp
+
+# Build results
+*.dll
+*.pdb
+
+# User-specific files
+*.user

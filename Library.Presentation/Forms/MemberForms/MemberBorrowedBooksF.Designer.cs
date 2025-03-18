@@ -120,6 +120,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btn_return_MBF
             // 
             btn_return_MBF.BackColor = Color.FromArgb(128, 64, 0);
+            btn_return_MBF.Cursor = Cursors.Hand;
             btn_return_MBF.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_return_MBF.ForeColor = SystemColors.ControlLightLight;
             btn_return_MBF.Location = new Point(21, 192);
@@ -133,6 +134,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btn_back_MBF
             // 
             btn_back_MBF.BackColor = Color.FromArgb(128, 64, 0);
+            btn_back_MBF.Cursor = Cursors.Hand;
             btn_back_MBF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back_MBF.ForeColor = SystemColors.ControlLightLight;
             btn_back_MBF.Location = new Point(14, 593);
@@ -146,6 +148,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btn_notification_MBF
             // 
             btn_notification_MBF.BackColor = Color.FromArgb(128, 64, 0);
+            btn_notification_MBF.Cursor = Cursors.Hand;
             btn_notification_MBF.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btn_notification_MBF.ForeColor = SystemColors.ControlLightLight;
             btn_notification_MBF.Location = new Point(459, 118);
@@ -181,6 +184,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btnCapture
             // 
             btnCapture.BackColor = Color.FromArgb(128, 64, 0);
+            btnCapture.Cursor = Cursors.Hand;
             btnCapture.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btnCapture.ForeColor = SystemColors.ControlLightLight;
             btnCapture.Location = new Point(459, 350);
@@ -203,6 +207,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btnStart
             // 
             btnStart.BackColor = Color.FromArgb(128, 64, 0);
+            btnStart.Cursor = Cursors.Hand;
             btnStart.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btnStart.ForeColor = SystemColors.ControlLightLight;
             btnStart.Location = new Point(795, 88);
@@ -235,6 +240,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btn_scan_MF
             // 
             btn_scan_MF.BackColor = Color.FromArgb(128, 64, 0);
+            btn_scan_MF.Cursor = Cursors.Hand;
             btn_scan_MF.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btn_scan_MF.ForeColor = SystemColors.ControlLightLight;
             btn_scan_MF.Location = new Point(21, 302);
@@ -248,6 +254,7 @@ namespace Library.Presentation.Forms.MemberForms
             // btn_clear_MF
             // 
             btn_clear_MF.BackColor = SystemColors.ActiveCaptionText;
+            btn_clear_MF.Cursor = Cursors.Hand;
             btn_clear_MF.ForeColor = SystemColors.ControlLightLight;
             btn_clear_MF.Location = new Point(21, 245);
             btn_clear_MF.Name = "btn_clear_MF";
@@ -271,6 +278,7 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             pictureBox2.BackColor = Color.FromArgb(128, 64, 0);
             pictureBox2.BackgroundImageLayout = ImageLayout.None;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(591, 125);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);
@@ -284,6 +292,7 @@ namespace Library.Presentation.Forms.MemberForms
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Sienna;
+            pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(960, 16);
             pictureBox3.Margin = new Padding(3, 4, 3, 4);

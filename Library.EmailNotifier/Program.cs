@@ -36,7 +36,8 @@ class Program
 
                 foreach (var borrow in dueBooks)
                 {
-                    emailService.SendDuedateReminder(borrow.UserEmail, borrow.BookTitle, borrow.DueDate);
+                    var timePass = DateTime.Now.Date - borrow.DueDate;
+                    emailService.SendDuedateReminder(borrow.UserEmail, borrow.BookTitle, borrow.DueDate,timePass);
                     Console.WriteLine($"Reminder sent to {borrow.UserEmail} for book '{borrow.BookTitle}'");
                 }
             }

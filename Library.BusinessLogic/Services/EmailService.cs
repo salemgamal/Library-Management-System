@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualBasic;
 using System.Configuration;
+using System.Diagnostics.Eventing.Reader;
 
 
 namespace Library.BusinessLogic.Services
@@ -14,7 +15,7 @@ namespace Library.BusinessLogic.Services
     public class EmailService
     {
 
-        public void SendDuedateReminder(string toEmail, string bookTitle, DateTime dueDate)
+        public void SendDuedateReminder(string toEmail, string bookTitle, DateTime dueDate ,TimeSpan timePass)
         {
 
             try
@@ -23,23 +24,38 @@ namespace Library.BusinessLogic.Services
                 string emailPassword = ConfigurationManager.AppSettings["EmailPassword"];
 
                 TimeSpan timeLeft = dueDate - DateTime.Now.Date;
+                string emailBody = "";
                 if (timeLeft.Days == 1)
+                {
+                    emailBody = $@"
+                        <h2>📚 Reminder: Book Due Tomorrow!</h2>
+                        <p>Dear reader,</p>
+                        <p>Your book <strong>'{bookTitle}'</strong> is due <strong>tomorrow</strong> ({dueDate:dddd, MMMM dd, yyyy}).</p>
+                        <p>Please return it on time to avoid any penalties.</p>
+                        <br/>
+                        <p>Happy reading!<br/>📘 <em>Your Library Team</em></p>";
+                }else if (timePass.Days > 0)
+                {
+                    emailBody = $@"
+                        <h2>📚 Overdue Reminder: Book Not Returned</h2>
+                        <p>Dear reader,</p>
+                        <p>Your book <strong>'{bookTitle}'</strong> was due <strong>{timePass.Days}</strong> day(s) ago on <strong>{dueDate:dddd, MMMM dd, yyyy}</strong>.</p>
+                        <p>Please return it as soon as possible to avoid further penalties.</p>
+                        <br/>
+                        <p>Best regards,<br/>📘 <em>Your Library Team</em></p>";
+                }
+                if (timeLeft.Days == 1 || timePass.Days > 0)
                 {
                     MailMessage mail = new MailMessage
                     {
                         From = new MailAddress(emailAddress, "Library Reminder Service"),
                         Subject = "Reminder: Book Due Date",
-                        Body = $@"
-                        <h2>📚 Reminder: Book Due Date</h2>
-                        <p>Dear reader,</p>
-                        <p>This is a friendly reminder that your book <strong>'{bookTitle}'</strong> is due on <strong>{dueDate:dddd, MMMM dd, yyyy}</strong>.</p>
-                        <p>Please ensure to return it on time to avoid any penalties.</p>
-                        <br/>
-                        <p>Happy reading!<br/>📘 <em>Your Library Team</em></p>",
+                        Body = emailBody,
                         IsBodyHtml = true
 
                     };
 
+                
                     mail.To.Add(toEmail);
 
                     SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587)

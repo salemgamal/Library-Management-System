@@ -14,10 +14,12 @@
         "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +28,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0": {
@@ -90,10 +93,12 @@
         "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,8 +107,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0": {
@@ -176,10 +182,12 @@
         "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.EmailNotifier\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -188,8 +196,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
@@ -252,10 +261,12 @@
         "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -264,8 +275,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {

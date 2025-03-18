@@ -37,9 +37,9 @@
             pictureBox_passEye = new PictureBox();
             btn_back_L = new Button();
             panel1 = new Panel();
+            button1 = new Button();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox_passEye).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -48,6 +48,7 @@
             // btn_login_L
             // 
             btn_login_L.BackColor = Color.Black;
+            btn_login_L.Cursor = Cursors.Hand;
             btn_login_L.FlatStyle = FlatStyle.Flat;
             btn_login_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_login_L.ForeColor = SystemColors.ControlLightLight;
@@ -114,6 +115,7 @@
             // btn_back_L
             // 
             btn_back_L.BackColor = SystemColors.ActiveCaptionText;
+            btn_back_L.Cursor = Cursors.Hand;
             btn_back_L.FlatStyle = FlatStyle.Flat;
             btn_back_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_back_L.ForeColor = SystemColors.ControlLightLight;
@@ -142,6 +144,21 @@
             panel1.Size = new Size(403, 372);
             panel1.TabIndex = 7;
             // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ActiveCaptionText;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ControlLightLight;
+            button1.Location = new Point(50, 291);
+            button1.Name = "button1";
+            button1.Size = new Size(81, 45);
+            button1.TabIndex = 9;
+            button1.Text = "Clear";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -156,6 +173,7 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Peru;
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(691, 16);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
@@ -165,20 +183,6 @@
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ActiveCaptionText;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(50, 291);
-            button1.Name = "button1";
-            button1.Size = new Size(81, 45);
-            button1.TabIndex = 9;
-            button1.Text = "Clear";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // Login
             // 

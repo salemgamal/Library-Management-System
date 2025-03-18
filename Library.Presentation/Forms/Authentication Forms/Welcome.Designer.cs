@@ -43,6 +43,7 @@
             // btn_login_W
             // 
             btn_login_W.BackColor = Color.Wheat;
+            btn_login_W.Cursor = Cursors.Hand;
             btn_login_W.FlatStyle = FlatStyle.Flat;
             btn_login_W.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_login_W.ForeColor = Color.FromArgb(128, 64, 0);
@@ -57,6 +58,7 @@
             // btn_register_W
             // 
             btn_register_W.BackColor = Color.Wheat;
+            btn_register_W.Cursor = Cursors.Hand;
             btn_register_W.FlatStyle = FlatStyle.Flat;
             btn_register_W.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_register_W.ForeColor = Color.FromArgb(128, 64, 0);
@@ -87,6 +89,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(737, 12);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);

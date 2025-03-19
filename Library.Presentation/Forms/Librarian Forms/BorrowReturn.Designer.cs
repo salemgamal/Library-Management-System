@@ -239,7 +239,7 @@
             button1.Name = "button1";
             button1.Size = new Size(246, 41);
             button1.TabIndex = 43;
-            button1.Text = "Email Overdue Users";
+            button1.Text = "Notify Users";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 

@@ -16,6 +16,7 @@ using QRCoder;
 using System.Drawing;
 using System.Globalization;
 using ZXing;
+using ZXing.Windows.Compatibility;
 using ZXing.QrCode;
 using ZXing.Common;
 using ZXing.Rendering;
@@ -255,11 +256,13 @@ namespace Library.Presentation.Forms.MemberForms
             {
                 if (pictureBox1.Image != null)
                 {
-                    var results = IronBarCode.BarcodeReader.Read((Bitmap)pictureBox1.Image);
+                    Bitmap bitmap = new Bitmap(pictureBox1.Image);
+                    ZXing.Windows.Compatibility.BarcodeReader reader = new ZXing.Windows.Compatibility.BarcodeReader();
+                    var results = reader.Decode(bitmap);
 
                     if (results != null)
                     {
-                        txtQRCode.Text = results.First().Text;
+                        txtQRCode.Text = results.Text;
                         videoCaptureDevice.SignalToStop();
                     }
                     else
@@ -372,6 +375,22 @@ namespace Library.Presentation.Forms.MemberForms
             else
             {
                 HideNotificationFrom();
+            }
+        }
+
+        private void btn_clear_MF_Click(object sender, EventArgs e)
+        {
+            txt_title_MBF.Text = txt_dueDate_MBF.Text = "";
+            panel_QR_MF.Controls.Clear();
+            BookID = 0;
+            pictureBox1.Image = null;
+            btn_return_MBF.Enabled = false;
+            txtQRCode.Text = string.Empty;
+            if (videoCaptureDevice != null && videoCaptureDevice.IsRunning)
+            {
+                videoCaptureDevice.SignalToStop();
+                videoCaptureDevice.WaitForStop();
+                videoCaptureDevice = null;
             }
         }
     }

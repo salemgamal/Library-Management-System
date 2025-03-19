@@ -398,6 +398,7 @@ G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\obj\Debu
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.pdb
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.genruntimeconfig.cache
 G:\ITI\LinQ & EF\Project\Library-Management-System\Library.Presentation\obj\Debug\net9.0-windows\ref\Library.Presentation.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\obj\Debug\net9.0-windows\Library.Presentation.Forms.Librarian_Forms.EditBook.resources
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\runtimes\win-x64\native\ReaderInternals.deployment.json
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\runtimes\win-x64\native\ReaderInterop.dll
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\runtimes\win-x86\native\ReaderInternals.deployment.json
@@ -565,6 +566,8 @@ G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\System.ServiceModel.NetTcp.dll
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\System.ServiceModel.Primitives.dll
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\System.Text.Json.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\zxing.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\ZXing.Windows.Compatibility.dll
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
 G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.Presentation\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll

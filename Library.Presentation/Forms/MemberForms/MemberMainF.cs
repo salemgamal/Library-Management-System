@@ -16,14 +16,17 @@ using QRCoder;
 using System.Drawing;
 using System.Globalization;
 using ZXing;
+using ZXing.Windows.Compatibility;
 using ZXing.QrCode;
 using ZXing.Common;
 using ZXing.Rendering;
 using AForge.Video;
 using AForge.Video.DirectShow;
 using System.IO;
-using IronBarCode;
+//using IronBarCode;
 using static DevExpress.Xpo.Helpers.AssociatedCollectionCriteriaHelper;
+using IronBarCode;
+
 
 
 namespace Library.Presentation.Forms.MemberForms
@@ -102,11 +105,17 @@ namespace Library.Presentation.Forms.MemberForms
             {
                 if (pictureBox1.Image != null)
                 {
-                    var results = IronBarCode.BarcodeReader.Read((Bitmap)pictureBox1.Image);
+                    // Convert the PictureBox image to a Bitmap
+                    Bitmap bitmap = new Bitmap(pictureBox1.Image);
 
-                    if (results != null)
+                    // Create an instance of the BarcodeReader class
+                    ZXing.Windows.Compatibility.BarcodeReader reader = new ZXing.Windows.Compatibility.BarcodeReader();
+
+                    var result = reader.Decode(bitmap);
+
+                    if (result != null)
                     {
-                        txtQRCode.Text = results.First().Text;
+                        txtQRCode.Text = result.Text;
                         videoCaptureDevice.SignalToStop();
                     }
                     else

@@ -4585,11 +4585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+      "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
       "projectName": "Library.DataAccess",
-      "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\obj\\",
+      "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+      "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",

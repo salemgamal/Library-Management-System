@@ -178,6 +178,7 @@
             // 
             btn_generateReport.BackColor = Color.Green;
             btn_generateReport.Cursor = Cursors.Hand;
+            btn_generateReport.FlatStyle = FlatStyle.Flat;
             btn_generateReport.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_generateReport.ForeColor = SystemColors.ButtonHighlight;
             btn_generateReport.Location = new Point(597, 603);
@@ -205,6 +206,7 @@
             // 
             btn_back.BackColor = SystemColors.ActiveCaptionText;
             btn_back.Cursor = Cursors.Hand;
+            btn_back.FlatStyle = FlatStyle.Flat;
             btn_back.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back.ForeColor = SystemColors.ButtonHighlight;
             btn_back.Location = new Point(34, 608);
@@ -233,13 +235,14 @@
             // 
             button1.BackColor = SystemColors.ActiveCaption;
             button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(336, 603);
             button1.Name = "button1";
             button1.Size = new Size(246, 41);
             button1.TabIndex = 43;
-            button1.Text = "Notify Users";
+            button1.Text = "Send Email Reminders";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 

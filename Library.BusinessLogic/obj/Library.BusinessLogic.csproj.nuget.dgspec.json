@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {}
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {}
   },
   "projects": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
         "projectName": "Library.BusinessLogic",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\obj\\",
+        "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
@@ -36,8 +36,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
-                "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
+              "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+                "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
         "projectName": "Library.DataAccess",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\obj\\",
+        "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",

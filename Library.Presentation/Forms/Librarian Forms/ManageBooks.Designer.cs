@@ -85,6 +85,7 @@
             // 
             btn_add_LF.BackColor = Color.SteelBlue;
             btn_add_LF.Cursor = Cursors.Hand;
+            btn_add_LF.FlatStyle = FlatStyle.Flat;
             btn_add_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_add_LF.ForeColor = SystemColors.ControlLightLight;
             btn_add_LF.Location = new Point(277, 561);
@@ -99,6 +100,7 @@
             // 
             btn_edit_LF.BackColor = Color.Black;
             btn_edit_LF.Cursor = Cursors.Hand;
+            btn_edit_LF.FlatStyle = FlatStyle.Flat;
             btn_edit_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_edit_LF.ForeColor = SystemColors.ControlLightLight;
             btn_edit_LF.Location = new Point(447, 561);
@@ -113,6 +115,7 @@
             // 
             btn_delete.BackColor = Color.Maroon;
             btn_delete.Cursor = Cursors.Hand;
+            btn_delete.FlatStyle = FlatStyle.Flat;
             btn_delete.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_delete.ForeColor = SystemColors.ControlLightLight;
             btn_delete.Location = new Point(611, 561);
@@ -169,6 +172,7 @@
             // 
             btn_back.BackColor = Color.LightGray;
             btn_back.Cursor = Cursors.Hand;
+            btn_back.FlatStyle = FlatStyle.Flat;
             btn_back.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_back.Location = new Point(19, 561);
             btn_back.Name = "btn_back";

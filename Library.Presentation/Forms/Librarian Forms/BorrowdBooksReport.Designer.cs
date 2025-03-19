@@ -83,6 +83,7 @@
             // 
             // TopMargin
             // 
+            this.TopMargin.HeightF = 54.16667F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -90,22 +91,27 @@
             this.BottomMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.pageInfo1,
             this.pageInfo2});
+            this.BottomMargin.HeightF = 93.16668F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // pageInfo1
             // 
+            this.pageInfo1.BackColor = System.Drawing.Color.AntiqueWhite;
             this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.pageInfo1.Name = "pageInfo1";
             this.pageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
-            this.pageInfo1.SizeF = new System.Drawing.SizeF(366F, 23F);
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(353.5F, 23F);
             this.pageInfo1.StyleName = "PageInfo";
+            this.pageInfo1.StylePriority.UseBackColor = false;
             // 
             // pageInfo2
             // 
-            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(366F, 0F);
+            this.pageInfo2.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(353.5F, 0F);
             this.pageInfo2.Name = "pageInfo2";
-            this.pageInfo2.SizeF = new System.Drawing.SizeF(366F, 23F);
+            this.pageInfo2.SizeF = new System.Drawing.SizeF(398.4999F, 23F);
             this.pageInfo2.StyleName = "PageInfo";
+            this.pageInfo2.StylePriority.UseBackColor = false;
             this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             this.pageInfo2.TextFormatString = "Page {0} of {1}";
             // 
@@ -120,11 +126,15 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.label1.Font = new DevExpress.Drawing.DXFont("Times New Roman", 22F, DevExpress.Drawing.DXFontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.label1.Name = "label1";
-            this.label1.SizeF = new System.Drawing.SizeF(732F, 24.19433F);
+            this.label1.SizeF = new System.Drawing.SizeF(751.9999F, 39.99999F);
             this.label1.StyleName = "Title";
+            this.label1.StylePriority.UseBackColor = false;
+            this.label1.StylePriority.UseFont = false;
             this.label1.StylePriority.UseForeColor = false;
             this.label1.Text = "Borrowed Books Report";
             // 
@@ -135,6 +145,8 @@
             this.GroupHeader1.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
             this.GroupHeader1.HeightF = 28F;
             this.GroupHeader1.Name = "GroupHeader1";
+            this.GroupHeader1.StylePriority.UseTextAlignment = false;
+            this.GroupHeader1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // table1
             // 
@@ -142,7 +154,7 @@
             this.table1.Name = "table1";
             this.table1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.tableRow1});
-            this.table1.SizeF = new System.Drawing.SizeF(653.9252F, 28F);
+            this.table1.SizeF = new System.Drawing.SizeF(751.9999F, 28F);
             // 
             // tableRow1
             // 
@@ -159,69 +171,93 @@
             // 
             // tableCell1
             // 
+            this.tableCell1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell1.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.tableCell1.Name = "tableCell1";
             this.tableCell1.StyleName = "DetailCaption1";
+            this.tableCell1.StylePriority.UseBackColor = false;
             this.tableCell1.StylePriority.UseBorders = false;
             this.tableCell1.StylePriority.UseTextAlignment = false;
             this.tableCell1.Text = "Borrow Id";
-            this.tableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell1.Weight = 0.11064299077935558D;
             // 
             // tableCell2
             // 
+            this.tableCell2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell2.Name = "tableCell2";
             this.tableCell2.StyleName = "DetailCaption1";
+            this.tableCell2.StylePriority.UseBackColor = false;
             this.tableCell2.StylePriority.UseTextAlignment = false;
             this.tableCell2.Text = "Book Id";
-            this.tableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell2.Weight = 0.091876014334256531D;
             // 
             // tableCell3
             // 
+            this.tableCell3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell3.Name = "tableCell3";
             this.tableCell3.StyleName = "DetailCaption1";
+            this.tableCell3.StylePriority.UseBackColor = false;
             this.tableCell3.StylePriority.UseTextAlignment = false;
             this.tableCell3.Text = "Member Id";
-            this.tableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell3.Weight = 0.11692004386193114D;
             // 
             // tableCell4
             // 
+            this.tableCell4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell4.Name = "tableCell4";
             this.tableCell4.StyleName = "DetailCaption1";
+            this.tableCell4.StylePriority.UseBackColor = false;
+            this.tableCell4.StylePriority.UseTextAlignment = false;
             this.tableCell4.Text = "Borrow Date";
-            this.tableCell4.Weight = 0.13464235608043568D;
+            this.tableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell4.Weight = 0.16348442744687608D;
             // 
             // tableCell5
             // 
+            this.tableCell5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell5.Name = "tableCell5";
             this.tableCell5.StyleName = "DetailCaption1";
+            this.tableCell5.StylePriority.UseBackColor = false;
+            this.tableCell5.StylePriority.UseTextAlignment = false;
             this.tableCell5.Text = "Due Date";
-            this.tableCell5.Weight = 0.10441176617731814D;
+            this.tableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell5.Weight = 0.15639850220393614D;
             // 
             // tableCell7
             // 
+            this.tableCell7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell7.Name = "tableCell7";
             this.tableCell7.StyleName = "DetailCaption1";
+            this.tableCell7.StylePriority.UseBackColor = false;
+            this.tableCell7.StylePriority.UseTextAlignment = false;
             this.tableCell7.Text = "Book Title";
-            this.tableCell7.Weight = 0.16728323014056096D;
+            this.tableCell7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell7.Weight = 0.21851273833728227D;
             // 
             // tableCell8
             // 
+            this.tableCell8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(73)))), ((int)(((byte)(56)))));
             this.tableCell8.Name = "tableCell8";
             this.tableCell8.StyleName = "DetailCaption1";
+            this.tableCell8.StylePriority.UseBackColor = false;
+            this.tableCell8.StylePriority.UseTextAlignment = false;
             this.tableCell8.Text = "Member User Name";
-            this.tableCell8.Weight = 0.16756399602837904D;
+            this.tableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell8.Weight = 0.169487604026586D;
             // 
             // Detail
             // 
             this.Detail.BorderColor = System.Drawing.Color.Peru;
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.table2});
+            this.Detail.Font = new DevExpress.Drawing.DXFont("Arial", 10F);
             this.Detail.HeightF = 25F;
             this.Detail.Name = "Detail";
             this.Detail.StylePriority.UseBorderColor = false;
+            this.Detail.StylePriority.UseFont = false;
             // 
             // table2
             // 
@@ -230,7 +266,7 @@
             this.table2.OddStyleName = "DetailData3_Odd";
             this.table2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.tableRow2});
-            this.table2.SizeF = new System.Drawing.SizeF(653.9252F, 25F);
+            this.table2.SizeF = new System.Drawing.SizeF(751.9999F, 25F);
             // 
             // tableRow2
             // 
@@ -247,67 +283,115 @@
             // 
             // tableCell9
             // 
-            this.tableCell9.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.tableCell9.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell9.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell9.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BorrowId]")});
+            this.tableCell9.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell9.Name = "tableCell9";
             this.tableCell9.StyleName = "DetailData1";
+            this.tableCell9.StylePriority.UseBorderColor = false;
             this.tableCell9.StylePriority.UseBorders = false;
+            this.tableCell9.StylePriority.UseFont = false;
             this.tableCell9.StylePriority.UseTextAlignment = false;
-            this.tableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell9.Weight = 0.11064299077935558D;
             // 
             // tableCell10
             // 
+            this.tableCell10.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell10.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BookId]")});
+            this.tableCell10.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell10.Name = "tableCell10";
             this.tableCell10.StyleName = "DetailData1";
+            this.tableCell10.StylePriority.UseBorderColor = false;
+            this.tableCell10.StylePriority.UseBorders = false;
+            this.tableCell10.StylePriority.UseFont = false;
             this.tableCell10.StylePriority.UseTextAlignment = false;
-            this.tableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell10.Weight = 0.091876014334256531D;
             // 
             // tableCell11
             // 
+            this.tableCell11.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell11.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell11.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[MemberId]")});
+            this.tableCell11.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell11.Name = "tableCell11";
             this.tableCell11.StyleName = "DetailData1";
+            this.tableCell11.StylePriority.UseBorderColor = false;
+            this.tableCell11.StylePriority.UseBorders = false;
+            this.tableCell11.StylePriority.UseFont = false;
             this.tableCell11.StylePriority.UseTextAlignment = false;
-            this.tableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell11.Weight = 0.11692004386193114D;
             // 
             // tableCell12
             // 
+            this.tableCell12.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell12.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell12.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BorrowDate]")});
+            this.tableCell12.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell12.Name = "tableCell12";
             this.tableCell12.StyleName = "DetailData1";
-            this.tableCell12.Weight = 0.13464235608043568D;
+            this.tableCell12.StylePriority.UseBorderColor = false;
+            this.tableCell12.StylePriority.UseBorders = false;
+            this.tableCell12.StylePriority.UseFont = false;
+            this.tableCell12.StylePriority.UseTextAlignment = false;
+            this.tableCell12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell12.Weight = 0.1634844705187723D;
             // 
             // tableCell13
             // 
+            this.tableCell13.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell13.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DueDate]")});
+            this.tableCell13.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell13.Name = "tableCell13";
             this.tableCell13.StyleName = "DetailData1";
-            this.tableCell13.Weight = 0.10441176617731814D;
+            this.tableCell13.StylePriority.UseBorderColor = false;
+            this.tableCell13.StylePriority.UseBorders = false;
+            this.tableCell13.StylePriority.UseFont = false;
+            this.tableCell13.StylePriority.UseTextAlignment = false;
+            this.tableCell13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell13.Weight = 0.15639850990485663D;
             // 
             // tableCell15
             // 
+            this.tableCell15.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell15.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell15.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Book.Title]")});
+            this.tableCell15.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell15.Name = "tableCell15";
             this.tableCell15.StyleName = "DetailData1";
-            this.tableCell15.Weight = 0.16728332650695188D;
+            this.tableCell15.StylePriority.UseBorderColor = false;
+            this.tableCell15.StylePriority.UseBorders = false;
+            this.tableCell15.StylePriority.UseFont = false;
+            this.tableCell15.StylePriority.UseTextAlignment = false;
+            this.tableCell15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell15.Weight = 0.21851279025497777D;
             // 
             // tableCell16
             // 
+            this.tableCell16.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.tableCell16.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.tableCell16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Member.UserName]")});
+            this.tableCell16.Font = new DevExpress.Drawing.DXFont("Arial", 11F);
             this.tableCell16.Name = "tableCell16";
             this.tableCell16.StyleName = "DetailData1";
-            this.tableCell16.Weight = 0.16756394244303544D;
+            this.tableCell16.StylePriority.UseBorderColor = false;
+            this.tableCell16.StylePriority.UseBorders = false;
+            this.tableCell16.StylePriority.UseFont = false;
+            this.tableCell16.StylePriority.UseTextAlignment = false;
+            this.tableCell16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell16.Weight = 0.16948755053336179D;
             // 
             // Title
             // 
@@ -375,7 +459,7 @@
             this.DataMember = "BorrowRecords";
             this.DataSource = this.efDataSource1;
             this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
-            this.Margins = new DevExpress.Drawing.DXMargins(100F, 18F, 100F, 100F);
+            this.Margins = new DevExpress.Drawing.DXMargins(50F, 48F, 54.16667F, 93.16668F);
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.DetailCaption1,

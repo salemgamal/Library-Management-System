@@ -60,6 +60,7 @@
             // 
             btn_save_AB.BackColor = SystemColors.ActiveCaptionText;
             btn_save_AB.Cursor = Cursors.Hand;
+            btn_save_AB.FlatStyle = FlatStyle.Flat;
             btn_save_AB.ForeColor = SystemColors.ButtonHighlight;
             btn_save_AB.Location = new Point(244, 406);
             btn_save_AB.Name = "btn_save_AB";

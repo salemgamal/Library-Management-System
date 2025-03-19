@@ -10038,11 +10038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj",
+      "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj",
       "projectName": "Library.Presentation",
-      "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj",
+      "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\Library.Presentation.csproj",
       "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
-      "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\obj\\",
+      "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
@@ -10067,8 +10067,8 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
-              "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj"
+            "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
+              "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj"
             }
           }
         }

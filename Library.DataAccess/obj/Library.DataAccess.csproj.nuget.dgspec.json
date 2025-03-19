@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {}
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {}
   },
   "projects": {
-    "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
         "projectName": "Library.DataAccess",
-        "projectPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
-        "outputPath": "G:\\ITI\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
+        "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",

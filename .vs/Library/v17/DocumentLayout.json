@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\ITI\\LinQ \u0026 EF\\Project\\Library-Management-System\\",
-  "Documents": [],
+  "WorkspaceRootPath": "G:\\ITI\\Backend\\LinQ \u0026 EF\\Project\\Library-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\backend\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\memberforms\\membermainf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\memberforms\\membermainf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|g:\\iti\\backend\\linq \u0026 ef\\project\\library-management-system\\library.presentation\\forms\\memberforms\\memberborrowedbooksf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269695D-2BA3-47E2-AA9F-A8EC6E816F2A}|Library.Presentation\\Library.Presentation.csproj|solutionrelative:library.presentation\\forms\\memberforms\\memberborrowedbooksf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberMainF.cs",
+              "DocumentMoniker": "G:\\ITI\\Backend\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\MemberForms\\MemberMainF.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\MemberForms\\MemberMainF.cs",
+              "ToolTip": "G:\\ITI\\Backend\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\MemberForms\\MemberMainF.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\MemberForms\\MemberMainF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T22:25:05.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberBorrowedBooksF.cs",
+              "DocumentMoniker": "G:\\ITI\\Backend\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
+              "RelativeDocumentMoniker": "Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
+              "ToolTip": "G:\\ITI\\Backend\\LinQ \u0026 EF\\Project\\Library-Management-System\\Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
+              "RelativeToolTip": "Library.Presentation\\Forms\\MemberForms\\MemberBorrowedBooksF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T22:24:59.79Z"
             }
           ]
         }

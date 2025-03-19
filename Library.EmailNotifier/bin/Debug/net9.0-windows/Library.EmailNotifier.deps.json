@@ -150,7 +150,7 @@
           "DevExpress.DataVisualization.Core": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.XtraCharts.v24.2.dll": {
@@ -184,7 +184,7 @@
       },
       "DevExpress.Data/24.2.5": {
         "dependencies": {
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Data.v24.2.dll": {
@@ -282,7 +282,7 @@
       "DevExpress.Drawing/24.2.5": {
         "dependencies": {
           "DevExpress.Data": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Drawing.v24.2.dll": {
@@ -296,7 +296,7 @@
           "DevExpress.Data": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.XtraGauges.v24.2.Core.dll": {
@@ -309,7 +309,7 @@
         "dependencies": {
           "DevExpress.Data": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Images.v24.2.dll": {
@@ -323,7 +323,7 @@
           "DevExpress.Data": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Map.v24.2.Core.dll": {
@@ -346,7 +346,7 @@
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Pdf.Core": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Office.v24.2.Core.dll": {
@@ -359,7 +359,7 @@
         "dependencies": {
           "DevExpress.Data": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
-          "System.Drawing.Common": "6.0.0",
+          "System.Drawing.Common": "8.0.12",
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "runtime": {
@@ -374,7 +374,7 @@
           "DevExpress.Data": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Pdf.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Pdf.v24.2.Drawing.dll": {
@@ -389,7 +389,7 @@
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
           "System.Data.OleDb": "8.0.1",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.PivotGrid.v24.2.Core.dll": {
@@ -404,7 +404,7 @@
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Pdf.Core": "24.2.5",
           "DevExpress.Pdf.Drawing": "24.2.5",
-          "System.Drawing.Common": "6.0.0",
+          "System.Drawing.Common": "8.0.12",
           "System.Security.Cryptography.Pkcs": "8.0.1",
           "System.ServiceModel.Http": "6.2.0"
         },
@@ -434,7 +434,7 @@
           "DevExpress.Sparkline.Core": "24.2.5",
           "DevExpress.Xpo": "24.2.5",
           "System.CodeDom": "4.4.0",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.XtraReports.v24.2.dll": {
@@ -450,7 +450,7 @@
           "DevExpress.Office.Core": "24.2.5",
           "DevExpress.Pdf.Core": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.RichEdit.v24.2.Core.dll": {
@@ -466,7 +466,7 @@
           "DevExpress.Office.Core": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
           "DevExpress.RichEdit.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.RichEdit.v24.2.Export.dll": {
@@ -478,7 +478,7 @@
       "DevExpress.Scheduler.Core/24.2.5": {
         "dependencies": {
           "DevExpress.Data": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.XtraScheduler.v24.2.Core.dll": {
@@ -507,7 +507,7 @@
         "dependencies": {
           "DevExpress.Data": "24.2.5",
           "DevExpress.Drawing": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Sparkline.v24.2.Core.dll": {
@@ -537,7 +537,7 @@
           "DevExpress.Pdf.Core": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
           "DevExpress.Sparkline.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.Spreadsheet.v24.2.Core.dll": {
@@ -553,7 +553,7 @@
           "DevExpress.Drawing": "24.2.5",
           "DevExpress.Printing.Core": "24.2.5",
           "DevExpress.TreeMap.Core": "24.2.5",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net8.0/DevExpress.XtraTreeMap.v24.2.dll": {
@@ -1122,7 +1122,7 @@
         "dependencies": {
           "DevExpress.Data": "24.2.5",
           "Microsoft.Extensions.DependencyInjection": "9.0.2",
-          "System.Drawing.Common": "6.0.0",
+          "System.Drawing.Common": "8.0.12",
           "System.Security.Cryptography.Pkcs": "8.0.1",
           "System.ServiceModel.Http": "6.2.0",
           "System.ServiceModel.NetTcp": "6.2.0"
@@ -1983,7 +1983,7 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
       "Ninject/3.3.6": {
         "dependencies": {
           "System.Reflection.Emit.ILGeneration": "4.3.0",
@@ -1998,7 +1998,7 @@
       },
       "QRCoder/1.6.0": {
         "dependencies": {
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "8.0.12"
         },
         "runtime": {
           "lib/net6.0-windows7.0/QRCoder.dll": {
@@ -2167,9 +2167,9 @@
           "System.Configuration.ConfigurationManager": "9.0.2"
         }
       },
-      "System.Drawing.Common/6.0.0": {
+      "System.Drawing.Common/8.0.12": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "6.0.0"
+          "Microsoft.Win32.SystemEvents": "8.0.0"
         }
       },
       "System.Formats.Asn1/9.0.2": {
@@ -2537,6 +2537,26 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {},
+      "ZXing.Net/0.16.10": {
+        "runtime": {
+          "lib/net9.0/zxing.dll": {
+            "assemblyVersion": "0.16.10.0",
+            "fileVersion": "0.16.10.0"
+          }
+        }
+      },
+      "ZXing.Net.Bindings.Windows.Compatibility/0.16.13": {
+        "dependencies": {
+          "System.Drawing.Common": "8.0.12",
+          "ZXing.Net": "0.16.10"
+        },
+        "runtime": {
+          "lib/net8.0/ZXing.Windows.Compatibility.dll": {
+            "assemblyVersion": "0.16.13.0",
+            "fileVersion": "0.16.13.0"
+          }
+        }
+      },
       "Library.BusinessLogic/1.0.0": {
         "dependencies": {
           "Library.DataAccess": "1.0.0",
@@ -2576,7 +2596,9 @@
           "Microsoft.ReportViewer.WinForms": "10.0.40219.1",
           "Microsoft.ReportingServices.ReportViewerControl.Winforms": "150.1652.0",
           "QRCoder": "1.6.0",
-          "System.Configuration.ConfigurationManager": "9.0.2"
+          "System.Configuration.ConfigurationManager": "9.0.2",
+          "ZXing.Net": "0.16.10",
+          "ZXing.Net.Bindings.Windows.Compatibility": "0.16.13"
         },
         "runtime": {
           "Library.Presentation.dll": {
@@ -3433,12 +3455,12 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/6.0.0": {
+    "Microsoft.Win32.SystemEvents/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
-      "path": "microsoft.win32.systemevents/6.0.0",
-      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
     },
     "Ninject/3.3.6": {
       "type": "package",
@@ -3559,12 +3581,12 @@
       "path": "system.diagnostics.performancecounter/8.0.1",
       "hashPath": "system.diagnostics.performancecounter.8.0.1.nupkg.sha512"
     },
-    "System.Drawing.Common/6.0.0": {
+    "System.Drawing.Common/8.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
-      "path": "system.drawing.common/6.0.0",
-      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+      "sha512": "sha512-mZrI0KKFAZO8gWaARhdaJblMUNEeHMlPsFa/nRS4j4EenYP/+f8F2bzu4yb0Co7WYuJ/w/D8d/zW4KGCdYJCyQ==",
+      "path": "system.drawing.common/8.0.12",
+      "hashPath": "system.drawing.common.8.0.12.nupkg.sha512"
     },
     "System.Formats.Asn1/9.0.2": {
       "type": "package",
@@ -3768,6 +3790,20 @@
       "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9avtcn21T7Ndcl8PQ1LHR7/wEoCruX1QKKHvO6zBPTsDW9IdvR5vKOmd618AY+DtDWZz8NaFDTkpbZdgaF4l4w==",
+      "path": "zxing.net/0.16.10",
+      "hashPath": "zxing.net.0.16.10.nupkg.sha512"
+    },
+    "ZXing.Net.Bindings.Windows.Compatibility/0.16.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x6WwaokAqBXhvX/FTYmE+kdKRSYuxCKSN608VbWWlawUq/rXYW/KoDfRpEkpUeYW6qU5hE3eFzWMuG20doLR9A==",
+      "path": "zxing.net.bindings.windows.compatibility/0.16.13",
+      "hashPath": "zxing.net.bindings.windows.compatibility.0.16.13.nupkg.sha512"
     },
     "Library.BusinessLogic/1.0.0": {
       "type": "project",

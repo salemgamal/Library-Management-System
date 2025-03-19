@@ -255,6 +255,7 @@ namespace Library.Presentation.Forms.MemberForms
             btn_clear_MF.TabIndex = 23;
             btn_clear_MF.Text = "Clear";
             btn_clear_MF.UseVisualStyleBackColor = false;
+            btn_clear_MF.Click += btn_clear_MF_Click;
             // 
             // label2
             // 

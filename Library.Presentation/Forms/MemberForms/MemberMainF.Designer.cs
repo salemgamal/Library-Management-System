@@ -65,7 +65,7 @@ namespace Library.Presentation.Forms.MemberForms
             dgv_availableBooks_MF.BackgroundColor = Color.PaleGoldenrod;
             dgv_availableBooks_MF.BorderStyle = BorderStyle.None;
             dgv_availableBooks_MF.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_availableBooks_MF.Location = new Point(24, 423);
+            dgv_availableBooks_MF.Location = new Point(24, 384);
             dgv_availableBooks_MF.Name = "dgv_availableBooks_MF";
             dgv_availableBooks_MF.RowHeadersWidth = 51;
             dgv_availableBooks_MF.Size = new Size(525, 227);
@@ -176,11 +176,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             brn_borrow_MF.BackColor = Color.FromArgb(128, 64, 0);
             brn_borrow_MF.Cursor = Cursors.Hand;
+            brn_borrow_MF.FlatStyle = FlatStyle.Flat;
             brn_borrow_MF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             brn_borrow_MF.ForeColor = SystemColors.ControlLightLight;
-            brn_borrow_MF.Location = new Point(124, 365);
+            brn_borrow_MF.Location = new Point(23, 338);
             brn_borrow_MF.Name = "brn_borrow_MF";
-            brn_borrow_MF.Size = new Size(102, 52);
+            brn_borrow_MF.Size = new Size(102, 40);
             brn_borrow_MF.TabIndex = 11;
             brn_borrow_MF.Text = "Borrow";
             brn_borrow_MF.UseVisualStyleBackColor = false;
@@ -190,11 +191,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btn_memberRecords_MF.BackColor = Color.FromArgb(128, 64, 0);
             btn_memberRecords_MF.Cursor = Cursors.Hand;
+            btn_memberRecords_MF.FlatStyle = FlatStyle.Flat;
             btn_memberRecords_MF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btn_memberRecords_MF.ForeColor = SystemColors.ControlLightLight;
-            btn_memberRecords_MF.Location = new Point(232, 365);
+            btn_memberRecords_MF.Location = new Point(131, 338);
             btn_memberRecords_MF.Name = "btn_memberRecords_MF";
-            btn_memberRecords_MF.Size = new Size(147, 52);
+            btn_memberRecords_MF.Size = new Size(147, 40);
             btn_memberRecords_MF.TabIndex = 12;
             btn_memberRecords_MF.Text = "Your books";
             btn_memberRecords_MF.UseVisualStyleBackColor = false;
@@ -204,11 +206,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btn_back_MF.BackColor = Color.Maroon;
             btn_back_MF.Cursor = Cursors.Hand;
+            btn_back_MF.FlatStyle = FlatStyle.Flat;
             btn_back_MF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back_MF.ForeColor = SystemColors.ControlLightLight;
-            btn_back_MF.Location = new Point(24, 365);
+            btn_back_MF.Location = new Point(23, 617);
             btn_back_MF.Name = "btn_back_MF";
-            btn_back_MF.Size = new Size(94, 52);
+            btn_back_MF.Size = new Size(98, 40);
             btn_back_MF.TabIndex = 13;
             btn_back_MF.Text = "Logout";
             btn_back_MF.UseVisualStyleBackColor = false;
@@ -216,13 +219,14 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             // btn_clear_MF
             // 
-            btn_clear_MF.BackColor = Color.FromArgb(128, 64, 0);
+            btn_clear_MF.BackColor = Color.Tan;
             btn_clear_MF.Cursor = Cursors.Hand;
+            btn_clear_MF.FlatStyle = FlatStyle.Flat;
             btn_clear_MF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btn_clear_MF.ForeColor = SystemColors.ControlLightLight;
-            btn_clear_MF.Location = new Point(385, 365);
+            btn_clear_MF.Location = new Point(387, 338);
             btn_clear_MF.Name = "btn_clear_MF";
-            btn_clear_MF.Size = new Size(82, 52);
+            btn_clear_MF.Size = new Size(82, 40);
             btn_clear_MF.TabIndex = 14;
             btn_clear_MF.Text = "Clear";
             btn_clear_MF.UseVisualStyleBackColor = false;
@@ -239,21 +243,22 @@ namespace Library.Presentation.Forms.MemberForms
             // txtQRCode
             // 
             txtQRCode.BackColor = Color.PaleGoldenrod;
-            txtQRCode.Location = new Point(798, 147);
+            txtQRCode.Location = new Point(783, 147);
             txtQRCode.Multiline = true;
             txtQRCode.Name = "txtQRCode";
-            txtQRCode.Size = new Size(361, 91);
+            txtQRCode.Size = new Size(376, 91);
             txtQRCode.TabIndex = 21;
             // 
             // btnStart
             // 
             btnStart.BackColor = Color.FromArgb(128, 64, 0);
             btnStart.Cursor = Cursors.Hand;
+            btnStart.FlatStyle = FlatStyle.Flat;
             btnStart.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btnStart.ForeColor = SystemColors.ControlLightLight;
-            btnStart.Location = new Point(684, 194);
+            btnStart.Location = new Point(696, 194);
             btnStart.Name = "btnStart";
-            btnStart.Size = new Size(108, 44);
+            btnStart.Size = new Size(81, 44);
             btnStart.TabIndex = 20;
             btnStart.Text = "&Start";
             btnStart.UseVisualStyleBackColor = false;
@@ -283,7 +288,7 @@ namespace Library.Presentation.Forms.MemberForms
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            label6.Location = new Point(583, 117);
+            label6.Location = new Point(581, 126);
             label6.Name = "label6";
             label6.Size = new Size(100, 31);
             label6.TabIndex = 19;
@@ -294,11 +299,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btn_scan_MF.BackColor = Color.FromArgb(128, 64, 0);
             btn_scan_MF.Cursor = Cursors.Hand;
+            btn_scan_MF.FlatStyle = FlatStyle.Flat;
             btn_scan_MF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btn_scan_MF.ForeColor = SystemColors.ControlLightLight;
-            btn_scan_MF.Location = new Point(473, 365);
+            btn_scan_MF.Location = new Point(475, 336);
             btn_scan_MF.Name = "btn_scan_MF";
-            btn_scan_MF.Size = new Size(82, 52);
+            btn_scan_MF.Size = new Size(73, 44);
             btn_scan_MF.TabIndex = 16;
             btn_scan_MF.Text = "Scan";
             btn_scan_MF.UseVisualStyleBackColor = false;
@@ -308,11 +314,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btnCapture.BackColor = Color.FromArgb(128, 64, 0);
             btnCapture.Cursor = Cursors.Hand;
+            btnCapture.FlatStyle = FlatStyle.Flat;
             btnCapture.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold);
             btnCapture.ForeColor = SystemColors.ControlLightLight;
-            btnCapture.Location = new Point(583, 194);
+            btnCapture.Location = new Point(581, 194);
             btnCapture.Name = "btnCapture";
-            btnCapture.Size = new Size(108, 44);
+            btnCapture.Size = new Size(109, 44);
             btnCapture.TabIndex = 22;
             btnCapture.Text = "Capture";
             btnCapture.UseVisualStyleBackColor = false;

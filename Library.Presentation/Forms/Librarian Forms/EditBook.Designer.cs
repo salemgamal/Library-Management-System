@@ -58,13 +58,14 @@
             // 
             // btn_save_AB
             // 
-            btn_save_AB.BackColor = SystemColors.ActiveCaptionText;
+            btn_save_AB.BackColor = Color.SaddleBrown;
             btn_save_AB.Cursor = Cursors.Hand;
             btn_save_AB.FlatStyle = FlatStyle.Flat;
+            btn_save_AB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_save_AB.ForeColor = SystemColors.ButtonHighlight;
             btn_save_AB.Location = new Point(244, 406);
             btn_save_AB.Name = "btn_save_AB";
-            btn_save_AB.Size = new Size(260, 49);
+            btn_save_AB.Size = new Size(260, 40);
             btn_save_AB.TabIndex = 37;
             btn_save_AB.Text = "Save changes";
             btn_save_AB.UseVisualStyleBackColor = false;

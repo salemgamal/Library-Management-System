@@ -108,16 +108,25 @@ namespace Library.DataAccess.Repositry
             bool isYearSearch = words.Any(w => int.TryParse(w, out _));
             int searchYear = isYearSearch ? words.Where(w => int.TryParse(w, out _)).Select(int.Parse).FirstOrDefault() : 0;
 
-            return _context.BorrowRecords
-                .Include(r => r.Book)
-                .Include(r => r.Member)
-               .Where(r => r.ReturnDate == null && r.DueDate < DateTime.Now &&
-               (words.Any(w =>
-                   r.Book.Title.ToLower().Contains(w) ||
-                   r.Book.Author.ToLower().Contains(w) ||
-                   r.Book.Category.ToLower().Contains(w) ||
-                   r.Member.Name.ToLower().Contains(w)) ||
-               (isYearSearch && (r.BorrowDate.Year == searchYear || r.DueDate.Year == searchYear)))).ToList();
+            var query = _context.BorrowRecords
+        .Include(r => r.Book)
+        .Include(r => r.Member)
+        .Where(r => r.ReturnDate == null && r.DueDate < DateTime.Now);
+
+            // Only apply search filters if a search key is provided
+            if (words.Length > 0)
+            {
+                query = query.Where(r =>
+                    words.Any(w =>
+                        r.Book.Title.ToLower().Contains(w) ||
+                        r.Book.Author.ToLower().Contains(w) ||
+                        r.Book.Category.ToLower().Contains(w) ||
+                        r.Member.Name.ToLower().Contains(w)) ||
+                    (isYearSearch && (r.BorrowDate.Year == searchYear || r.DueDate.Year == searchYear))
+                );
+            }
+
+            return query.ToList();
         }
     }
 }

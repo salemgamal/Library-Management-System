@@ -29,7 +29,7 @@ namespace Library.Presentation.Forms.MemberForms
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MemberBorrowedBooksF));
             dgv_borrowedBooks_MBF = new DataGridView();
             label1 = new Label();
@@ -62,14 +62,14 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             dgv_borrowedBooks_MBF.BackgroundColor = Color.PaleGoldenrod;
             dgv_borrowedBooks_MBF.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(255, 192, 128);
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
-            dgv_borrowedBooks_MBF.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(255, 192, 128);
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dgv_borrowedBooks_MBF.DefaultCellStyle = dataGridViewCellStyle3;
             dgv_borrowedBooks_MBF.Location = new Point(14, 400);
             dgv_borrowedBooks_MBF.Name = "dgv_borrowedBooks_MBF";
             dgv_borrowedBooks_MBF.RowHeadersWidth = 51;
@@ -121,11 +121,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btn_return_MBF.BackColor = Color.FromArgb(128, 64, 0);
             btn_return_MBF.Cursor = Cursors.Hand;
+            btn_return_MBF.FlatStyle = FlatStyle.Flat;
             btn_return_MBF.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_return_MBF.ForeColor = SystemColors.ControlLightLight;
-            btn_return_MBF.Location = new Point(21, 192);
+            btn_return_MBF.Location = new Point(21, 202);
             btn_return_MBF.Name = "btn_return_MBF";
-            btn_return_MBF.Size = new Size(155, 47);
+            btn_return_MBF.Size = new Size(155, 37);
             btn_return_MBF.TabIndex = 7;
             btn_return_MBF.Text = "Return book";
             btn_return_MBF.UseVisualStyleBackColor = false;
@@ -133,15 +134,17 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             // btn_back_MBF
             // 
-            btn_back_MBF.BackColor = Color.FromArgb(128, 64, 0);
+            btn_back_MBF.BackColor = Color.BurlyWood;
+            btn_back_MBF.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back_MBF.BackgroundImageLayout = ImageLayout.Zoom;
             btn_back_MBF.Cursor = Cursors.Hand;
+            btn_back_MBF.FlatStyle = FlatStyle.Flat;
             btn_back_MBF.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_back_MBF.ForeColor = SystemColors.ControlLightLight;
-            btn_back_MBF.Location = new Point(14, 593);
+            btn_back_MBF.ForeColor = Color.Transparent;
+            btn_back_MBF.Location = new Point(14, 594);
             btn_back_MBF.Name = "btn_back_MBF";
-            btn_back_MBF.Size = new Size(103, 48);
+            btn_back_MBF.Size = new Size(68, 50);
             btn_back_MBF.TabIndex = 8;
-            btn_back_MBF.Text = "back";
             btn_back_MBF.UseVisualStyleBackColor = false;
             btn_back_MBF.Click += btn_back_MBF_Click;
             // 
@@ -149,11 +152,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btn_notification_MBF.BackColor = Color.FromArgb(128, 64, 0);
             btn_notification_MBF.Cursor = Cursors.Hand;
+            btn_notification_MBF.FlatStyle = FlatStyle.Flat;
             btn_notification_MBF.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btn_notification_MBF.ForeColor = SystemColors.ControlLightLight;
-            btn_notification_MBF.Location = new Point(459, 118);
+            btn_notification_MBF.Location = new Point(459, 125);
             btn_notification_MBF.Name = "btn_notification_MBF";
-            btn_notification_MBF.Size = new Size(135, 53);
+            btn_notification_MBF.Size = new Size(135, 38);
             btn_notification_MBF.TabIndex = 9;
             btn_notification_MBF.Text = "Notification";
             btn_notification_MBF.TextAlign = ContentAlignment.MiddleLeft;
@@ -185,11 +189,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btnCapture.BackColor = Color.FromArgb(128, 64, 0);
             btnCapture.Cursor = Cursors.Hand;
+            btnCapture.FlatStyle = FlatStyle.Flat;
             btnCapture.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btnCapture.ForeColor = SystemColors.ControlLightLight;
-            btnCapture.Location = new Point(459, 350);
+            btnCapture.Location = new Point(459, 357);
             btnCapture.Name = "btnCapture";
-            btnCapture.Size = new Size(155, 44);
+            btnCapture.Size = new Size(155, 37);
             btnCapture.TabIndex = 31;
             btnCapture.Text = "Capture";
             btnCapture.UseVisualStyleBackColor = false;
@@ -208,11 +213,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btnStart.BackColor = Color.FromArgb(128, 64, 0);
             btnStart.Cursor = Cursors.Hand;
+            btnStart.FlatStyle = FlatStyle.Flat;
             btnStart.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btnStart.ForeColor = SystemColors.ControlLightLight;
-            btnStart.Location = new Point(795, 88);
+            btnStart.Location = new Point(795, 98);
             btnStart.Name = "btnStart";
-            btnStart.Size = new Size(135, 44);
+            btnStart.Size = new Size(135, 34);
             btnStart.TabIndex = 29;
             btnStart.Text = "&Start";
             btnStart.UseVisualStyleBackColor = false;
@@ -241,11 +247,12 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             btn_scan_MF.BackColor = Color.FromArgb(128, 64, 0);
             btn_scan_MF.Cursor = Cursors.Hand;
+            btn_scan_MF.FlatStyle = FlatStyle.Flat;
             btn_scan_MF.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             btn_scan_MF.ForeColor = SystemColors.ControlLightLight;
-            btn_scan_MF.Location = new Point(21, 302);
+            btn_scan_MF.Location = new Point(21, 312);
             btn_scan_MF.Name = "btn_scan_MF";
-            btn_scan_MF.Size = new Size(155, 47);
+            btn_scan_MF.Size = new Size(155, 37);
             btn_scan_MF.TabIndex = 25;
             btn_scan_MF.Text = "Scan";
             btn_scan_MF.UseVisualStyleBackColor = false;
@@ -253,12 +260,13 @@ namespace Library.Presentation.Forms.MemberForms
             // 
             // btn_clear_MF
             // 
-            btn_clear_MF.BackColor = SystemColors.ActiveCaptionText;
+            btn_clear_MF.BackColor = Color.Tan;
             btn_clear_MF.Cursor = Cursors.Hand;
+            btn_clear_MF.FlatStyle = FlatStyle.Flat;
             btn_clear_MF.ForeColor = SystemColors.ControlLightLight;
-            btn_clear_MF.Location = new Point(21, 245);
+            btn_clear_MF.Location = new Point(21, 255);
             btn_clear_MF.Name = "btn_clear_MF";
-            btn_clear_MF.Size = new Size(155, 47);
+            btn_clear_MF.Size = new Size(155, 37);
             btn_clear_MF.TabIndex = 23;
             btn_clear_MF.Text = "Clear";
             btn_clear_MF.UseVisualStyleBackColor = false;

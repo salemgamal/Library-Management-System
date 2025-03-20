@@ -47,14 +47,14 @@
             // 
             // btn_login_L
             // 
-            btn_login_L.BackColor = Color.Black;
+            btn_login_L.BackColor = Color.SaddleBrown;
             btn_login_L.Cursor = Cursors.Hand;
             btn_login_L.FlatStyle = FlatStyle.Flat;
             btn_login_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_login_L.ForeColor = SystemColors.ControlLightLight;
-            btn_login_L.Location = new Point(157, 291);
+            btn_login_L.Location = new Point(159, 291);
             btn_login_L.Name = "btn_login_L";
-            btn_login_L.Size = new Size(198, 45);
+            btn_login_L.Size = new Size(196, 45);
             btn_login_L.TabIndex = 0;
             btn_login_L.Text = "Login";
             btn_login_L.UseVisualStyleBackColor = false;
@@ -114,16 +114,17 @@
             // 
             // btn_back_L
             // 
-            btn_back_L.BackColor = SystemColors.ActiveCaptionText;
+            btn_back_L.BackColor = Color.BurlyWood;
+            btn_back_L.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back_L.BackgroundImageLayout = ImageLayout.Zoom;
             btn_back_L.Cursor = Cursors.Hand;
             btn_back_L.FlatStyle = FlatStyle.Flat;
             btn_back_L.Font = new Font("Times New Roman", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_back_L.ForeColor = SystemColors.ControlLightLight;
-            btn_back_L.Location = new Point(2, 490);
+            btn_back_L.Location = new Point(0, 479);
             btn_back_L.Name = "btn_back_L";
-            btn_back_L.Size = new Size(107, 37);
+            btn_back_L.Size = new Size(71, 48);
             btn_back_L.TabIndex = 6;
-            btn_back_L.Text = "Back";
             btn_back_L.UseVisualStyleBackColor = false;
             btn_back_L.Click += btn_back_L_Click;
             // 
@@ -146,14 +147,14 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.ActiveCaptionText;
+            button1.BackColor = Color.Tan;
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(50, 291);
+            button1.Location = new Point(58, 291);
             button1.Name = "button1";
-            button1.Size = new Size(81, 45);
+            button1.Size = new Size(73, 45);
             button1.TabIndex = 9;
             button1.Text = "Clear";
             button1.UseVisualStyleBackColor = false;

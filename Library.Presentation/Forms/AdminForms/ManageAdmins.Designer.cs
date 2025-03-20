@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageAdmins));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             hideIcon = new PictureBox();
             btn_back_ML = new Button();
             btn_delete_MA = new Button();
@@ -75,27 +75,33 @@
             // 
             // btn_back_ML
             // 
+            btn_back_ML.BackColor = Color.BurlyWood;
+            btn_back_ML.BackgroundImage = (Image)resources.GetObject("btn_back_ML.BackgroundImage");
+            btn_back_ML.BackgroundImageLayout = ImageLayout.Zoom;
             btn_back_ML.Cursor = Cursors.Hand;
+            btn_back_ML.FlatStyle = FlatStyle.Flat;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_back_ML.Location = new Point(25, 545);
+            btn_back_ML.ForeColor = Color.White;
+            btn_back_ML.Location = new Point(25, 548);
             btn_back_ML.Margin = new Padding(3, 4, 3, 4);
             btn_back_ML.Name = "btn_back_ML";
-            btn_back_ML.Size = new Size(94, 53);
+            btn_back_ML.Padding = new Padding(5);
+            btn_back_ML.Size = new Size(66, 50);
             btn_back_ML.TabIndex = 37;
-            btn_back_ML.Text = "back";
-            btn_back_ML.UseVisualStyleBackColor = true;
+            btn_back_ML.UseVisualStyleBackColor = false;
             btn_back_ML.Click += btn_back_ML_Click;
             // 
             // btn_delete_MA
             // 
-            btn_delete_MA.BackColor = Color.Maroon;
+            btn_delete_MA.BackColor = Color.Firebrick;
             btn_delete_MA.Cursor = Cursors.Hand;
+            btn_delete_MA.FlatStyle = FlatStyle.Flat;
             btn_delete_MA.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_delete_MA.ForeColor = Color.Transparent;
-            btn_delete_MA.Location = new Point(686, 508);
+            btn_delete_MA.Location = new Point(677, 519);
             btn_delete_MA.Margin = new Padding(3, 4, 3, 4);
             btn_delete_MA.Name = "btn_delete_MA";
-            btn_delete_MA.Size = new Size(86, 53);
+            btn_delete_MA.Size = new Size(86, 42);
             btn_delete_MA.TabIndex = 36;
             btn_delete_MA.Text = "Delete";
             btn_delete_MA.UseVisualStyleBackColor = false;
@@ -103,14 +109,15 @@
             // 
             // btn_update_MA
             // 
-            btn_update_MA.BackColor = Color.Black;
+            btn_update_MA.BackColor = Color.Goldenrod;
             btn_update_MA.Cursor = Cursors.Hand;
+            btn_update_MA.FlatStyle = FlatStyle.Flat;
             btn_update_MA.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_update_MA.ForeColor = Color.WhiteSmoke;
-            btn_update_MA.Location = new Point(584, 508);
+            btn_update_MA.Location = new Point(575, 519);
             btn_update_MA.Margin = new Padding(3, 4, 3, 4);
             btn_update_MA.Name = "btn_update_MA";
-            btn_update_MA.Size = new Size(97, 53);
+            btn_update_MA.Size = new Size(97, 42);
             btn_update_MA.TabIndex = 35;
             btn_update_MA.Text = "Update";
             btn_update_MA.UseVisualStyleBackColor = false;
@@ -118,14 +125,15 @@
             // 
             // btn_add_MA
             // 
-            btn_add_MA.BackColor = Color.SteelBlue;
+            btn_add_MA.BackColor = Color.Olive;
             btn_add_MA.Cursor = Cursors.Hand;
+            btn_add_MA.FlatStyle = FlatStyle.Flat;
             btn_add_MA.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_add_MA.ForeColor = Color.Transparent;
-            btn_add_MA.Location = new Point(492, 508);
+            btn_add_MA.Location = new Point(483, 519);
             btn_add_MA.Margin = new Padding(3, 4, 3, 4);
             btn_add_MA.Name = "btn_add_MA";
-            btn_add_MA.Size = new Size(86, 53);
+            btn_add_MA.Size = new Size(86, 42);
             btn_add_MA.TabIndex = 34;
             btn_add_MA.Text = "Add";
             btn_add_MA.UseVisualStyleBackColor = false;
@@ -251,23 +259,23 @@
             // dgv_Admins
             // 
             dgv_Admins.BackgroundColor = Color.BurlyWood;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(255, 224, 192);
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgv_Admins.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(255, 224, 192);
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            dgv_Admins.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             dgv_Admins.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.PeachPuff;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            dgv_Admins.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.PeachPuff;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            dgv_Admins.DefaultCellStyle = dataGridViewCellStyle6;
             dgv_Admins.Location = new Point(25, 151);
             dgv_Admins.Margin = new Padding(3, 4, 3, 4);
             dgv_Admins.Name = "dgv_Admins";
@@ -302,13 +310,14 @@
             // 
             // btn_clear_MAF
             // 
-            btn_clear_MAF.BackColor = SystemColors.ControlDarkDark;
+            btn_clear_MAF.BackColor = Color.Tan;
             btn_clear_MAF.Cursor = Cursors.Hand;
+            btn_clear_MAF.FlatStyle = FlatStyle.Flat;
             btn_clear_MAF.Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_clear_MAF.ForeColor = Color.Transparent;
-            btn_clear_MAF.Location = new Point(778, 508);
+            btn_clear_MAF.Location = new Point(769, 519);
             btn_clear_MAF.Name = "btn_clear_MAF";
-            btn_clear_MAF.Size = new Size(65, 53);
+            btn_clear_MAF.Size = new Size(74, 42);
             btn_clear_MAF.TabIndex = 40;
             btn_clear_MAF.Text = "Clear";
             btn_clear_MAF.UseVisualStyleBackColor = false;

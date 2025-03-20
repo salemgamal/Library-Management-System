@@ -69,10 +69,11 @@
             // 
             // btn_search_LF
             // 
-            btn_search_LF.BackColor = SystemColors.ActiveCaption;
+            btn_search_LF.BackColor = Color.SkyBlue;
             btn_search_LF.Cursor = Cursors.Hand;
+            btn_search_LF.FlatStyle = FlatStyle.Flat;
             btn_search_LF.Font = new Font("Sitka Small", 7.79999971F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_search_LF.ForeColor = SystemColors.ActiveCaptionText;
+            btn_search_LF.ForeColor = Color.Transparent;
             btn_search_LF.Location = new Point(387, 16);
             btn_search_LF.Name = "btn_search_LF";
             btn_search_LF.Size = new Size(94, 30);
@@ -83,14 +84,14 @@
             // 
             // btn_add_LF
             // 
-            btn_add_LF.BackColor = Color.SteelBlue;
+            btn_add_LF.BackColor = Color.Olive;
             btn_add_LF.Cursor = Cursors.Hand;
             btn_add_LF.FlatStyle = FlatStyle.Flat;
             btn_add_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_add_LF.ForeColor = SystemColors.ControlLightLight;
-            btn_add_LF.Location = new Point(277, 561);
+            btn_add_LF.Location = new Point(402, 561);
             btn_add_LF.Name = "btn_add_LF";
-            btn_add_LF.Size = new Size(127, 42);
+            btn_add_LF.Size = new Size(104, 42);
             btn_add_LF.TabIndex = 6;
             btn_add_LF.Text = "Add";
             btn_add_LF.UseVisualStyleBackColor = false;
@@ -98,14 +99,14 @@
             // 
             // btn_edit_LF
             // 
-            btn_edit_LF.BackColor = Color.Black;
+            btn_edit_LF.BackColor = Color.Goldenrod;
             btn_edit_LF.Cursor = Cursors.Hand;
             btn_edit_LF.FlatStyle = FlatStyle.Flat;
             btn_edit_LF.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_edit_LF.ForeColor = SystemColors.ControlLightLight;
-            btn_edit_LF.Location = new Point(447, 561);
+            btn_edit_LF.Location = new Point(512, 561);
             btn_edit_LF.Name = "btn_edit_LF";
-            btn_edit_LF.Size = new Size(127, 42);
+            btn_edit_LF.Size = new Size(104, 42);
             btn_edit_LF.TabIndex = 10;
             btn_edit_LF.Text = "Edit";
             btn_edit_LF.UseVisualStyleBackColor = false;
@@ -113,14 +114,14 @@
             // 
             // btn_delete
             // 
-            btn_delete.BackColor = Color.Maroon;
+            btn_delete.BackColor = Color.Firebrick;
             btn_delete.Cursor = Cursors.Hand;
             btn_delete.FlatStyle = FlatStyle.Flat;
             btn_delete.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_delete.ForeColor = SystemColors.ControlLightLight;
-            btn_delete.Location = new Point(611, 561);
+            btn_delete.Location = new Point(634, 561);
             btn_delete.Name = "btn_delete";
-            btn_delete.Size = new Size(127, 42);
+            btn_delete.Size = new Size(104, 42);
             btn_delete.TabIndex = 11;
             btn_delete.Text = "Delete";
             btn_delete.UseVisualStyleBackColor = false;
@@ -140,6 +141,7 @@
             // cmbBox_categories_LF
             // 
             cmbBox_categories_LF.BackColor = SystemColors.Info;
+            cmbBox_categories_LF.ForeColor = Color.Black;
             cmbBox_categories_LF.FormattingEnabled = true;
             cmbBox_categories_LF.Location = new Point(497, 40);
             cmbBox_categories_LF.Name = "cmbBox_categories_LF";
@@ -170,22 +172,25 @@
             // 
             // btn_back
             // 
-            btn_back.BackColor = Color.LightGray;
+            btn_back.BackColor = Color.BurlyWood;
+            btn_back.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back.BackgroundImageLayout = ImageLayout.Zoom;
             btn_back.Cursor = Cursors.Hand;
             btn_back.FlatStyle = FlatStyle.Flat;
             btn_back.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
-            btn_back.Location = new Point(19, 561);
+            btn_back.ForeColor = Color.Transparent;
+            btn_back.Location = new Point(19, 550);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(127, 42);
+            btn_back.Size = new Size(70, 53);
             btn_back.TabIndex = 22;
-            btn_back.Text = "Back";
             btn_back.UseVisualStyleBackColor = false;
             btn_back.Click += btn_back_Click;
             // 
             // btn_clearMB
             // 
-            btn_clearMB.BackColor = Color.Green;
+            btn_clearMB.BackColor = Color.Tan;
             btn_clearMB.Cursor = Cursors.Hand;
+            btn_clearMB.FlatStyle = FlatStyle.Flat;
             btn_clearMB.Font = new Font("Sitka Small", 7.79999971F, FontStyle.Bold);
             btn_clearMB.ForeColor = SystemColors.ButtonHighlight;
             btn_clearMB.Location = new Point(387, 52);

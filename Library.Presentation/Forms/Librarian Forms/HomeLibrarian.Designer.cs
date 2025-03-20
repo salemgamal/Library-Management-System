@@ -69,13 +69,14 @@
             // 
             // btn_back
             // 
-            btn_back.BackColor = SystemColors.ActiveCaptionText;
+            btn_back.BackColor = Color.Firebrick;
             btn_back.Cursor = Cursors.Hand;
+            btn_back.FlatStyle = FlatStyle.Flat;
             btn_back.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back.ForeColor = SystemColors.ButtonFace;
-            btn_back.Location = new Point(12, 391);
+            btn_back.Location = new Point(12, 396);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(125, 47);
+            btn_back.Size = new Size(112, 42);
             btn_back.TabIndex = 2;
             btn_back.Text = "Logout";
             btn_back.UseVisualStyleBackColor = false;

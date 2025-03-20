@@ -88,17 +88,18 @@
             // 
             // btn_back_AD
             // 
-            btn_back_AD.BackColor = SystemColors.ActiveCaptionText;
+            btn_back_AD.BackColor = Color.BurlyWood;
+            btn_back_AD.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back_AD.BackgroundImageLayout = ImageLayout.Zoom;
             btn_back_AD.Cursor = Cursors.Hand;
             btn_back_AD.FlatStyle = FlatStyle.Flat;
             btn_back_AD.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
-            btn_back_AD.ForeColor = SystemColors.ButtonFace;
-            btn_back_AD.Location = new Point(25, 520);
+            btn_back_AD.ForeColor = Color.White;
+            btn_back_AD.Location = new Point(25, 512);
             btn_back_AD.Margin = new Padding(3, 4, 3, 4);
             btn_back_AD.Name = "btn_back_AD";
-            btn_back_AD.Size = new Size(86, 43);
+            btn_back_AD.Size = new Size(64, 51);
             btn_back_AD.TabIndex = 3;
-            btn_back_AD.Text = "back";
             btn_back_AD.UseVisualStyleBackColor = false;
             btn_back_AD.Click += btn_back_AD_Click;
             // 

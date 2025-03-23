@@ -14,22 +14,6 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.sourcelink.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.AssemblyReference.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfoInputs.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfo.cs
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.CoreCompileInputs.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.sourcelink.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\refint\Library.BusinessLogic.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.deps.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.pdb
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.AssemblyReference.cache
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfoInputs.cache
@@ -46,3 +30,35 @@ F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.deps.json
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.pdb
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.AssemblyReference.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfoInputs.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfo.cs
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.CoreCompileInputs.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.sourcelink.json
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\refint\Library.BusinessLogic.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.deps.json
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.BusinessLogic.pdb
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\bin\Debug\net9.0\Library.DataAccess.pdb
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.AssemblyReference.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfoInputs.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.AssemblyInfo.cs
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.csproj.CoreCompileInputs.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.sourcelink.json
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library..5D29E982.Up2Date
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\refint\Library.BusinessLogic.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\Library.BusinessLogic.pdb
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.BusinessLogic\obj\Debug\net9.0\ref\Library.BusinessLogic.dll

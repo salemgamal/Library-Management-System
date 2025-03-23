@@ -165,13 +165,14 @@
             // 
             // btn_register_R
             // 
-            btn_register_R.BackColor = SystemColors.ActiveCaptionText;
+            btn_register_R.BackColor = Color.SaddleBrown;
+            btn_register_R.Cursor = Cursors.Hand;
             btn_register_R.FlatStyle = FlatStyle.Flat;
             btn_register_R.Font = new Font("Times New Roman", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_register_R.ForeColor = SystemColors.ControlLightLight;
-            btn_register_R.Location = new Point(575, 479);
+            btn_register_R.Location = new Point(575, 485);
             btn_register_R.Name = "btn_register_R";
-            btn_register_R.Size = new Size(121, 48);
+            btn_register_R.Size = new Size(121, 42);
             btn_register_R.TabIndex = 12;
             btn_register_R.Text = "Register";
             btn_register_R.UseVisualStyleBackColor = false;
@@ -180,6 +181,7 @@
             // pictureBox_passEye
             // 
             pictureBox_passEye.BackColor = Color.Transparent;
+            pictureBox_passEye.Cursor = Cursors.Hand;
             pictureBox_passEye.Image = Properties.Resources.eyeclosed;
             pictureBox_passEye.Location = new Point(769, 368);
             pictureBox_passEye.Name = "pictureBox_passEye";
@@ -191,15 +193,17 @@
             // 
             // btn_back_R
             // 
-            btn_back_R.BackColor = SystemColors.ActiveCaptionText;
+            btn_back_R.BackColor = Color.BurlyWood;
+            btn_back_R.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back_R.BackgroundImageLayout = ImageLayout.Zoom;
+            btn_back_R.Cursor = Cursors.Hand;
             btn_back_R.FlatStyle = FlatStyle.Flat;
             btn_back_R.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back_R.ForeColor = SystemColors.ControlLightLight;
-            btn_back_R.Location = new Point(14, 504);
+            btn_back_R.Location = new Point(14, 499);
             btn_back_R.Name = "btn_back_R";
-            btn_back_R.Size = new Size(95, 39);
+            btn_back_R.Size = new Size(69, 44);
             btn_back_R.TabIndex = 14;
-            btn_back_R.Text = "Back";
             btn_back_R.UseVisualStyleBackColor = false;
             btn_back_R.Click += btn_back_R_Click;
             // 
@@ -228,6 +232,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(758, 16);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);
@@ -240,13 +245,14 @@
             // 
             // btn_clear_RF
             // 
-            btn_clear_RF.BackColor = SystemColors.ActiveCaptionText;
+            btn_clear_RF.BackColor = Color.Tan;
+            btn_clear_RF.Cursor = Cursors.Hand;
             btn_clear_RF.FlatStyle = FlatStyle.Flat;
             btn_clear_RF.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_clear_RF.ForeColor = SystemColors.ControlLightLight;
-            btn_clear_RF.Location = new Point(702, 479);
+            btn_clear_RF.Location = new Point(702, 485);
             btn_clear_RF.Name = "btn_clear_RF";
-            btn_clear_RF.Size = new Size(81, 45);
+            btn_clear_RF.Size = new Size(81, 42);
             btn_clear_RF.TabIndex = 18;
             btn_clear_RF.Text = "Clear";
             btn_clear_RF.UseVisualStyleBackColor = false;

@@ -89,7 +89,7 @@
             lbl_categories_LF.ForeColor = SystemColors.ButtonHighlight;
             lbl_categories_LF.Location = new Point(83, 359);
             lbl_categories_LF.Name = "lbl_categories_LF";
-            lbl_categories_LF.Size = new Size(104, 30);
+            lbl_categories_LF.Size = new Size(105, 30);
             lbl_categories_LF.TabIndex = 18;
             lbl_categories_LF.Text = "Category";
             // 
@@ -104,12 +104,14 @@
             // 
             // btn_save_AB
             // 
-            btn_save_AB.BackColor = SystemColors.ActiveCaptionText;
+            btn_save_AB.BackColor = Color.SaddleBrown;
+            btn_save_AB.Cursor = Cursors.Hand;
+            btn_save_AB.FlatStyle = FlatStyle.Flat;
             btn_save_AB.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold);
             btn_save_AB.ForeColor = SystemColors.ButtonHighlight;
-            btn_save_AB.Location = new Point(223, 414);
+            btn_save_AB.Location = new Point(231, 414);
             btn_save_AB.Name = "btn_save_AB";
-            btn_save_AB.Size = new Size(268, 49);
+            btn_save_AB.Size = new Size(260, 41);
             btn_save_AB.TabIndex = 24;
             btn_save_AB.Text = "Save";
             btn_save_AB.UseVisualStyleBackColor = false;
@@ -124,7 +126,7 @@
             label1.ForeColor = SystemColors.ButtonHighlight;
             label1.Location = new Point(83, 123);
             label1.Name = "label1";
-            label1.Size = new Size(60, 30);
+            label1.Size = new Size(61, 30);
             label1.TabIndex = 25;
             label1.Text = "Title";
             // 
@@ -137,7 +139,7 @@
             label2.ForeColor = SystemColors.ButtonHighlight;
             label2.Location = new Point(83, 190);
             label2.Name = "label2";
-            label2.Size = new Size(84, 30);
+            label2.Size = new Size(85, 30);
             label2.TabIndex = 26;
             label2.Text = "Author";
             // 
@@ -176,7 +178,7 @@
             lbl_quantity_AB.ForeColor = SystemColors.ButtonHighlight;
             lbl_quantity_AB.Location = new Point(83, 300);
             lbl_quantity_AB.Name = "lbl_quantity_AB";
-            lbl_quantity_AB.Size = new Size(102, 30);
+            lbl_quantity_AB.Size = new Size(104, 30);
             lbl_quantity_AB.TabIndex = 29;
             lbl_quantity_AB.Text = "Quantity";
             // 
@@ -190,7 +192,8 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.Gray;
+            pictureBox2.BackColor = Color.BurlyWood;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(527, 13);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);

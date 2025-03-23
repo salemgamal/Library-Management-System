@@ -48,8 +48,6 @@ namespace Library.Presentation.Forms.Librarian_Forms
             if (tabControl.SelectedIndex == 0)
             {
                 dgv_borrowed_BR.DataSource = borrowRecordService.SearchBorrowedBook(searchKey);
-                //dgv_borrowed_BR.Columns["Book"].Visible = false;
-                //dgv_borrowed_BR.Columns["Member"].Visible = false;
 
             }
             else if (tabControl.SelectedIndex == 1)
@@ -59,16 +57,13 @@ namespace Library.Presentation.Forms.Librarian_Forms
             else if (tabControl.SelectedIndex == 2)
             {
                 dgv_overDue_MB.DataSource = borrowRecordService.SearchOverDueBook(searchKey);
-                //dgv_overDue_MB.Columns["Book"].Visible = false;
-                //dgv_overDue_MB.Columns["Member"].Visible = false;
+  
 
             }
             else if (tabControl.SelectedIndex == 3)
             {
                 dgv_logActions_MB.DataSource = borrowRecordService.searchLogActions(searchKey);
-                //dgv_logActions_MB.Columns["Book"].Visible = false;
-                //dgv_logActions_MB.Columns["Member"].Visible = false;
-
+      
 
             }
         }
@@ -144,7 +139,7 @@ namespace Library.Presentation.Forms.Librarian_Forms
                     var emailService = new EmailService();
 
                     var tomorrow = DateTime.Now.Date.AddDays(1);
-
+                    
                     var dueBooks = context.BorrowRecords
                         .Where(b => b.DueDate.Date == tomorrow || b.DueDate.Date <= DateTime.Now.Date)
                         .Select(b => new
@@ -159,7 +154,10 @@ namespace Library.Presentation.Forms.Librarian_Forms
                     {
                         foreach (var item in dueBooks)
                         {
-                            emailService.SendDuedateReminder(item.UserEmail, item.BookTitle, item.DueDate);
+                            var timePass = DateTime.Now.Date - item.DueDate;
+                            emailService.SendDuedateReminder(item.UserEmail, item.BookTitle, item.DueDate ,timePass);
+
+                            
                         }
 
                         //Console.WriteLine("All reminders sent successfully!");

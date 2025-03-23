@@ -37,20 +37,21 @@
             // 
             // pictureBoxQRCode
             // 
-            pictureBoxQRCode.Location = new Point(30, 24);
-            pictureBoxQRCode.Margin = new Padding(3, 2, 3, 2);
+            pictureBoxQRCode.Location = new Point(34, 32);
             pictureBoxQRCode.Name = "pictureBoxQRCode";
-            pictureBoxQRCode.Size = new Size(282, 193);
+            pictureBoxQRCode.Size = new Size(322, 257);
             pictureBoxQRCode.TabIndex = 0;
             pictureBoxQRCode.TabStop = false;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(317, 2);
+            pictureBox1.Location = new Point(362, 3);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(20, 17);
+            pictureBox1.Size = new Size(23, 23);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -58,14 +59,13 @@
             // 
             // QRCodeForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(339, 240);
+            ClientSize = new Size(387, 320);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBoxQRCode);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "QRCodeForm";
             Text = "QRCodeForm";
             ((System.ComponentModel.ISupportInitialize)pictureBoxQRCode).EndInit();

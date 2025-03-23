@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {}
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {}
   },
   "projects": {
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
         "projectName": "Library.BusinessLogic",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.BusinessLogic\\obj\\",
+        "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\Library.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +28,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
-                "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
+              "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+                "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj"
               }
             }
           }
@@ -80,20 +83,22 @@
         }
       }
     },
-    "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
+    "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "projectUniqueName": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
         "projectName": "Library.DataAccess",
-        "projectPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Salem\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI_Professional_45\\22-LINQ and EF\\Email\\final\\Library-Management-System\\Library.DataAccess\\obj\\",
+        "projectPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\Library.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
+        "outputPath": "G:\\ITI\\Backend\\LinQ & EF\\Project\\Library-Management-System\\Library.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Salem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Al-Ahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,8 +107,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api/v3/index.json": {}
+          "https://nuget.devexpress.com/IuxIDSBoXeXvpbFZQn2u6gNRuvOjcthg4ghmaXQREgl8qBv3dZ/api": {}
         },
         "frameworks": {
           "net9.0": {

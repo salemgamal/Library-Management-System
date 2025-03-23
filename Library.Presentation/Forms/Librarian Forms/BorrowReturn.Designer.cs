@@ -155,8 +155,11 @@
             // 
             // btn_search_BR
             // 
-            btn_search_BR.BackColor = SystemColors.ActiveCaption;
+            btn_search_BR.BackColor = Color.SkyBlue;
+            btn_search_BR.Cursor = Cursors.Hand;
+            btn_search_BR.FlatStyle = FlatStyle.Flat;
             btn_search_BR.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_search_BR.ForeColor = Color.Transparent;
             btn_search_BR.Location = new Point(405, 25);
             btn_search_BR.Name = "btn_search_BR";
             btn_search_BR.Size = new Size(127, 27);
@@ -175,7 +178,9 @@
             // 
             // btn_generateReport
             // 
-            btn_generateReport.BackColor = Color.Green;
+            btn_generateReport.BackColor = Color.SaddleBrown;
+            btn_generateReport.Cursor = Cursors.Hand;
+            btn_generateReport.FlatStyle = FlatStyle.Flat;
             btn_generateReport.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_generateReport.ForeColor = SystemColors.ButtonHighlight;
             btn_generateReport.Location = new Point(597, 603);
@@ -188,8 +193,11 @@
             // 
             // btn_clear
             // 
-            btn_clear.BackColor = SystemColors.ActiveCaption;
+            btn_clear.BackColor = Color.Tan;
+            btn_clear.Cursor = Cursors.Hand;
+            btn_clear.FlatStyle = FlatStyle.Flat;
             btn_clear.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_clear.ForeColor = Color.Transparent;
             btn_clear.Location = new Point(552, 25);
             btn_clear.Name = "btn_clear";
             btn_clear.Size = new Size(127, 27);
@@ -200,20 +208,24 @@
             // 
             // btn_back
             // 
-            btn_back.BackColor = SystemColors.ActiveCaptionText;
+            btn_back.BackColor = Color.BurlyWood;
+            btn_back.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back.BackgroundImageLayout = ImageLayout.Zoom;
+            btn_back.Cursor = Cursors.Hand;
+            btn_back.FlatStyle = FlatStyle.Flat;
             btn_back.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back.ForeColor = SystemColors.ButtonHighlight;
-            btn_back.Location = new Point(34, 608);
+            btn_back.Location = new Point(34, 603);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(121, 36);
+            btn_back.Size = new Size(66, 50);
             btn_back.TabIndex = 31;
-            btn_back.Text = "Back";
             btn_back.UseVisualStyleBackColor = false;
             btn_back.Click += btn_back_Click;
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.Gray;
+            pictureBox2.BackColor = Color.BurlyWood;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(823, 17);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);
@@ -226,14 +238,16 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
+            button1.BackColor = Color.DarkGoldenrod;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(336, 603);
             button1.Name = "button1";
             button1.Size = new Size(246, 41);
             button1.TabIndex = 43;
-            button1.Text = "Notify Users";
+            button1.Text = "Send Email Reminders";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 

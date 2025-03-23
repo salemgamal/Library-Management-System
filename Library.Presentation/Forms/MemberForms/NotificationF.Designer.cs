@@ -40,20 +40,21 @@
             dgv_notificationF_MBF.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_notificationF_MBF.BackgroundColor = Color.PaleGoldenrod;
             dgv_notificationF_MBF.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_notificationF_MBF.Location = new Point(26, 30);
-            dgv_notificationF_MBF.Margin = new Padding(3, 2, 3, 2);
+            dgv_notificationF_MBF.Location = new Point(2, 3);
             dgv_notificationF_MBF.Name = "dgv_notificationF_MBF";
             dgv_notificationF_MBF.RowHeadersWidth = 51;
-            dgv_notificationF_MBF.Size = new Size(320, 152);
+            dgv_notificationF_MBF.Size = new Size(168, 157);
             dgv_notificationF_MBF.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(342, -1);
+            pictureBox1.Location = new Point(290, 0);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(26, 26);
+            pictureBox1.Size = new Size(30, 35);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -61,15 +62,14 @@
             // 
             // NotificationF
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(369, 206);
+            ClientSize = new Size(173, 163);
             Controls.Add(pictureBox1);
             Controls.Add(dgv_notificationF_MBF);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "NotificationF";
             Text = "NotificationF";
             Load += NotificationF_Load;

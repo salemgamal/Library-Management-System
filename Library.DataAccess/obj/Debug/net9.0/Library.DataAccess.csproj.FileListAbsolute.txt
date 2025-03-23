@@ -13,21 +13,6 @@ D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.genruntimeconfig.cache
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\ref\Library.DataAccess.dll
 D:\ITI_Professional_45\22-LINQ and EF\Project\LMS\Library\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.sourcelink.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.deps.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.runtimeconfig.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.pdb
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.AssemblyReference.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfoInputs.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfo.cs
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.CoreCompileInputs.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.sourcelink.json
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\refint\Library.DataAccess.dll
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.pdb
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.genruntimeconfig.cache
-G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\ref\Library.DataAccess.dll
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.AssemblyReference.cache
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfoInputs.cache
@@ -43,3 +28,33 @@ F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\bin\Debug\net
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.pdb
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.genruntimeconfig.cache
 F:\PD\LinQ\Project\v3\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\ref\Library.DataAccess.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.deps.json
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.runtimeconfig.json
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.pdb
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.AssemblyReference.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfoInputs.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfo.cs
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.CoreCompileInputs.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.sourcelink.json
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\refint\Library.DataAccess.dll
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.pdb
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.genruntimeconfig.cache
+G:\ITI\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\ref\Library.DataAccess.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.deps.json
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.runtimeconfig.json
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\bin\Debug\net9.0\Library.DataAccess.pdb
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.AssemblyReference.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfoInputs.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.AssemblyInfo.cs
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.csproj.CoreCompileInputs.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.sourcelink.json
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\refint\Library.DataAccess.dll
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.pdb
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\Library.DataAccess.genruntimeconfig.cache
+G:\ITI\Backend\LinQ & EF\Project\Library-Management-System\Library.DataAccess\obj\Debug\net9.0\ref\Library.DataAccess.dll

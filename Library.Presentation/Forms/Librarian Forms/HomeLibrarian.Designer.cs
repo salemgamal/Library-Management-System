@@ -41,6 +41,8 @@
             // btn_managment_HL
             // 
             btn_managment_HL.BackColor = Color.BurlyWood;
+            btn_managment_HL.Cursor = Cursors.Hand;
+            btn_managment_HL.FlatStyle = FlatStyle.Flat;
             btn_managment_HL.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_managment_HL.Location = new Point(205, 126);
             btn_managment_HL.Name = "btn_managment_HL";
@@ -54,6 +56,8 @@
             // btn_reports_HL
             // 
             btn_reports_HL.BackColor = Color.BurlyWood;
+            btn_reports_HL.Cursor = Cursors.Hand;
+            btn_reports_HL.FlatStyle = FlatStyle.Flat;
             btn_reports_HL.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_reports_HL.Location = new Point(205, 229);
             btn_reports_HL.Name = "btn_reports_HL";
@@ -65,12 +69,14 @@
             // 
             // btn_back
             // 
-            btn_back.BackColor = SystemColors.ActiveCaptionText;
+            btn_back.BackColor = Color.Firebrick;
+            btn_back.Cursor = Cursors.Hand;
+            btn_back.FlatStyle = FlatStyle.Flat;
             btn_back.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold);
             btn_back.ForeColor = SystemColors.ButtonFace;
-            btn_back.Location = new Point(12, 391);
+            btn_back.Location = new Point(12, 396);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(125, 47);
+            btn_back.Size = new Size(112, 42);
             btn_back.TabIndex = 2;
             btn_back.Text = "Logout";
             btn_back.UseVisualStyleBackColor = false;
@@ -87,7 +93,8 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.Gray;
+            pictureBox2.BackColor = Color.BurlyWood;
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(754, 13);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);

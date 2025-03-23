@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageLibrarian));
             label1 = new Label();
             dgv_Libraian = new DataGridView();
@@ -73,25 +73,25 @@
             // 
             dgv_Libraian.BackgroundColor = Color.BurlyWood;
             dgv_Libraian.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.PeachPuff;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dgv_Libraian.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.PeachPuff;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
+            dgv_Libraian.DefaultCellStyle = dataGridViewCellStyle5;
             dgv_Libraian.Location = new Point(14, 167);
             dgv_Libraian.Margin = new Padding(3, 4, 3, 4);
             dgv_Libraian.Name = "dgv_Libraian";
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle4.ForeColor = SystemColors.Info;
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dgv_Libraian.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle6.ForeColor = SystemColors.Info;
+            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
+            dgv_Libraian.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             dgv_Libraian.RowHeadersWidth = 51;
             dgv_Libraian.Size = new Size(470, 341);
             dgv_Libraian.TabIndex = 1;
@@ -216,13 +216,15 @@
             // 
             // btn_add_ML
             // 
-            btn_add_ML.BackColor = Color.SteelBlue;
+            btn_add_ML.BackColor = Color.Olive;
+            btn_add_ML.Cursor = Cursors.Hand;
+            btn_add_ML.FlatStyle = FlatStyle.Flat;
             btn_add_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_add_ML.ForeColor = SystemColors.ButtonFace;
-            btn_add_ML.Location = new Point(506, 557);
+            btn_add_ML.Location = new Point(506, 571);
             btn_add_ML.Margin = new Padding(3, 4, 3, 4);
             btn_add_ML.Name = "btn_add_ML";
-            btn_add_ML.Size = new Size(86, 56);
+            btn_add_ML.Size = new Size(86, 42);
             btn_add_ML.TabIndex = 15;
             btn_add_ML.Text = "Add";
             btn_add_ML.UseVisualStyleBackColor = false;
@@ -230,13 +232,15 @@
             // 
             // btn_update_ML
             // 
-            btn_update_ML.BackColor = SystemColors.ActiveCaptionText;
+            btn_update_ML.BackColor = Color.Goldenrod;
+            btn_update_ML.Cursor = Cursors.Hand;
+            btn_update_ML.FlatStyle = FlatStyle.Flat;
             btn_update_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_update_ML.ForeColor = SystemColors.ControlLightLight;
-            btn_update_ML.Location = new Point(609, 557);
+            btn_update_ML.Location = new Point(609, 571);
             btn_update_ML.Margin = new Padding(3, 4, 3, 4);
             btn_update_ML.Name = "btn_update_ML";
-            btn_update_ML.Size = new Size(103, 56);
+            btn_update_ML.Size = new Size(103, 42);
             btn_update_ML.TabIndex = 16;
             btn_update_ML.Text = "update";
             btn_update_ML.UseVisualStyleBackColor = false;
@@ -244,13 +248,15 @@
             // 
             // btn_delete_ML
             // 
-            btn_delete_ML.BackColor = Color.Maroon;
+            btn_delete_ML.BackColor = Color.Firebrick;
+            btn_delete_ML.Cursor = Cursors.Hand;
+            btn_delete_ML.FlatStyle = FlatStyle.Flat;
             btn_delete_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_delete_ML.ForeColor = SystemColors.ControlLightLight;
-            btn_delete_ML.Location = new Point(718, 557);
+            btn_delete_ML.Location = new Point(718, 571);
             btn_delete_ML.Margin = new Padding(3, 4, 3, 4);
             btn_delete_ML.Name = "btn_delete_ML";
-            btn_delete_ML.Size = new Size(86, 56);
+            btn_delete_ML.Size = new Size(86, 42);
             btn_delete_ML.TabIndex = 17;
             btn_delete_ML.Text = "Delete";
             btn_delete_ML.UseVisualStyleBackColor = false;
@@ -258,20 +264,25 @@
             // 
             // btn_back_ML
             // 
-            btn_back_ML.BackColor = Color.LightGray;
+            btn_back_ML.BackColor = Color.BurlyWood;
+            btn_back_ML.BackgroundImage = Properties.Resources.back_button_png_brown;
+            btn_back_ML.BackgroundImageLayout = ImageLayout.Zoom;
+            btn_back_ML.Cursor = Cursors.Hand;
+            btn_back_ML.FlatStyle = FlatStyle.Flat;
             btn_back_ML.Font = new Font("Sitka Small", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_back_ML.Location = new Point(26, 599);
+            btn_back_ML.ForeColor = Color.Transparent;
+            btn_back_ML.Location = new Point(26, 600);
             btn_back_ML.Margin = new Padding(3, 4, 3, 4);
             btn_back_ML.Name = "btn_back_ML";
-            btn_back_ML.Size = new Size(94, 53);
+            btn_back_ML.Size = new Size(66, 52);
             btn_back_ML.TabIndex = 18;
-            btn_back_ML.Text = "back";
             btn_back_ML.UseVisualStyleBackColor = false;
             btn_back_ML.Click += btn_back_ML_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(799, 232);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
@@ -298,6 +309,7 @@
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(799, 16);
             pictureBox3.Margin = new Padding(3, 4, 3, 4);

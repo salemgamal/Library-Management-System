@@ -61,7 +61,7 @@ namespace Library.DataAccess.Migrations
 
                     b.HasKey("BookId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("Library.DataAccess.Models.BorrowRecord", b =>
@@ -93,7 +93,7 @@ namespace Library.DataAccess.Migrations
 
                     b.HasIndex("MemberId");
 
-                    b.ToTable("BorrowRecords");
+                    b.ToTable("BorrowRecords", (string)null);
                 });
 
             modelBuilder.Entity("Library.DataAccess.Models.LogAction", b =>
@@ -123,7 +123,7 @@ namespace Library.DataAccess.Migrations
 
                     b.HasIndex("MemberId");
 
-                    b.ToTable("LogActions");
+                    b.ToTable("LogActions", (string)null);
                 });
 
             modelBuilder.Entity("Library.DataAccess.Models.User", b =>
@@ -172,7 +172,7 @@ namespace Library.DataAccess.Migrations
                     b.HasIndex("UserName")
                         .IsUnique();
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
 
                     b.HasData(
                         new

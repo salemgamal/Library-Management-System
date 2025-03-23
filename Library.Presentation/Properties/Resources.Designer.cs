@@ -63,6 +63,16 @@ namespace Library.Presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back_button_png_brown {
+            get {
+                object obj = ResourceManager.GetObject("back-button-png-brown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eyeclosed {
             get {
                 object obj = ResourceManager.GetObject("eyeclosed", resourceCulture);
